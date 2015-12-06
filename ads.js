@@ -1,27 +1,27 @@
-$(&quot;#notice2&quot;).show().slideDown();
+$("#notice2").show().slideDown();
   setTimeout(function(){
-      $(&quot;#notice2&quot;).show();        
+      $("#notice2").show();        
   },105000);
-$(&quot;#rev-ad,#shade&quot;).show().slideDown();
+$("#rev-ad,#shade").show().slideDown();
   setTimeout(function(){
-      $(&quot;#rev-ad,#shade&quot;).show();        
+      $("#rev-ad,#shade").show();        
   },60000);
-$(&quot;#notice&quot;).show().slideDown();
+$("#notice").show().slideDown();
   setTimeout(function(){
-      $(&quot;#notice&quot;).show();        
+      $("#notice").show();        
   },150000);
 $(document).ready(function(){
-    $(&quot;#hide2&quot;).click(function(){
-        $(&quot;#rev-ad,#shade&quot;).hide();
+    $("#hide2").click(function(){
+        $("#rev-ad,#shade").hide();
     });
 });
 $(document).ready(function(){
-    $(&quot;#hide3&quot;).click(function(){
-        $(&quot;#notice2&quot;).hide();
+    $("#hide3").click(function(){
+        $("#notice2").hide();
     });
 });
 $(document).ready(function(){
-    $(&quot;#hide&quot;).click(function(){
-        $(&quot;#notice&quot;).hide();
+    $("#hide").click(function(){
+        $("#notice").hide();
     });
 });
