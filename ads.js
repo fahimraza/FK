@@ -1,0 +1,27 @@
+$(&quot;#notice2&quot;).show().slideDown();
+  setTimeout(function(){
+      $(&quot;#notice2&quot;).show();        
+  },105000);
+$(&quot;#rev-ad,#shade&quot;).show().slideDown();
+  setTimeout(function(){
+      $(&quot;#rev-ad,#shade&quot;).show();        
+  },60000);
+$(&quot;#notice&quot;).show().slideDown();
+  setTimeout(function(){
+      $(&quot;#notice&quot;).show();        
+  },150000);
+$(document).ready(function(){
+    $(&quot;#hide2&quot;).click(function(){
+        $(&quot;#rev-ad,#shade&quot;).hide();
+    });
+});
+$(document).ready(function(){
+    $(&quot;#hide3&quot;).click(function(){
+        $(&quot;#notice2&quot;).hide();
+    });
+});
+$(document).ready(function(){
+    $(&quot;#hide&quot;).click(function(){
+        $(&quot;#notice&quot;).hide();
+    });
+});
