@@ -1,6 +1,6 @@
 #cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a{margin:0;padding:0;border:0;list-style:none;line-height:1;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;z-index:9999999}
-#cssmenu{position:absolute;left: 3px;top:71px;box-shadow:2px 4px 10px #696969;}
-#cssmenuul{width:240px;background:#f9f9f9}
+#cssmenu{position:absolute;left: 3px;top:71px;box-shadow:2px 4px 10px #696969;background: #F9F9F9; width: 230px;}
+#cssmenu ul{width:240px;background:#f9f9f9}
 #cssmenu ul li a{padding:12px 15px;font-size:14px;color:#666;font-weight:700;text-decoration:none;-webkit-transition:color .2s ease;-o-transition:color .2s ease;-ms-transition:color .2s ease;transition:color .2s ease}
 #cssmenu ul li:hover a,#cssmenu ul li a:hover{color:#fff;background:#696969}
 #cssmenu ul li.has-sub a::after{position:absolute;right:15px;display:block;width:10px;height:10px;content:"";border-radius:2px}
