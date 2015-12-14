@@ -9,3 +9,9 @@
 #cssmenu ul li:hover ul {left:100%;opacity:1;transform:rotate3d(0,0,0,0)}
 #cssmenu ul ul a {padding:12px 15px;font-size:12px;color:#fff;font-weight:700;text-decoration:none;-webkit-transition:color .2s ease;-o-transition:color .2s ease;-ms-transition:color .2s ease;transition:color .2s ease}
 #cssmenu ul ul li:hover a,#cssmenu ul ul li a:hover {color:#ddd}
+.post-comment-link {float: right;}
+#author {background:transparent url(http://1.bp.blogspot.com/--fsYbwHKiKM/T0uOGw-hdTI/AAAAAAAAA-s/QBcDITiSCEs/s1600/author.gif) no-repeat scroll top left;padding-left:25px;font-size:14px;}
+#publish {background:transparent url(http://3.bp.blogspot.com/-1MEONG9XUgA/T0uOF8ICEdI/AAAAAAAAA-k/VBwTnA8PXbI/s1600/clock_icon.gif) no-repeat scroll top left;padding-left:25px;font-size:14px;}
+#google_translate_element{position: absolute;right: 0%;padding-top: 3px;}
+.comment-link{background: url(http://4.bp.blogspot.com/-wGMp3jZ7DpU/T0uOrczut7I/AAAAAAAAA-0/F_BnJ5WS9BI/s1600/comment-icon.png) no-repeat scroll top left;padding-left: 25px;font-size: 14px;}
+.fauxborder-left.content-fauxborder-left {right: 35px;}body {overflow-x: hidden;}
