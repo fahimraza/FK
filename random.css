@@ -1,33 +1,6 @@
 #random-posts {
     padding: 0 0 0 5px;
 }
-#recommend h3 {
-    position: absolute;
-    width: 200px;
-    left: 75px;
-    top: 5px;
-color: #F7A622;
-}
-#recommend p {
-    position: absolute;
-    width: 190px;
-    left: 85px;
-    line-height: 17px;
-    top: 12px;
-    font-size: 14px;
-    text-align: left;
-}
-#recommend {
-    position: absolute;
-    right: 200px;
-    top: 102%;
-    background: #777;
-    text-align: center;
-    padding: 11px;
-    border-radius: 100px;
-    height: 60px;
-    width: 60px;
-}
 #adshit {text-align: center;padding-top: 10px;margin-top: 5px;padding-bottom: 5px;background:url(http://4.bp.blogspot.com/-PmbZLNtmcKg/VmVLcdY3bSI/AAAAAAAAEIA/iEAdhooZuR8/s320/ad-back.jpg);}
 #random-posts li {
     margin-bottom: 5px;
