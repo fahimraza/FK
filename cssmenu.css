@@ -16,9 +16,13 @@
 .comment-link{background: url(http://4.bp.blogspot.com/-wGMp3jZ7DpU/T0uOrczut7I/AAAAAAAAA-0/F_BnJ5WS9BI/s1600/comment-icon.png) no-repeat scroll top left;padding-left: 25px;font-size: 14px;}
 .fauxborder-left.content-fauxborder-left {right: 35px;}
 body {overflow-x: hidden;}
+#popup button { float: right; z-index: 9; position: relative; background: #bbb; color: #fff; border: none; width: 60px; height: 25px; cursor: pointer; }
+#popup p { position: relative; top: -23px; left: 2px; }
+#popup { width: 165px; box-shadow: 0 0 6px #444; height: 600px; top: 221px; margin-top: -150px; background: #eee; position: fixed; left: -340px; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; z-index:9; }
+#popup.active {left: 0;}
 #icons img { border: none; padding-right: 20px; box-shadow: none; top: 4px; position: relative; left: 9px;}
 #icons li { list-style: none; float: left; height: 71px; padding-right: 5px; top: 0px; padding-left: 5px; border-right: 1px solid #bbb; }
 #icons p { font-size: 13px; font-weight: bold; position: relative; bottom: 8px; text-align: center; }
 #icons a { color: #696969; text-decoration: none; }
 #icons { position: absolute; bottom: -11px; left: 191%; width: 100%; }
-#ad span { position: relative; float: right;top: -63px; } #phuda { width: 100%; text-align: center; z-index: 9; position: relative; bottom: 9px;} #propeller { position: absolute; top: 5px; left: 305px; } #blog-pager {margin-left: 3%;margin-right: 2%;overflow: visible;}.blog-pager-older-link, .home-link, .blog-pager-newer-link {font-size: 15px; padding-top: 8px; font-weight: bold; padding-bottom: 5px;border: 1px solid #ddd; border-bottom: 3px solid #ddd; background: #F5F5F5; border-radius: 4px;}.home-link {padding-left:20px;padding-right:20px;}.blog-pager-newer-link {padding-left:14px;padding-right:10px;}.blog-pager-older-link {padding-left:7px;padding-right:5px;}
+#phuda { width: 100%; text-align: center; z-index: 9; position: relative; bottom: 9px;} #propeller { position: absolute; top: 5px; left: 305px; } #blog-pager {margin-left: 3%;margin-right: 2%;overflow: visible;}.blog-pager-older-link, .home-link, .blog-pager-newer-link {font-size: 15px; padding-top: 8px; font-weight: bold; padding-bottom: 5px;border: 1px solid #ddd; border-bottom: 3px solid #ddd; background: #F5F5F5; border-radius: 4px;}.home-link {padding-left:20px;padding-right:20px;}.blog-pager-newer-link {padding-left:14px;padding-right:10px;}.blog-pager-older-link {padding-left:7px;padding-right:5px;}
