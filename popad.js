@@ -5,6 +5,9 @@ $("#rev-ad,#shade").show().slideDown();
 $(document).ready(function(){
     $("#hide2").click(function(){
         $("#rev-ad,#shade").hide();
+    });
+});
+$(document).ready(function(){
     $("#hide3").click(function(){
         $("#notice2").hide();
     });
