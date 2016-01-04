@@ -1,7 +1,7 @@
 $("#rev-ad,#shade").show().slideDown();
   setTimeout(function(){
       $("#rev-ad,#shade").show();        
-  },5000);
+  },65000);
 $(document).ready(function(){
     $("#hide2").click(function(){
         $("#rev-ad,#shade").hide();
