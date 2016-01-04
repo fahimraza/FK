@@ -20,6 +20,12 @@ body {overflow-x: hidden;}
 #popup p { position: relative; top: 2px; left: 9px; }
 #popup {width: 140px; box-shadow: 0 0 20px #666; height: 100%; top: 0px; background: #FFF; position: fixed;left: -340px; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; z-index: 99; }
 #popup.active {left: 0;}
+
+#poprite button { z-index: 9; position: relative; background: #84BD95; color: #fff; border: none; float: left; height: 25px; cursor: pointer; top: 0px; }
+#poprite p { position: relative; top: 2px; left: 9px; }
+#poprite {width: 140px; box-shadow: 0 0 20px #666; height: 100%; top: 0px; background: #FFF; position: fixed;right: -340px; -webkit-transition: all 0.8s ease-in-out; -moz-transition: all 0.8s ease-in-out; -o-transition: all 0.8s ease-in-out; z-index: 99; }
+#poprite.active {right: 0;}
+
 #icons img { border: none; padding-right: 20px; box-shadow: none; top: 4px; position: relative; left: 9px;}
 #icons li { list-style: none; float: left; height: 71px; padding-right: 5px; top: 0px; padding-left: 5px; border-right: 1px solid #bbb; }
 #icons p { font-size: 13px; font-weight: bold; position: relative; bottom: 8px; text-align: center; }
