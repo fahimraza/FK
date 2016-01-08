@@ -37,3 +37,4 @@ body {overflow-x: hidden;}
 .mark ul li { height: 90px; padding: 5px; border-bottom: 1px solid #ddd; }
 .mark ul li a { color: #444; float: right; width: 200px; top: 5px; font-size: 15px; position: relative; text-decoration: none; }
 .mark img { float: left; width: 125px; height: 80px; left: 5px; top: 5px; border: 1px solid #ddd; position: relative; }
+.mark p {background: #3993E2; padding: 2px; color: #fff; width: 100px; border-radius: 2px; }
