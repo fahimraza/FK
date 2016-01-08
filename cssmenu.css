@@ -33,7 +33,7 @@ body {overflow-x: hidden;}
 .mark { height:100px; display:block; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
 .mark:hover { height:220px !important; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
 .mark h1 { font-family: trebuchet ms; top: 35px; position: absolute; font-size: 24px; padding-left: 20px; color: #C12037; }
-.mark ul {border: 2px solid #eee;position: absolute; right: 50%; left: 40%; top: 8px; width: 330px; height: 200px; list-style: none; overflow-y: visible; overflow-x: hidden; background: #fff; margin: 0px; padding: 0px; }
-.mark ul li { height: 90px;}
-.mark ul li a { color: #444; float: right; width: 200px; top: 15px; font-size: 15px; position: relative; text-decoration: none; }
-.mark img { float: left; width: 110px; height: 80px; top: 10px; position: relative; }
+.mark ul {position: absolute; right: 50%; left: 40%; top: 8px; width: 365px; height: 200px; list-style: none; overflow-y: visible; overflow-x: hidden; background: #fff; margin: 0px; padding: 0px; }
+.mark ul li { height: 90px; padding: 5px; border-bottom: 1px solid #ddd; }
+.mark ul li a { color: #444; float: right; width: 200px; top: 5px; font-size: 15px; position: relative; text-decoration: none; }
+.mark img { float: left; width: 125px; height: 80px; left: 5px; top: 5px; border: 1px solid #ddd; position: relative; }
