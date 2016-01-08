@@ -12,3 +12,8 @@ $(document).ready(function(){
         $("#notice2").hide();
     });
 });
+$(document).ready(function(){
+    $("#xclip").click(function(){
+        $(".mark").hide();
+    });
+});
