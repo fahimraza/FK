@@ -33,7 +33,7 @@ body {overflow-x: hidden;}
 .mark { height:100px; display:block; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
 .mark:hover { height:220px !important; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
 .mark h1 {position: relative; left: 300px; top: 30px; }
-.mark ul { position: absolute; right: 50%; left: 40%; top: 5px; width: 330px; height: 200px; list-style: none; overflow-y: visible; overflow-x: hidden; background: #fff; margin: 0px; padding: 0px; }
-.mark ul li { height: 90px; padding-bottom: 5px; background: #F1f1f1; border-bottom: 1px solid #ddd; }
+.mark ul { position: absolute; right: 50%; left: 40%; top: 8px; width: 330px; height: 200px; list-style: none; overflow-y: visible; overflow-x: hidden; background: #fff; margin: 0px; padding: 0px; }
+.mark ul li { height: 90px;}
 .mark ul li a { color: #444; float: right; width: 200px; top: 15px; font-size: 15px; position: relative; text-decoration: none; }
 .mark img { float: left; width: 110px; height: 80px; top: 10px; position: relative; }
