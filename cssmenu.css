@@ -28,7 +28,7 @@ body {overflow-x: hidden;}
 #phuda { width: 100%; text-align: center; z-index: 9; position: relative; bottom: 9px;} #propeller { position: absolute; top: 5px; left: 305px; } #blog-pager {margin-left: 3%;margin-right: 2%;overflow: visible;}.blog-pager-older-link, .home-link, .blog-pager-newer-link {font-size: 15px; padding-top: 8px; font-weight: bold; padding-bottom: 5px;border: 1px solid #ddd; border-bottom: 3px solid #ddd; background: #F5F5F5; border-radius: 4px;}.home-link {padding-left:20px;padding-right:20px;}.blog-pager-newer-link {padding-left:14px;padding-right:10px;}.blog-pager-older-link {padding-left:7px;padding-right:5px;}
 .addthis_horizontal_follow_toolbox { position: absolute; right: 0px; bottom: -37px; }
 #fall { position: absolute; bottom: -32px; font: normal bold 23px 'Open Sans Condensed',sans-serif; background: #444; padding-left: 15px; padding-right: 15px; color: #fff; }
-#xclip { float: right; padding: 5px; margin-top: 10px; width: 80px; margin-right: 10px; }
+#xclip { float: right; padding: 5px; margin-top: 30px; width: 80px; margin-right: 20px; }
 #clips { background-color: #F9F9F9; width: 100%; position: fixed; bottom: 0px; float: left; z-index: 99; -webkit-box-shadow: 15px 2px 10px -11px rgba(0, 0, 0, 0.5); -moz-box-shadow: 15px 2px 10px -11px rgba(0, 0, 0, 0.5); box-shadow: 0 0 10px #aaa; }
 .mark { height:100px; display:block; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
 .mark:hover { height:220px !important; -webkit-transition: height ease 1s; -moz-transition: height ease 1s; -o-transition: height ease 1s; transition: height ease 1s;}
