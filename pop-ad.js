@@ -1,7 +1,7 @@
 $("#rev-ad,#shade").show().slideDown();
   setTimeout(function(){
       $("#rev-ad,#shade").show();        
-  },65000);
+  },70000);
 $(document).ready(function(){
     $("#hide2").click(function(){
         $("#rev-ad,#shade").hide();
@@ -15,5 +15,10 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#xclip").click(function(){
         $(".mark").hide();
+    });
+});
+$(document).ready(function(){
+    $("#xchitika").click(function(){
+        $("#chitika").hide();
     });
 });
