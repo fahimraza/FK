@@ -1,7 +1,7 @@
 $("#rev-ad,#shade").show().slideDown();
   setTimeout(function(){
       $("#rev-ad,#shade").show();        
-  },70000);
+  },65000);
 $(document).ready(function(){
     $("#hide2").click(function(){
         $("#rev-ad,#shade").hide();
@@ -10,11 +10,6 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#hide3").click(function(){
         $("#notice2").hide();
-    });
-});
-$(document).ready(function(){
-    $("#xclip").click(function(){
-        $(".mark").hide();
     });
 });
 $(document).ready(function(){
