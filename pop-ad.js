@@ -17,3 +17,8 @@ $(document).ready(function(){
         $("#chitika").hide();
     });
 });
+$(document).ready(function(){
+    $("#xsky").click(function(){
+        $("#skybar").hide();
+    });
+});
