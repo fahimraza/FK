@@ -12,8 +12,3 @@ $(document).ready(function(){
         $("#notice2").hide();
     });
 });
-$(document).ready(function(){
-    $("#xsky").click(function(){
-        $("#skybar").hide();
-    });
-});
