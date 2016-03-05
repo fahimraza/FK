@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#hide3").click(function(){
-        $("#notice2").hide();
+    $("#X").click(function(){
+        $(".earn").hide();
     });
 });
