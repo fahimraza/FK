@@ -7,8 +7,3 @@ $(document).ready(function(){
         $("#rev-ad,#shade").hide();
     });
 });
-$(document).ready(function(){
-    $("#X").click(function(){
-        $(".earn").hide();
-    });
-});
