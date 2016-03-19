@@ -23,3 +23,8 @@ body {overflow-x: hidden;}
 #icons { position: absolute; bottom: -11px; left: 191%; width: 100%; }
 #phuda { width: 100%; text-align: center; z-index: 9; position: relative; bottom: 9px;} #propeller {width:10px;position: absolute; top: 5px; left: 5px;} #blog-pager {margin-left: 3%;margin-right: 2%;overflow: visible;}.blog-pager-older-link, .home-link, .blog-pager-newer-link {font-size: 15px; padding-top: 8px; font-weight: bold; padding-bottom: 5px;border: 1px solid #ddd; border-bottom: 3px solid #ddd; background: #F5F5F5; border-radius: 4px;}.home-link {padding-left:20px;padding-right:20px;}.blog-pager-newer-link {padding-left:14px;padding-right:10px;}.blog-pager-older-link {padding-left:7px;padding-right:5px;}
 #ad2 { float: right; }
+#Share {position: fixed; z-index: 10; bottom: 0px; background: #F5F5F5; font-size: 16px; right: 0px; height: 42px; font-weight: bolder; width: 100%; border-top: 1px solid #ddd; }
+.addthis_native_toolbox { position: absolute; bottom: 5px; left: 125px;}
+.addthis_native_toolbox p { position: absolute; left: -120px; bottom: -12px;}
+.addthis_horizontal_follow_toolbox { position: absolute; right: 10px; top: 6px;}
+.addthis_horizontal_follow_toolbox p { margin: 0; position: absolute; top: -4px; left: -60%; border-left: 1px solid #ddd; padding: 10px;}
