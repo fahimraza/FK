@@ -1,35 +1,8 @@
-#random-posts {
-    padding: 0 0 0 5px;
-}
+#random-posts {padding: 0 0 0 5px;}
 #adshit {text-align: center;padding-top: 10px;margin-top: 5px;padding-bottom: 5px;background:url(http://4.bp.blogspot.com/-PmbZLNtmcKg/VmVLcdY3bSI/AAAAAAAAEIA/iEAdhooZuR8/s320/ad-back.jpg);}
-#random-posts li {
-    margin-bottom: 5px;
-list-style-type: none;
-}
-#random-posts img {
-  border-radius: 100px;
-  float: left;
-  position: relative;
-  bottom: 10px;
-  box-shadow: 1px 4px 4px #DEDEDE;
-  padding: 3px;
-  margin-right: 5px;
-  width: 70px;
-  border: 1px solid #D9D9D9;
-  height: 70px;
-
-ul#random-posts {
-    list-style-type: none;
-    padding: 0px;
-}
-#random-posts a {
-  font-size: 13px;
-  position: relative;
-  top: 5px;
-}
-#random-posts a:hover {
-    text-decoration: none;
-}
-.random-summary {
-  display: none;
-}
+#random-posts li {margin-bottom: 5px;list-style-type: none;}
+#random-posts img {border-radius: 100px;float: left;position: relative;bottom: 10px;box-shadow: 1px 4px 4px #DEDEDE;padding: 3px;margin-right: 5px;width: 70px;border: 1px solid #D9D9D9;height: 70px;}
+ul#random-posts {list-style-type: none;padding: 0px;}
+#random-posts a {font-size: 13px;position: relative;top: 5px;}
+#random-posts a:hover {text-decoration: none;}
+.random-summary {display: none;}
