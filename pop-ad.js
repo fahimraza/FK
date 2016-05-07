@@ -3,7 +3,7 @@ $("#rev-ad,#shade").show().slideDown();
       $("#rev-ad,#shade").show();        
   },50000);
 $(document).ready(function(){
-    $(".xfs").click(function(){
-        $("#fs").hide();
+    $("#hide2").click(function(){
+        $("#rev-ad,#shade").hide();
     });
 });
