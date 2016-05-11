@@ -23,3 +23,4 @@ body {overflow-x: hidden;}
 #find img { float: left; width: 140px; height: 140px; margin-right: 10px; margin-left: 20px; }
 #find { position: absolute; bottom: -50px; height: 170px; z-index: 10; background: #fff; width: 96%; margin: 0; }
 #Share { position: relative; padding: 8px; background: #F5F5F5; border-top: 1px solid #eee; top: 15px; }
+#Share p { float: left; margin: 0; padding-right: 5px; font-size: 16px; font-weight: bold; }
