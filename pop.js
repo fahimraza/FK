@@ -1,9 +1,9 @@
-$("#pop").show().slideDown();
+$("#pop,#ads").show().slideDown();
   setTimeout(function(){
-      $("#pop").show();        
+      $("#pop,#ads").show();        
   },105000);
 $(document).ready(function(){
     $("#xpop").click(function(){
-        $("#pop").hide();
+        $("#pop,#ads").hide();
     });
 });
