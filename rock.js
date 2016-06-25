@@ -1,0 +1,9 @@
+$("#pop,#ads").show().slideDown();
+  setTimeout(function(){
+      $("#pop,#ads").show();        
+  },105000);
+$(document).ready(function(){
+    $("#xpop").click(function(){
+        $("#pop,#ads").hide();
+    });
+});
