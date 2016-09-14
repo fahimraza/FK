@@ -1,4 +1,4 @@
-var randomposts_number = 3;
+var randomposts_number = 5;
 var randomposts_chars = 0;
 var randomposts_details = 'no'
 var randomposts_thumbnails = 'no'
@@ -11,7 +11,7 @@ var randomposts_current = new Array(randomposts_number);
 function randomposts(json) {
     total_randomposts = json.feed.openSearch$totalResults.$t
 }
-document.write('<script type=\"text/javascript\" src=\"/feeds/posts/default?alt=json-in-script&max-results=0&callback=randomposts\"><\/script>');
+document.write('<script type=\"text/javascript\" src=\"http://www.the101helper.com/feeds/posts/default?alt=json-in-script&max-results=0&callback=randomposts\"><\/script>');
 
 function getvalue() {
     for (var i = 0; i < randomposts_number; i++) {
