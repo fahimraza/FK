@@ -5,5 +5,6 @@
 #cheat, #x-fund { margin-left: -70px; position: absolute; z-index:99; }
 #x-fund { display: none; z-index: 999; }
 .ad { position: relative; bottom: 10px; padding-top: 5px; background: #eee; text-align: center; }
-.breadcrumbs { position: relative; left: 2px; width: 664px; padding: 0px 5px; background: #fff; }
+.breadcrumbs { position: relative; left: 2px; width: 664px; padding: 5px; background: #464646; font-style: italic; color: #fff; }
 #fund { position: fixed; width: 100%; text-align: center; margin-left: -10px; background: rgba(0,0,0,.8); display: block; height: 100%; z-index: 99; left: 0; top: 0; padding-top: 220px; }
+.breadcrumbs a { color: #2291bf; text-decoration: none; }
