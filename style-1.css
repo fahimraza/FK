@@ -5,6 +5,10 @@
 #cheat, #x-fund { margin-left: -70px; position: absolute; z-index:99; }
 #x-fund { display: none; z-index: 999; }
 .ad { position: relative; bottom: 10px; padding-top: 5px; background: #eee; text-align: center; }
-.breadcrumbs { position: relative; left: 2px; width: 664px; padding: 5px; background: #464646; font-style: italic; color: #fff; }
 #fund { position: fixed; width: 100%; text-align: center; margin-left: -10px; background: rgba(0,0,0,.8); display: block; height: 100%; z-index: 99; left: 0; top: 0; padding-top: 220px; }
-.breadcrumbs a { color: #2291bf; text-decoration: none; }
+.breadcrumbs {display: none;}.gatlock {height: 90px;text-align:center;position: absolute; top: 71px; border-bottom: 1px solid #ddd; z-index: 1;width: 100%; background: #f9f9f9; padding: 5px;}
+#backlink { position: fixed; z-index: 999; background: #f9f9f9; width: 100%; text-align: center; bottom: 0; height: 0; }
+#backlink div { position: relative; top: 100px; padding: 100px 300px; }
+#x-back { position: absolute; right: 20px; top: 5px; color: #888; font-size: 25px; text-decoration: none; }
+#backlink textarea { width: 400px; margin-right: 10px; height: 60px; padding: 5px; overflow: hidden; border: 0; background: #eee; }
+.ad-head { padding: 5px; text-align: center; background: url(https://3.bp.blogspot.com/-fDtZg6wVq_I/V_EVWxdb2bI/AAAAAAAAGHQ/oBaPX_O5liMLbbTBRKaXcfv6HfDoCfgUgCLcB/s1600/bg-}
