@@ -1,5 +1,5 @@
 $(document).ready(function() {
-$('#x-fund').delay(10000).fadeIn(100);
+$('#x-fund').delay(13000).fadeIn(100);
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
     $('#fund').show();
