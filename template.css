@@ -3,19 +3,7 @@
 }
 .addthis_relatedposts_inline {
     background: #f5f5f5;
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
     padding: 10px;
-}
-#Feed1 {
-    margin-bottom: 30px;
-    width: 280px;
-}
-#Feed1 ul li {
-    float: left;
-    list-style-type: decimal;
-    font-size: 14.5px;
-    margin-top: 5px;
 }
 #___page_0 {
     left: 5px;
@@ -234,15 +222,11 @@ abbr.published {
 #span1 h3,#span2 h3,#span3 h3,#span4 h3,#span5 h3,#span6 h3 {
     color: #4491f0;
     padding-bottom: 5px}
-.sidebar h4 span {
-    padding: 5px}
 .sidebar h4 {
-    width: 290px;
-    background: url(//3.bp.blogspot.com/-i9KeQhxPc6Q/V6V86d6gJXI/AAAAAAAAF3Q/R2mOaGhUIxs_v_w_0bEUp6t5vz08ay1cQCLcB/s1600/kk.png);
-    float: left;
-    margin-bottom: 10px;
-    font-size: 18px;
-    background-position: 10px;
+    color: #2372c2;
+    font-size: 15px;
+    padding: 4px 5px;
+    border-bottom: 1px solid #2372c2;
 }
 .main-inner {
     padding-top: 30px;
