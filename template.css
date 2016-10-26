@@ -223,10 +223,16 @@ abbr.published {
     color: #4491f0;
     padding-bottom: 5px}
 .sidebar h4 {
-    color: #2372c2;
-    font-size: 15px;
-    padding: 4px 5px;
-    border-bottom: 1px solid #2372c2;
+    color: #777;
+    font-size: 17px;
+    padding: 2px 5px;
+    border-bottom: 1px solid #777;
+    margin-bottom: 10px;
+}
+#sidebar-right-1 {
+    width: 300px;
+    position: relative;
+    top: 0px;
 }
 .main-inner {
     padding-top: 30px;
