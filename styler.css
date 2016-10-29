@@ -3,7 +3,5 @@
 #cheat { background: #ff0000; padding: 3px 11px; color: #fff; font-size: 14px; text-decoration: none; position: absolute; z-index: 99; }#cheat:hover{display:none;}
 .ad { position: relative; bottom: 10px; padding-top: 5px; background: #eee; text-align: center; }
 #fund { position: fixed; width: 100%; text-align: center; margin-left: -10px; background: rgba(0,0,0,.8);height: 100%; z-index: 99; left: 0; top: 0; padding-top: 220px; }
-.breadcrumbs {display: none;}
-#HTML3 {text-align: center;}
-.addthis_toolbox.addthis_default_style {margin-bottom: 15px;padding: 0px 5px;}
+.breadcrumbs {display: none;}\
 #fund,#x-fund{display:none;}#x-fund { position: absolute; z-index: 999; padding: 3px 10px;}
