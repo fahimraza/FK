@@ -17,6 +17,15 @@
     box-shadow: 0 0 6px #bbb;
     z-index: 99;
 }
+.related-active a {
+    height: 80px;
+}
+.related-active img {
+    width: 110px;
+    float: left;
+    margin-right: 5px;
+    height: 75px;
+}
 #share-buttons h1 {
     padding-bottom: 15px;
 }
