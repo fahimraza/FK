@@ -350,28 +350,25 @@ h3 a:hover {
     color: #444;
     text-decoration: none;
 }
- .nav li:hover {
-    background: #000;
-}
 .nav a:hover {
-    color:#fff;
+    color:#3993e2;
 }
 .nav li {
     float: left;
     list-style: none;
     text-transform: uppercase;
     padding: 6.5px 10px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
-    font-family: trebuchet ms;
 }
 .nav {
-    position: fixed;
+    position: absolute;
     z-index: 9;
     background: #fff;
     width: 100%;
     right: 0;
-    height: 57px;
+    padding: 5px;
+    height: 60px;
     border-bottom: 1px solid #eee;
 }
 #logo {
