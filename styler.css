@@ -130,3 +130,48 @@
 #share-buttons a {
     text-decoration: none;
 }
+#random-posts h3 {
+    color: #777;
+    font-size: 17px;
+    padding: 2px 5px;
+    border-bottom: 1px solid #777;
+    margin-bottom: 10px;
+}
+#random-posts {
+    bottom: 5px;
+    position: relative
+}
+#random-posts li {
+    margin: 5px;
+    list-style-type: none;
+    width: 290px
+}
+#random-posts img {
+    border-radius: 100px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    box-shadow: 1px 4px 4px #dedede;
+    padding: 3px;
+    margin-right: 5px;
+    width: 70px;
+    border: 1px solid #d9d9d9;
+    height: 70px
+}
+ul#random-posts {
+    width: 300px;
+    list-style-type: none;
+    padding: 0
+}
+#random-posts a {
+    color: #666;
+    font-size: 13px;
+    position: relative;
+    top: 5px
+}
+#random-posts a:hover {
+    text-decoration: none
+}
+.random-summary {
+    display: none
+}
