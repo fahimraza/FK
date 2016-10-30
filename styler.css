@@ -78,6 +78,7 @@
     padding: 3px 10px;
 }
 .related-active {
+    display: none;
     position: fixed;
     right: 0;
     top: 70px;
