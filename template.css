@@ -1,10 +1,6 @@
 #doubleviews {
     display: none;
 }
-.addthis_relatedposts_inline {
-    background: #f5f5f5;
-    padding: 10px;
-}
 #___page_0 {
     left: 5px;
     position: relative;
@@ -90,7 +86,7 @@ label {
     padding-left: 25px;
     font-size: 14px}
 .fauxborder-left.content-fauxborder-left {
-    right: 35px}
+    right: 50px}
 body {
     overflow-x: hidden}
 #blog-pager {
