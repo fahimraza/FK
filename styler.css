@@ -175,6 +175,7 @@ ul#random-posts {
     position: fixed;
     left: 22px;
     top: 30px;
+    display:none;
 }
 #getsite {
     position: fixed;
