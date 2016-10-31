@@ -382,6 +382,7 @@ h3 a:hover {
     height: 100%;
     padding-top: 200px;
     background: rgba(0,0,0,.8);
+    z-index: 9999;
 }
 #search #input {
     height: 43px;
@@ -407,7 +408,7 @@ h3 a:hover {
 }
 #search-open {
     padding: 5px;
-    position: absolute;
-    right: 0;
-    z-index: -1;
+    float: left;
+    left: 5px;
+    position: relative;
 }
