@@ -183,3 +183,12 @@ ul#random-posts {
     z-index: 1;
     display: none;
 }
+.cover {
+    position: absolute;
+    height: 670px;
+    width: 1500px;
+    background: #eee;
+    left: -120px;
+    z-index: 2;
+    bottom: -25px;
+}
