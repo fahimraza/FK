@@ -207,3 +207,11 @@ ul#random-posts {
     top: 3px;
     position: relative;
 }
+#head-ad {
+    background: #fff;
+    position: relative;
+    top: 25px;
+    width: 990px;
+    left: 47px;
+    text-align: center;
+}
