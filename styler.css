@@ -211,7 +211,9 @@ ul#random-posts {
     background: #fff;
     position: relative;
     top: 25px;
-    width: 990px;
+    width: 980px;
     left: 47px;
     text-align: center;
+    padding: 5px;
+    z-index: 1;
 }
