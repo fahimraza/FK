@@ -217,3 +217,9 @@ ul#random-posts {
     padding: 5px;
     z-index: 1;
 }
+.addthis_inline_share_toolbox_muce {
+    background: #f9e974;
+    padding-top: 5px;
+    width: 350px;
+    padding-left: 5px;
+}
