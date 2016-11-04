@@ -3,7 +3,7 @@
 }
 .post-outer {
     left: 2px;
-    box-shadow: 0px 0px 6px #ddd;
+    border-right: 1px solid #eee;
     width: 103%;
     padding: 10px;
     background: #fff;
@@ -14,7 +14,10 @@
     padding-top: 15px;
 }
 .post-title.entry-title {
-    font-size: 22px
+    font-size: 22px;
+    position: relative;
+    bottom: 8px;
+    color: #51b4ee;
 }
 .ads {
     top: 0;
@@ -203,10 +206,6 @@ ul#random-posts {
     height: 29px;
     border: 0;
 }
-#___plusone_0 {
-    top: 3px;
-    position: relative;
-}
 #head-ad {
     background: #fff;
     position: relative;
@@ -217,9 +216,25 @@ ul#random-posts {
     padding: 5px;
     z-index: 1;
 }
-.addthis_inline_share_toolbox_muce {
-    background: #f9e974;
-    padding-top: 5px;
-    width: 390px;
-    padding-left: 5px;
+#Label1 li {
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    list-style: none;
+    padding: 7px 5px;
+    text-transform: capitalize;
+}
+#Label1 a {
+    color: #666;
+}
+#Label1 a:hover {
+    color: #39a9e6;
+    text-decoration: none;
+}
+#Label1 ul {
+    padding: 0;
+}
+#Label1 span {
+    font-size: 12px;
+    color: #edb81d;
+    font-weight: bold;
 }
