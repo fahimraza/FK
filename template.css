@@ -1,11 +1,6 @@
 #doubleviews {
     display: none;
 }
-#___page_0 {
-    left: 5px;
-    position: relative;
-    top: 2px;
-}
 .post img {
     border: 1px solid #eaeaea;
 }
@@ -411,4 +406,26 @@ h3 a:hover {
     float: left;
     left: 5px;
     position: relative;
+}
+#Label1 li {
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    list-style: none;
+    padding: 7px 5px;
+    text-transform: capitalize;
+}
+#Label1 a {
+    color: #666;
+}
+#Label1 a:hover {
+    color: #39a9e6;
+    text-decoration: none;
+}
+#Label1 ul {
+    padding: 0;
+}
+#Label1 span {
+    font-size: 12px;
+    color: #edb81d;
+    font-weight: bold;
 }
