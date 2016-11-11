@@ -189,3 +189,27 @@ ul#random-posts {
     position: relative;
     top: 7px;
 }
+#hide {
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    left: -28px;
+    padding: 10px 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    top: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+a#show {
+    position: fixed;
+    bottom: -5px;
+    right: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #1d72c8;
+    border-radius: 5px;
+    z-index: 1;
+    color: #fff;
+}
