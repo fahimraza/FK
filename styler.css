@@ -82,13 +82,14 @@
 .related-active {
     display: none;
     position: fixed;
-    right: 10px;
-    top: 30px;
-    width: 290px;
+    right: 0;
+    top: 0;
+    width: 300px;
     padding: 12px 7px;
     background: #fff;
     z-index: 9;
-    border-left: 1px solid #eee;
+    box-shadow: 0 0 20px #bbb;
+    height: 1005%;
 }
 .related-active a {
     height: 70px;
@@ -161,35 +162,6 @@ ul#random-posts {
     right: 350px;
     z-index: 1;
     display: none;
-}
-.cover {
-    position: absolute;
-    height: 670px;
-    width: 1500px;
-    background: #eee;
-    left: -120px;
-    z-index: 2;
-    bottom: -25px;
-}
-#iconm {
-    width: 69px;
-    height: 29px;
-    border: 0;
-}
-#iconb {
-    width: 91px;
-    height: 29px;
-    border: 0;
-}
-#head-ad {
-    background: #fff;
-    position: relative;
-    top: 25px;
-    width: 980px;
-    left: 47px;
-    text-align: center;
-    padding: 5px;
-    z-index: 1;
 }
 #Label1 li {
     border-bottom: 1px solid #ddd;
