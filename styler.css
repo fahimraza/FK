@@ -162,6 +162,18 @@ ul#random-posts {
 }
 #related-title {
     font-size: 14px;
+    width: 160px;
+    letter-spacing: .2px;
+    padding: 0px 21px;
+    background: #eee;
+}
+#more:hover {
+    background: #ddd;
+}
+#more {
+    float: left;
     width: 200px;
-    letter-spacing: .3px;
+    height: 195px;
+    bottom: 10px;
+    background: #eee;
 }
