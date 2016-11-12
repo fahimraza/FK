@@ -162,10 +162,9 @@ ul#random-posts {
 }
 #related-title {
     font-size: 14px;
-    width: 160px;
     letter-spacing: .2px;
-    padding: 0px 21px;
-    background: #eee;
+    height: 40px;
+    padding: 0 5px;
 }
 #more:hover {
     background: #ddd;
