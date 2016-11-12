@@ -63,13 +63,6 @@
 .breadcrumbs {
     display: none;
 }
-#related-title {
-    font-size: 14px;
-    position: relative;
-    top: -20px;
-    left: 3px;
-    width:290px;
-}
 #fund,
 #x-fund {
     display: none;
@@ -78,32 +71,6 @@
     position: absolute;
     z-index: 999;
     padding: 3px 10px;
-}
-.related-active {
-    display: none;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 300px;
-    padding: 12px 7px;
-    background: #fff;
-    z-index: 9;
-    box-shadow: 0 0 20px #bbb;
-    height: 1005%;
-}
-.related-active a {
-    height: 70px;
-    color: #888;
-    margin-bottom: 17px;
-}
-.related-active img {
-    width: 100px;
-    float: left;
-    margin-right: 5px;
-    height: 70px;
-}
-.related-active h3 {
-    bottom: 10px;
 }
 #random-posts h3 {
     color: #777;
@@ -156,13 +123,6 @@ ul#random-posts {
     top: 30px;
     display:none;
 }
-#getsite {
-    position: fixed;
-    top: 30px;
-    right: 350px;
-    z-index: 1;
-    display: none;
-}
 #Label1 li {
     border-bottom: 1px solid #ddd;
     font-size: 14px;
@@ -189,27 +149,19 @@ ul#random-posts {
     position: relative;
     top: 7px;
 }
-#hide {
-    position: absolute;
-    width: 7px;
-    height: 12px;
-    left: -28px;
-    padding: 10px 10px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    top: 0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+.related a {
+    width: 200px;
+    margin-right: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
-a#show {
-    position: fixed;
-    bottom: -5px;
-    right: 10px;
-    text-decoration: none;
-    padding: 10px 30px;
-    background: #1d72c8;
-    border-radius: 5px;
-    z-index: 1;
-    color: #fff;
+.related img {
+    width: 200px;
+    height: 150px;
+}
+#related-title {
+    font-size: 14px;
+    width: 200px;
+    letter-spacing: .3px;
 }
