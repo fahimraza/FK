@@ -176,3 +176,13 @@ ul#random-posts {
     bottom: 10px;
     background: #eee;
 }
+#myfb {
+    position: fixed;
+    top: 140px;
+display:none;
+}
+.related {
+    height: 430px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
