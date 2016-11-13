@@ -186,3 +186,14 @@ display:none;
     overflow: hidden;
     margin-bottom: 40px;
 }
+.addthis_inline_follow_toolbox_dlnk {
+    padding-top: 10px;
+}
+.addthis_inline_follow_toolbox_dlnk p {
+    float: left;
+    font-size: 20px;
+    margin: 2px;
+    padding-right: 10px;
+    border-right: 1px solid #bbb;
+    margin-right: 10px;
+}
