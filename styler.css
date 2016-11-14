@@ -205,3 +205,8 @@ display:none;
 .main-inner .fauxcolumn-right-outer {
     background: #fff;
 }
+#rev {
+    top: 10px;
+    position: relative;
+    height: 60px;
+}
