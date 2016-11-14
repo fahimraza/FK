@@ -197,3 +197,11 @@ display:none;
     border-right: 1px solid #bbb;
     margin-right: 10px;
 }
+#float-right {
+    position: fixed;
+    right: 5px;
+    top: 30px;
+}
+.main-inner .fauxcolumn-right-outer {
+    background: #fff;
+}
