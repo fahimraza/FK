@@ -210,3 +210,4 @@ display:none;
     position: relative;
     height: 60px;
 }
+button.at-expanded-menu-close { display: none; }
