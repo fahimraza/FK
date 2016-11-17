@@ -180,6 +180,7 @@ ul#random-posts {
     position: fixed;
     top: 140px;
 display:none;
+    text-align:center;
 }
 .related {
     height: 450px;
@@ -210,4 +211,3 @@ display:none;
     position: relative;
     height: 60px;
 }
-button.at-expanded-menu-close { display: none; }
