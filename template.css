@@ -365,30 +365,6 @@ h3 a:hover {
     padding: 3px 10px;
     padding-right: 5px;
 }
-#search {
-    width: 100%;
-    text-align: center;
-    height: 100%;
-    padding: 50px 0px;
-    background: rgb(238, 238, 238);
-    position: relative;
-    top: 70px;
-}
-#search #input {
-    height: 43px;
-    width: 500px;
-    border: 0;
-    font-size: 17px;
-}
-#search #submit {
-    height: 45px;
-    width: 100px;
-    background: #427fed;
-    border: 0;
-    color: #fff;
-    font-size: 17px;
-    font-weight: bold;
-}
 #Label1 li {
     border-bottom: 1px solid #ddd;
     font-size: 14px;
