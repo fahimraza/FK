@@ -397,9 +397,8 @@ div#search {
     width: 640px;
 }
 #search #input {
-    height: 30px;
-    width: 83%;
-    font-size: 17px;
+    height: 23px;
+    width: 560px;
 }
 #search #submit {
     height: 36px;
