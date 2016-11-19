@@ -218,11 +218,14 @@ display:none;
     text-align: left;
     font-size: 14px;
     padding: 5px;
+    color: #3993e2;
 }
 #slide img {
     float: left;
     width: 110px;
     margin-right: 10px;
+    height: 90px;
+    border: 1px solid #ddd;
 }
 #slide {
     width: 300px;
