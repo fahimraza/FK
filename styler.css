@@ -211,11 +211,3 @@ display:none;
     position: relative;
     height: 60px;
 }
-#search #submit {
-    height: 29px;
-    width: 70px;
-}
-#search #input {
-    height: 23px;
-    width: 210px;
-}
