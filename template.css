@@ -387,3 +387,29 @@ h3 a:hover {
     color: #edb81d;
     font-weight: bold;
 }
+div#search {
+    position: relative;
+    top: 30px;
+    left: 25px;
+    background: #eee;
+    padding: 10px;
+    margin: 0;
+    width: 640px;
+}
+#search #input {
+    height: 30px;
+    width: 83%;
+    font-size: 17px;
+}
+#search #submit {
+    height: 36px;
+    width: 100px;
+    background: #2196F3;
+    border: 1px;
+    color: #fff;
+}
+a.addthis_button {
+    right: 100px;
+    position: absolute;
+    top: 50px;
+}
