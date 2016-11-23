@@ -72,10 +72,6 @@
     z-index: 999;
     padding: 3px 10px;
 }
-#random-posts {
-    bottom: 5px;
-    position: relative
-}
 #random-posts li {
     margin: 5px;
     list-style-type: none;
@@ -93,19 +89,31 @@
 #random-posts {
     width: 300px;
     list-style-type: none;
-    padding: 0
-}
-#random-posts a {
-    color: #666;
-    font-size: 13px;
+    padding: 0;
+    font-size: 14px;
+    text-align: left;
+    bottom: 10px;
+    border-top: 1px solid #ddd;
     position: relative;
-    top: 5px
+    padding-top: 12px;
 }
 #random-posts a:hover {
     text-decoration: none
 }
+#random-posts li:hover {
+    background: #eee;
+}
+#random-posts li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
 .random-summary {
     display: none
+}
+#random-posts a {
+    color: #777;
 }
 #float-ad {
     position: fixed;
