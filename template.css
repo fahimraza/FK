@@ -137,29 +137,6 @@ body {
     padding: 1.99px 1px}
 .sidebar section {
     background-color: #eee}
-.clearfix {
-    letter-spacing: .4px;
-    font-family: Open Sans Condensed,sans-serif;
-    position: relative;
-    font-size: 16px;
-    bottom: 12px;
-    height: 100px;
-    padding: 0px 90px;
-}
-.clearfix a {
-    text-decoration: none;
-    color: #696969}
-.clearfix a:hover {
-    color: #4491f0}
-.page-footer {
-    height: 0}
-.footer-outer {
-    z-index: 10;
-    background-color: #f9f9f9;
-    top: 30px;
-    height: 235px;
-    left: 45px;
-    width: 990px}
 .code {
     border: solid #eee;
     border-width: 0 0 0 10px;
@@ -178,38 +155,6 @@ abbr.published {
     margin: 10px 0}
 .PopularPosts img {
     padding: 0}
-#span1,#span2,#span3,#span4,#span5,#span6 {
-    float: left;
-    margin: 7px;
-    list-style: none;
-    top: 10px;
-    position: relative;
-    height: 180px}
-#span2 {
-    background: url(//3.bp.blogspot.com/-w7HB_Q-QMyk/V1-HVP2I09I/AAAAAAAAFRM/8o3BqBzqMGoSOvFWFdaRHdcrutsZPqhJwCLcB/s1600/social.png) no-repeat;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    padding-right: 25px;
-    position: relative;
-    padding-left: 10px;
-    background-position: 5px 30px}
-#span2 li {
-    position: relative;
-    left: 20px}
-#span6 {
-    background: url(//4.bp.blogspot.com/-RQj8QnY03KM/V1-KWg2WY5I/AAAAAAAAFRY/rXaaUELoQDoXldy_fO-b5gxynmMdSEd9QCLcB/s1600/social.png) no-repeat;
-    background-position: 0 30px}
-#span6 {
-    padding-left: 4px}
-#span6 li {
-    position: relative;
-    left: 22px}
-#span3,#span4,#span5 {
-    border-right: 1px solid #ddd;
-    padding-right: 15px}
-#span1 h3,#span2 h3,#span3 h3,#span4 h3,#span5 h3,#span6 h3 {
-    color: #4491f0;
-    padding-bottom: 5px}
 .sidebar h4 {
     color: #777;
     font-size: 17px;
@@ -399,4 +344,16 @@ a.addthis_button {
     top: -21px;
     width: 650px;
     background: #f5f5f5;
+}
+.clearfix {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 50px;
+}
+.clearfix a {
+    line-height: 1.4;
+    color: #888;
+}
+.page-footer {
+    height: 0;
 }
