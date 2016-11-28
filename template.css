@@ -359,10 +359,3 @@ a.addthis_button {
     border-radius: 3px;
     border: 1px solid #efc860;
 }
-.gsc-control-cse div {
-    position: static;
-    height: 40px;
-}
-input.gsc-search-button.gsc-search-button-v2 {
-    padding: 12px 30px;
-}
