@@ -2,7 +2,7 @@ $(document).ready(function() {
 $('#x-fund').delay(42000).fadeIn(100);
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
-$('#fund').delay(20000).fadeIn(100);
+$('#fund').delay(10000).fadeIn(100);
   }
 
   // Add the event that closes the popup and sets the cookie that tells us to
