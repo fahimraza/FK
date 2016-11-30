@@ -341,10 +341,14 @@ a.addthis_button {
     font-size: 15px;
     text-align: center;
     padding: 20px 50px;
+    position: relative;
+    background: #fff;
+    padding-top: 140px;
 }
 .clearfix a {
-    line-height: 1.4;
-    color: #888;
+    line-height: 1.7;
+    color: #3993e2;
+    text-decoration: underline;
 }
 .page-footer {
     height: 0;
