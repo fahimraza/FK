@@ -205,7 +205,6 @@ display:none;
     background: #fff;
 }
 #rev {
-    top: 10px;
     position: relative;
-    height: 60px;
+    text-align: center;
 }
