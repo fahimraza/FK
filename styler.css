@@ -88,7 +88,6 @@
     font-size: 14px;
     text-align: left;
     bottom: 10px;
-    border-top: 1px solid #ddd;
     position: relative;
     padding-top: 12px;
 }
@@ -115,28 +114,6 @@
     left: 22px;
     top: 30px;
     display:none;
-}
-#Label1 li {
-    border-bottom: 1px solid #ddd;
-    font-size: 14px;
-    list-style: none;
-    padding: 7px 5px;
-    text-transform: capitalize;
-}
-#Label1 a {
-    color: #666;
-}
-#Label1 a:hover {
-    color: #39a9e6;
-    text-decoration: none;
-}
-#Label1 ul {
-    padding: 0;
-}
-#Label1 span {
-    font-size: 12px;
-    color: #edb81d;
-    font-weight: bold;
 }
 .addthis_inline_share_toolbox_5mv8 {
     position: relative;
@@ -206,9 +183,21 @@
 }
 .labels {
     height: 250px;
-    overflow: auto;
     text-align: left;
     width: 300px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.labels:hover {
+    height: 453px;
+}
+.labels h3 {
+    padding: 5px;
+    position: relative;
+}
+.labels ul {
+    background: #eee;
+    border-radius: 3px;
 }
 #myfb {
     position: fixed;
