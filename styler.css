@@ -174,30 +174,43 @@
     position: relative;
     text-align: center;
 }
-.labels li {
+.lab li {
     list-style: none;
-    right: 10px;
-    position: relative;
-    border-bottom: 1px solid #ddd;
-    padding: 5px 0px;
+    padding: 3px 0px;
 }
-.labels {
+.lab {
     height: 250px;
     text-align: left;
-    width: 300px;
-    border: 1px solid #ddd;
+    width: 290px;
+    -webkit-transition: height 2s;
+    transition: height 1s;
     overflow: hidden;
 }
-.labels:hover {
-    height: 453px;
+.lab:hover {
+    height: 460px;
 }
-.labels h3 {
-    padding: 5px;
-    position: relative;
+.lab li a {
+    color: #777;
 }
-.labels ul {
-    background: #eee;
-    border-radius: 3px;
+.lab li:before {
+    content: "→";
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-radius: 100px;
+    font-size: 15px;
+    padding-right: 3px;
+    padding-left: 1px;
+    margin-right: 3px;
+    color: #fff;
+    background: #3993e2;
+}
+.lab h3 {
+    font-style: italic;
+    font-size: 17px;
+    border-bottom: 1px dashed;
+    margin-bottom: 7px;
+    color: #3993e2;
+    width: 285px;
 }
 #myfb {
     position: fixed;
