@@ -212,6 +212,15 @@
     color: #3993e2;
     width: 285px;
 }
+#random-posts h3 {
+    font-style: italic;
+    font-size: 17px;
+    border-bottom: 1px dashed;
+    margin-bottom: 7px;
+    color: #3993e2;
+    padding: 2px;
+    width: 285px;
+}
 #myfb {
     position: fixed;
     top: 50px;
