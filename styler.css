@@ -14,10 +14,9 @@
     padding-top: 15px;
 }
 .post-title.entry-title {
-    font-size: 22px;
+    font-size: 24px;
     position: relative;
-    bottom: 8px;
-    color: #51b4ee;
+    bottom: 10px;
 }
 .ads {
     top: 0;
@@ -204,26 +203,21 @@
     color: #fff;
     background: #3993e2;
 }
-.lab h3 {
+.lab h3,#random-posts h3 {
     font-style: italic;
     font-size: 17px;
-    border-bottom: 1px dashed;
+    border-bottom: 1px solid #666;
     margin-bottom: 7px;
-    color: #3993e2;
-    width: 285px;
-}
-#random-posts h3 {
-    font-style: italic;
-    font-size: 17px;
-    border-bottom: 1px dashed;
-    margin-bottom: 7px;
-    color: #3993e2;
-    padding: 2px;
+    color: #666;
     width: 285px;
 }
 #myfb {
     position: fixed;
-    top: 50px;
+    top: 0px;
+    padding-top: 50px;
     display: none;
+    padding-bottom: 100px;
+    width: 320px;
     text-align: center;
+    background: #fff;
 }
