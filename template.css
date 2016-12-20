@@ -12,6 +12,7 @@
 .main-inner .columns {
     padding-left: 0;
     padding-right: 360px;
+    background: #fff;
 }
 .main-inner .fauxcolumn-center-outer {
     left: 0;
