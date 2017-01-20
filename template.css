@@ -325,3 +325,12 @@ h3 a:hover {
 .nav a:hover {
     color: #3993e2
 }
+#sidebar-right-1 h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #666;
+    margin-bottom: 15px;
+    padding: 0px 2px;
+    border-bottom: 1px solid #ddd;
+}
