@@ -1,4 +1,4 @@
-var randomposts_number = 3;
+var randomposts_number = 6;
 var randomposts_chars = 0;
 var randomposts_details = 'no'
 var randomposts_thumbnails = 'no'
