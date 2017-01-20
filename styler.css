@@ -71,43 +71,6 @@
     z-index: 999;
     padding: 3px 10px;
 }
-#random-posts img {
-    float: left;
-    position: relative;
-    margin-right: 5px;
-    width: 75px;
-    border: 1px solid #ddd;
-    height: 70px;
-    border-radius: 5px;
-}
-#random-posts {
-    width: 300px;
-    list-style-type: none;
-    padding: 0;
-    font-size: 14px;
-    text-align: left;
-    bottom: 10px;
-    position: relative;
-    padding-top: 12px;
-}
-#random-posts a:hover {
-    text-decoration: none
-}
-#random-posts li:hover {
-    background: #f4f4f4;
-}
-#random-posts li {
-    list-style-type: none;
-    margin: 10px 0px;
-    padding: 2px;
-    width: 295px;
-}
-.random-summary {
-    display: none
-}
-#random-posts a {
-    color: #777;
-}
 #float-ad {
     position: fixed;
     left: 5px;
@@ -167,57 +130,5 @@
     top: 30px;
 }
 .main-inner .fauxcolumn-right-outer {
-    background: #fff;
-}
-#rev {
-    position: relative;
-    text-align: center;
-}
-.lab li {
-    list-style: none;
-    padding: 3px 0px;
-}
-.lab {
-    height: 250px;
-    text-align: left;
-    width: 290px;
-    -webkit-transition: height 2s;
-    transition: height 1s;
-    overflow: hidden;
-}
-.lab:hover {
-    height: 480px;
-}
-.lab li a {
-    color: #777;
-}
-.lab li:before {
-    content: "→";
-    font-weight: bold;
-    padding-bottom: 2px;
-    border-radius: 100px;
-    font-size: 15px;
-    padding-right: 3px;
-    padding-left: 1px;
-    margin-right: 3px;
-    color: #fff;
-    background: #3993e2;
-}
-.lab h3,#random-posts h3 {
-    font-style: italic;
-    font-size: 17px;
-    border-bottom: 1px solid #666;
-    margin-bottom: 7px;
-    color: #666;
-    width: 285px;
-}
-#myfb {
-    position: fixed;
-    top: 0px;
-    padding-top: 50px;
-    display: none;
-    padding-bottom: 100px;
-    width: 320px;
-    text-align: center;
     background: #fff;
 }
