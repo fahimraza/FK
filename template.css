@@ -273,8 +273,7 @@ h3 a:hover {
     text-align: center;
     padding: 20px 50px;
     position: relative;
-    background: #fff;
-    padding-top: 140px;
+    background: #fff
 }
 .clearfix a {
     line-height: 1.7;
