@@ -202,10 +202,6 @@ abbr.published {
     position: relative;
     top: 0px;
 }
-.main-inner {
-    padding-top: 30px;
-    left: 15px;
-}
 body {
     margin: 0;
     padding: 0 0 1px}
@@ -217,8 +213,6 @@ body {
     margin-bottom: -1px}
 .tabs-inner {
     padding: 0 15px}
-.main-inner .column-center-inner,.main-inner .column-left-inner,.main-inner {
-    padding: 15px}
 .footer-inner {
     padding: 30px 15px}
 .section {
