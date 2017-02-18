@@ -1,11 +1,10 @@
 .post-outer {
-    left: 2px;
+    left: 10px;
     border-right: 1px solid #eee;
-    width: 103%;
-    padding: 10px;
+    width: 700px;
     background: #fff;
     position: relative;
-    z-index: 3;
+    float: left;
 }
 .separator {
     padding-top: 15px;
