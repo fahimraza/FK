@@ -215,8 +215,6 @@ body {
     padding: 0 15px}
 .footer-inner {
     padding: 30px 15px}
-.section {
-    margin: 0 15px}
 .section:first-child .widget:first-child {
     margin-top: 0}
 .section:first-child #uds-searchControl+.widget {
