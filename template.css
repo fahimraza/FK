@@ -114,8 +114,6 @@ label {
     background: url(//4.bp.blogspot.com/-wGMp3jZ7DpU/T0uOrczut7I/AAAAAAAAA-0/F_BnJ5WS9BI/s1600/comment-icon.png) no-repeat scroll top left;
     padding-left: 25px;
     font-size: 14px}
-.fauxborder-left.content-fauxborder-left {
-    right: 45px}
 body {
     overflow-x: hidden}
 #blog-pager {
@@ -361,4 +359,15 @@ h3 a:hover {
     margin-bottom: 15px;
     padding: 0px 2px;
     border-bottom: 1px solid #ddd;
+}
+#HTML9 {
+    width: 210px;
+    height: 3000px;
+    float: left;
+    background: #f5f5f5;
+}
+#main {
+    position: relative;
+    float: left;
+    width: 930px;
 }
