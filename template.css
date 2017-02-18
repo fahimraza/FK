@@ -142,19 +142,20 @@ body {
     padding-right: 5px}
 .PopularPosts .item-title {
     font-size: 14px;
-    width: 270px;
+    width: 100%;
     position: relative;
-    top: 9px}
+}
 .popular-posts .item-thumbnail img {
-    border-radius: 100px;
-    box-shadow: 0 1px 3px #bbb;
-    border: 5px solid #eee}
+    border: 1px solid #eee;
+    padding: 0;
+}
 .popular-posts ul li {
     list-style: none;
-    margin: -12px;
-    border-radius: 100px-webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease}
+    margin: -10px 0px;
+}
+.column-right-outer {
+    width: 23%;
+}
 .jump-link {
     text-align: right;
     background: transparent}
@@ -251,7 +252,7 @@ h3 a:hover {
 .widget {
     line-height: 1.4}
 .widget ul {
-    padding: 0 0 0 1.25em;
+    padding: 0;
     margin: 0;
     line-height: 1.2}
 .BlogList ul {
@@ -365,6 +366,7 @@ h3 a:hover {
     position: relative;
     float: left;
     width: 60%;
+    bottom: 40px;
 }
 .section {
     margin: 0;
