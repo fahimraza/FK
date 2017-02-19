@@ -280,10 +280,6 @@ h3 a:hover {
 .page-footer {
     height: 0;
 }
-#logo-search {
-    background: #f5f5f5;
-    padding: 5px
-}
 #sidebar-right-1 h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -302,7 +298,9 @@ h3 a:hover {
 .nav {
     width: 14%;
     position: fixed;
+    top: 90px;
     margin-left: 10px;
+    background: #f1f1f1;
 }
 .nav ul {
     padding: 0;
@@ -317,8 +315,10 @@ h3 a:hover {
     padding: 3px 10px;
     margin-bottom: 4px;
 }
-.nav li:hover {
-    background: #f5f5f5;
+.nav .active {
+    position: fixed;
+    top: 40px;
+    background: #f1f1f1;
 }
 #main {
     position: relative;
