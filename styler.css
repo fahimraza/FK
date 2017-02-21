@@ -19,19 +19,19 @@
     display: none;
 }
 .related a {
-    width: 200px;
-    margin-right: 18px;
+    width: 31.3%;
+    margin-right: 2%;
     color: #555;
     margin-bottom: 40px;
     margin-top: 10px;
 }
 .related img {
-    width: 200px;
     height: 150px;
+    width: 100%;
 }
 #related-title {
     font-size: 14px;
-    letter-spacing: .2px;
+    letter-spacing: .1px;
     height: 40px;
     padding: 0 5px;
 }
@@ -40,18 +40,10 @@
 }
 #more {
     float: left;
-    width: 200px;
+    width: 210px;
     height: 190px;
-    bottom: 10px;
     background: #eee;
-}
-.related {
-    height: 450px;
-    overflow: hidden;
-    margin-bottom: 40px;
-}
-.main-inner .fauxcolumn-right-outer {
-    background: #fff;
+    margin: 10px;
 }
 .content {
     position: relative;
