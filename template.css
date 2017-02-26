@@ -311,9 +311,11 @@ h3 a:hover {
     color: #666;
     text-decoration: none;
 }
+.nav li:hover {
+    background: #eee;
+}
 .nav li {
-    padding: 4px 10px;
-    margin-bottom: 4px;
+    padding: 5px 10px;
     border-bottom: 1px solid #ddd;
 }
 .nav li:last-child {
