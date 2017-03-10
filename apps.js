@@ -1,6 +1,6 @@
         var Appnext = {
-          android_id: 'ADD_HERE_YOUR_PLACEMENT_ID',
-          ios_id: 'ADD_HERE_YOUR_PLACEMENT_ID',
+          android_id: '80dacb27-c727-4f53-8adb-5faf09770d23',
+          ios_id: 'c0ad819e-100c-4cd8-978b-c5a4642b1def',
           parent_url:window.location.origin,
           cnt: '',
           pbk: '',
