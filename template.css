@@ -5,20 +5,6 @@ div#link-ad {
 .addthis_inline_share_toolbox {
     margin-top: 10px;
 }
-#start {
-    top: 22px;
-    position: absolute;
-    margin-left: 10px;
-    background: rgba(255, 195, 99, 1);
-    padding: 4px 10px;
-    border-bottom: 4px solid #e2a84c;
-    color: #fff;
-    border-radius: 3px;
-    text-decoration:none
-}
-#start:focus {
-border-bottom:4px solid rgba(255, 195, 99, 1); 
-  }
 .post img {
     border: 1px solid #eaeaea;
 }
@@ -278,9 +264,10 @@ h3 a:hover {
 .nav {
     width: 14%;
     position: fixed;
-    top: 90px;
     margin-left: 10px;
-    background: #f4f4f4;
+}
+.nav img {
+    width: 105%;
 }
 .nav ul {
     padding: 0;
@@ -295,7 +282,7 @@ h3 a:hover {
     background: #eee;
 }
 .nav li {
-    padding: 5px 10px;
+    padding: 5px;
     border-bottom: 1px solid #ddd;
 }
 .nav li:last-child {
