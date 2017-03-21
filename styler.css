@@ -45,10 +45,6 @@
     background: #eee;
     margin: 10px;
 }
-.content {
-    position: relative;
-    top: 15px;
-}
 #blog-pager {
     overflow: visible;
     width: 90%;
