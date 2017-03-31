@@ -39,11 +39,12 @@
     background: #ddd;
 }
 #more {
-    float: left;
     width: 210px;
     height: 190px;
     background: #eee;
     margin: 10px;
+    position: absolute;
+    right: -10px;
 }
 #blog-pager {
     overflow: visible;
