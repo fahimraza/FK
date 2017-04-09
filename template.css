@@ -3,7 +3,10 @@ div#link-ad {
     height: 70px;
 }
 .addthis_inline_share_toolbox {
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #f2f2f2;
+    padding-left: 10px;
 }
 .post img {
     border: 1px solid #eaeaea;
@@ -64,22 +67,8 @@ a:visited {
     position: relative;
     right: 5px;
     top: 25px}
-label {
-    cursor: pointer}
 .post-comment-link {
     float: right}
-#author {
-    background: transparent url(//1.bp.blogspot.com/--fsYbwHKiKM/T0uOGw-hdTI/AAAAAAAAA-s/QBcDITiSCEs/s1600/author.gif) no-repeat scroll top left;
-    padding-left: 25px;
-    font-size: 14px}
-#publish {
-    background: transparent url(//3.bp.blogspot.com/-1MEONG9XUgA/T0uOF8ICEdI/AAAAAAAAA-k/VBwTnA8PXbI/s1600/clock_icon.gif) no-repeat scroll top left;
-    padding-left: 25px;
-    font-size: 14px}
-.comment-link {
-    background: url(//4.bp.blogspot.com/-wGMp3jZ7DpU/T0uOrczut7I/AAAAAAAAA-0/F_BnJ5WS9BI/s1600/comment-icon.png) no-repeat scroll top left;
-    padding-left: 25px;
-    font-size: 14px}
 body {
     overflow-x: hidden}
 .blog-pager-older-link,.home-link,.blog-pager-newer-link {
@@ -131,10 +120,6 @@ body {
     margin: 20px 0 0 0;
     padding: 0 10px 0;
     opacity: .9}
-.below-post {
-    padding: 5px;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee}
 abbr.published {
     display: none}
 .widget {
@@ -266,7 +251,7 @@ h3 a:hover {
     margin-left: 10px;
 }
 .nav img {
-    width: 105%;
+    width: 100%;
 }
 .nav ul {
     padding: 0;
@@ -302,8 +287,39 @@ h3 a:hover {
     padding: 0;
 }
 .content {
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .lft-ad {
     margin-top: 20px;
+}
+div#comments {
+    text-align: center;
+}
+#embeder {
+    padding: 10px;
+    background: #ffdba2;
+}
+.popular-posts ul {
+    padding: 0;
+}
+#post-ad{text-align:center}
+
+div#link-ad {
+    height: 70px;
+}
+.search {
+    position: fixed;
+    top: -5px;
+    z-index: 9;
+}
+.section{margin:0}
+li#trigger {
+    background: #efc27b;
+}
+
+li#trigger a {
+    color: #fff;
+}
+#comments h4 {
+    font-size: 25px;
 }
