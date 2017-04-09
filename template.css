@@ -262,8 +262,7 @@ h3 a:hover {
     position: relative;
 }
 .nav {
-    width: 14%;
-    position: fixed;
+    position: relative;
     margin-left: 10px;
 }
 .nav img {
