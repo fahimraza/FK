@@ -307,11 +307,6 @@ div#comments {
 div#link-ad {
     height: 70px;
 }
-.search {
-    position: fixed;
-    top: -5px;
-    z-index: 9;
-}
 .section{margin:0}
 li#trigger {
     background: #efc27b;
