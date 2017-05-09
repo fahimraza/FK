@@ -259,12 +259,10 @@ h3 a:hover {
     color: #666;
     text-decoration: none;
 }
-.nav li:hover {
-    background: #eee;
-}
 .nav li {
     padding: 5px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f2f2f2;
+    background: #fff;
 }
 .nav li:last-child {
     border: none
@@ -273,6 +271,12 @@ h3 a:hover {
     position: fixed;
     top: 40px;
     background: #f1f1f1;
+}
+.nav li:hover {
+    background: #444;
+}
+.nav li:hover a {
+    color: #fff;
 }
 #main {
     position: relative;
