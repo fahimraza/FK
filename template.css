@@ -324,12 +324,16 @@ li#trigger a {
 }
 .money li {
     background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #fff;
-    background-position-y: 5px;
-    background-position-x: 2px;
-    text-indent: 20px;
+    background-position-y: 4px;
+    background-position-x: 4px;
+    text-indent: 24px;
 }
 .money li:hover {
  background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #444;
-    background-position-y: 5px;
-    background-position-x: 2px;
-    text-indent: 20px;
+    background-position-y: 4px;
+    background-position-x: 4px;
+    text-indent: 24px;
+}
+.money {
+    border-bottom:1px solid #f2f2f2;
+}
