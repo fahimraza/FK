@@ -331,7 +331,7 @@ li#trigger a {
     text-indent: 24px;
 }
 .money li:hover {
- background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #444;
+ background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #111;
     background-position-y: 4px;
     background-position-x: 4px;
     text-indent: 24px;
@@ -339,22 +339,17 @@ li#trigger a {
 .money {
     border-bottom:1px solid #f2f2f2;
 }
-#drop ul {
-    position: absolute;
-    left: 188px;
-    top: 110px;
-    z-index: 999;
-    width: 200px;
-    box-shadow: 4px 2px 4px 0px;
-    display: none;
+li#drop:hover li {
+    display: block;
+    background: #111;
+    border: 0;
+    position: relative;
+    right: 5px;
+    top: 5px;
 }
-#drop:hover ul {
+#drop:hover li {
     display: block;
 }
-#drop ul li {
-    background: rgba(0, 0, 0, .75);
-    border: 0;
-}
-#drop ul li a {
-    color: #fff;
+#drop li  a {
+color:#fff;
 }
