@@ -103,7 +103,7 @@ body {
     padding: 0;
 }
 .column-right-outer {
-    width: 23%;
+    width: 25%;
 }
 #PopularPosts1 {
     padding: 1.99px 1px}
@@ -239,9 +239,9 @@ h3 a:hover {
 }
 .floater {
     width: 14.7%;
-    height: 10px;
     float: left;
     position: relative;
+    margin-right: 7px;
 }
 .nav {
     position: relative;
@@ -284,7 +284,7 @@ h3 a:hover {
     float: left;
     width: 59%;
     background: #fff;
-    margin: 0px 15px;
+    margin-right: 10px;
 }
 #Blog1 {
     margin: 0;
