@@ -246,6 +246,7 @@ h3 a:hover {
 .nav {
     position: relative;
     margin-left: 10px;
+    z-index: 9999;
 }
 .nav img {
     width: 100%;
