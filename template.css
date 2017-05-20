@@ -275,7 +275,7 @@ h3 a:hover {
     background: #f1f1f1;
 }
 .nav li:hover {
-    background: #444;
+    background: #111;
 }
 .nav li:hover a {
     color: #fff;
@@ -308,11 +308,6 @@ div#comments {
 .popular-posts ul {
     padding: 0;
 }
-#post-ad{text-align:center}
-
-div#link-ad {
-    height: 70px;
-}
 .section{margin:0}
 li#trigger {
     background: #efc27b;
@@ -339,7 +334,7 @@ li#trigger a {
 .money {
     border-bottom:1px solid #f2f2f2;
 }
-li#drop:hover li {
+li#drop li {
     display: block;
     background: #111;
     border: 0;
@@ -347,8 +342,11 @@ li#drop:hover li {
     right: 5px;
     top: 5px;
 }
-#drop:hover li {
+li#drop:hover li {
     display: block;
+}
+#drop:hover li {
+    display: none;
 }
 #drop li  a {
 color:#fff;
