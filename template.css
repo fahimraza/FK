@@ -391,3 +391,9 @@ body {overflow-x:hidden}
 .lft-ad li img {width: 100%;}
 .lft-ad li a { color: #eee; }
 .class { text-align: center; background: #ffffff; padding: 8px}
+#drop:after {
+    content: "❯";
+    position: absolute;
+    right: 10px;
+    color: #000;
+}
