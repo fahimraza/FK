@@ -351,3 +351,43 @@ li#drop:hover li {
 #drop li  a {
 color:#fff;
 }
+.nav li ul li {
+    background: rgba(0, 0, 0, .8);
+}
+.nav li ul li a{
+    color: #fff;
+}
+.nav li ul {
+    position: relative;
+    left: 211px;
+    width: 200px;
+    float: right;
+    height: 0;
+    bottom: 27px;
+    display: none;
+}
+.nav li ul li {
+    border: 0;
+}
+li#drop:hover ul {
+    display: block;
+}
+.gsc-control-cse.gsc-control-cse-en {
+    padding: 0;
+}
+.addthis_inline_share_toolbox,#adidas {
+    margin-bottom: 10px;
+}
+  Html{background:#eee;}
+textarea { resize: none; }
+#HTML5 { width: 90%; left: 4%; margin-top: 0; margin-bottom: 25px; }
+#adSense101 {float: left;height: 100px;position: relative;}
+.sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
+.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
+body {overflow-x:hidden}
+#main { position: relative;right: 15px; }
+}
+.lft-ad li { list-style: none; margin-bottom: 20px; font-size: 14px; margin-left: 10px; background: #222; padding: 3px; border-radius: 4px; }
+.lft-ad li img {width: 100%;}
+.lft-ad li a { color: #eee; }
+.class { text-align: center; background: #ffffff; padding: 8px}
