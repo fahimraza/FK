@@ -378,7 +378,7 @@ li#drop:hover ul {
 .addthis_inline_share_toolbox,#adidas {
     margin-bottom: 10px;
 }
-  Html{background:#eee;}
+Html{background:#eee;}
 textarea { resize: none; }
 #HTML5 { width: 90%; left: 4%; margin-top: 0; margin-bottom: 25px; }
 #adSense101 {float: left;height: 100px;position: relative;}
@@ -387,9 +387,9 @@ textarea { resize: none; }
 body {overflow-x:hidden}
 #main { position: relative;right: 15px; }
 }
-.lft-ad li { list-style: none; margin-bottom: 20px; font-size: 14px; margin-left: 10px; background: #222; padding: 3px; border-radius: 4px; }
-.lft-ad li img {width: 100%;}
-.lft-ad li a { color: #eee; }
+.lft-ad li { list-style: none; margin-bottom: 20px; padding: 3px; }
+.lft-ad li img { width: 100%; border: 1px solid #333}
+.lft-ad li a { color: #3993e2; }
 .class { text-align: center; background: #ffffff; padding: 8px}
 #drop:after {
     content: "❯";
