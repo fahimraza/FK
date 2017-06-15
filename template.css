@@ -244,6 +244,7 @@ h3 a:hover {
     float: left;
     position: relative;
     margin-right: 7px;
+    height: 10px;
 }
 .nav {
     position: relative;
@@ -295,9 +296,6 @@ h3 a:hover {
 .content {
     padding-top: 10px;
     background: #eee;
-}
-.lft-ad {
-    margin-top: 20px;
 }
 div#comments {
     text-align: center;
@@ -388,9 +386,6 @@ textarea { resize: none; }
 body {overflow-x:hidden}
 #main { position: relative;right: 15px; }
 }
-.lft-ad li { list-style: none; margin-bottom: 20px; padding: 3px; }
-.lft-ad li img { width: 100%; border: 1px solid #333}
-.lft-ad li a { color: #3993e2; }
 .class { text-align: center; background: #ffffff; padding: 8px}
 #drop:after {
     content: "❯";
