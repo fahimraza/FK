@@ -386,7 +386,7 @@ textarea { resize: none; }
 body {overflow-x:hidden}
 #main { position: relative;right: 15px; }
 }
-.class { text-align: center; background: #ffffff; padding: 8px}
+.class { text-align: center; background: #ffffff; height: 160px; }
 #drop:after {
     content: "❯";
     position: absolute;
