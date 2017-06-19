@@ -1,3 +1,9 @@
+.fsk {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 5px;
+}
 #post-ad{text-align:center}
 div#link-ad {
     height: 70px;
@@ -386,7 +392,6 @@ textarea { resize: none; }
 body {overflow-x:hidden}
 #main { position: relative;right: 15px; }
 }
-.class { text-align: center; background: #ffffff; height: 160px; }
 #drop:after {
     content: "❯";
     position: absolute;
