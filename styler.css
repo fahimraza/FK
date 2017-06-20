@@ -62,7 +62,7 @@
     overflow: visible;
     width: 90%;
 }
-.related .show {
+.related.show {
     background: #fff;
     position: fixed;
     top: 0;
