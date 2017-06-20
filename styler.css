@@ -38,21 +38,25 @@
     float: left;
     margin: 0;
     text-align: center;
-    text-decoration: none;
     background: #222;
     color: #fff;
+    text-decoration: none;
 }
 .more b {
     font-size: 500%;
     position: relative;
     right: 20px;
     top: 10px;
+    color: #fff;
+    text-decoration: none;
 }
 .more p {
     font-size: 500%;
     margin: 0px;
     bottom: 10px;
     position: relative;
+    color: #fff;
+    text-decoration: none;
 }
 #blog-pager {
     overflow: visible;
