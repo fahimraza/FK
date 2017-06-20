@@ -34,16 +34,25 @@
     height: 40px;
     padding: 0 5px;
 }
-#more:hover {
-    background: #ddd;
+.more {
+    float: left;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    background: #222;
+    color: #fff;
 }
-#more {
-    width: 31.3%;
-    height: 190px;
-    background: #eee;
-    margin: 10px;
-    position: absolute;
-    right: -10px;
+.more b {
+    font-size: 500%;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+.more p {
+    font-size: 500%;
+    margin: 0px;
+    bottom: 10px;
+    position: relative;
 }
 #blog-pager {
     overflow: visible;
