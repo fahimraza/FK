@@ -72,11 +72,14 @@
     height: 100%;
 }
 #x-related {
-    position: absolute;
-    right: 30px;
-    text-align: right;
     width: 0;
+    float: right;
+    right: 40px;
+    position: relative;
+    margin: 0px;
     font-size: 40px;
-    top: 0;
-    text-decoration:none;
+    text-decoration: none;
+}
+.related h2 {
+    position: absolute;
 }
