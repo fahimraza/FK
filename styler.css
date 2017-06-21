@@ -63,12 +63,13 @@
     width: 90%;
 }
 .related.show {
-    background: #fff;
+    background: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999999999;
-    padding: 90px 200px;
+    padding: 30px 200px;
+    height: 100%;
 }
 #x-related {
     position: absolute;
