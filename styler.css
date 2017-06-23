@@ -1,3 +1,10 @@
+#sponsored {
+    text-align: center;
+    background: #fce6b2;
+    position: relative;
+    right: 15px;
+    width: 103.5%;
+}
 .post-outer {
     left: 10px;
     width: 95%;
