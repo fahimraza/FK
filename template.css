@@ -240,10 +240,9 @@ h3 a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 19px;
-    color: #666;
-    margin-bottom: 15px;
-    padding: 0px 2px;
-    border-bottom: 1px solid #ddd;
+    color: #000;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #609fec;
 }
 .floater {
     width: 14.7%;
