@@ -288,6 +288,7 @@ h3 a:hover {
     color: #fff;
 }
 #main {
+    padding-top:5px;
     position: relative;
     float: left;
     width: 59%;
@@ -387,7 +388,7 @@ textarea { resize: none; }
 #HTML5 { width: 90%; left: 4%; margin-top: 0; margin-bottom: 25px; }
 #adSense101 {float: left;height: 100px;position: relative;}
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
-.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
+#email,.related.show,#at-expanded-menu-host,.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
 body {overflow-x:hidden}
 #main { position: relative;right: 15px; }
 }
