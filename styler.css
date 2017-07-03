@@ -82,3 +82,25 @@
 .related h2 {
     position: absolute;
 }
+#pager {
+    position: fixed;
+    right: 0;
+    bottom: 5px;
+    width: 300px;
+    margin-right: 28px;
+    background: rgba(255, 255, 255, .85);
+    padding: 4px;
+    border-radius: 3px;
+    z-index: 9;
+    color: #111;
+}
+#new {
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+    height: 40px;
+    overflow: hidden;
+}
+#old {
+    padding: 2px;
+    height: 37px;
+}
