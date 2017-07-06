@@ -226,7 +226,8 @@ h3 a:hover {
     text-align: center;
     padding: 20px 50px;
     position: relative;
-    background: #fff
+    background: #fff;
+    z-index: 9;
 }
 .clearfix a {
     line-height: 1.7;
