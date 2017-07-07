@@ -1,0 +1,16 @@
+{
+  "name": "101Helper",
+  "short_name": "101Helper",
+  "start_url": "https://101helper.blogspot.com",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795",
+  "theme_color": "#333333",
+  "background_color": "#f5f5f5",
+  "icons": [
+    {
+      "src":"https://3.bp.blogspot.com/-CRQ_Wey3Onk/WV87csvzG6I/AAAAAAAAGtg/v3n_QqSQl2sMDAUPoOC_nxin5KVLH9Z-gCLcBGAs/s200/101helper.png",
+      "sizes":"200x200",
+      "type":"image/png"
+    }
+  ]
+}
