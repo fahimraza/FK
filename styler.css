@@ -13,9 +13,6 @@
     position: relative;
     margin-bottom: 10px;
 }
-.breadcrumbs {
-    display: none;
-}
 .related a {
     width: 31.3%;
     margin-right: 2%;
@@ -97,4 +94,14 @@
     float: left;
     list-style: none;
     margin-left: 7px;
+}
+.breadcrumbs {
+    font-style: italic;
+}
+.breadcrumbs span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.breadcrumbs a {
+    color: #609fec;
 }
