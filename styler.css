@@ -25,8 +25,9 @@
     width: 100%;
 }
 #related-title {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: .1px;
+    font-weight: bold;
     height: 40px;
     padding: 0 5px;
 }
