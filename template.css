@@ -1,13 +1,4 @@
 #post-ad{text-align:center}
-div#link-ad {
-    height: 70px;
-}
-.addthis_inline_share_toolbox {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    background: #f2f2f2;
-    padding-left: 10px;
-}
 .post img {
     border: 1px solid #eaeaea;
 }
@@ -250,6 +241,7 @@ h3 a:hover {
     position: relative;
     margin-left: 10px;
     z-index: 9999;
+    border: 1px solid #ddd;
 }
 .nav img {
     width: 100%;
@@ -283,12 +275,13 @@ h3 a:hover {
     color: #fff;
 }
 #main {
-    padding-top:5px;
+    padding-top: 5px;
     position: relative;
     float: left;
     width: 59%;
     background: #fff;
     margin-right: 10px;
+    border: 1px solid #ddd;
 }
 #Blog1 {
     margin: 0;
@@ -371,12 +364,6 @@ color:#fff;
 li#drop:hover ul {
     display: block;
 }
-.gsc-control-cse.gsc-control-cse-en {
-    padding: 0;
-}
-.addthis_inline_share_toolbox,#adidas {
-    margin-bottom: 10px;
-}
 Html,.content{background:url("https://2.bp.blogspot.com/-Eyf2euj556s/WWnHf5GySUI/AAAAAAAAGvY/lVW6CAiYbwAGTl3aZXyL9SyRw7F4wtDjACLcBGAs/s1600/bg.jpg") repeat !important}
 textarea { resize: none; }
 #HTML5 { width: 90%; left: 4%; margin-top: 0; margin-bottom: 25px; }
@@ -391,4 +378,3 @@ body {overflow-x:hidden}
     right: 10px;
     color: #000;
 }
-#email input[type="submit"] { padding: 7px 15px; color: #4682b4; border: 1px solid #4682b4; cursor: pointer; position: relative; border-radius: 2px; top: 8px; background: white; font-weight: bold; font-size: 14px; font-family: trebuchet ms; letter-spacing: .6px; } #email input[type="submit"]:hover { background: steelblue; color: #fff; } #email input[type="text"] { margin-right: 10px; padding: 6px 0px; width: 310px; position: relative; top: 8px; font-size: 16px; border: 1px solid; font-style: italic; color: #aaa; } #email p { float: left; margin: 0; position: absolute; top: 30px; left: 3px; } #email h3 { float: left; font-size: 30px; bottom: 5px; } #email form { margin: 0; position: relative; bottom: 10px; } #email { position: relative; top: 5px; padding: 20px 300px; background: #fff; text-align: center; }
