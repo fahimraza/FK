@@ -369,7 +369,6 @@ li#drop:hover ul {
 }
 Html,.content{background:url("https://2.bp.blogspot.com/-Eyf2euj556s/WWnHf5GySUI/AAAAAAAAGvY/lVW6CAiYbwAGTl3aZXyL9SyRw7F4wtDjACLcBGAs/s1600/bg.jpg") repeat !important}
 textarea { resize: none; }
-#HTML5 { width: 90%; left: 4%; margin-top: 0; margin-bottom: 25px; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
 #share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
 body {overflow-x:hidden}
