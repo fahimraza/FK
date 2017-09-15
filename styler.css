@@ -104,5 +104,9 @@
     margin-left: 5px;
 }
 .breadcrumbs a {
-    color: #609fec;
+    color: #fff;
+    background: #4787ed;
+    padding: 1px 10px;
+    border-radius: 100px;
+    text-decoration: none;
 }
