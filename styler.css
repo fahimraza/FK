@@ -7,7 +7,7 @@
 .separator {
     padding-top: 15px;
 }
-.post-title entry-title {
+h1.post-title.entry-title {
     color: #333;
     position: relative;
     margin-top: 5px;
