@@ -81,20 +81,25 @@ body {
     padding-left: 7px;
     padding-right: 5px}
 .PopularPosts .item-title {
-    font-size: 14px;
+    font-size: 15px;
     width: 100%;
     position: relative;
 }
-.popular-posts .item-thumbnail img {
-    border: 2px solid #d9d9d9;
-    padding: 0;
-    background: #fff;
+.popular-posts a {
+    color: #464646;
+}
+.popular-posts a:hover {
+    color: #4d90fe;
+    text-decoration: none;
 }
 .popular-posts ul li {
     list-style: none;
 }
 .popular-posts ul {
     padding: 0;
+}
+.popular-posts .item-thumbnail-only {
+    margin: 4px 0px;
 }
 .column-right-outer {
     width: 24%;
@@ -241,9 +246,9 @@ h3 a:hover {
 }
 .nav {
     position: relative;
-    margin-left: 10px;
+    margin-left: 5px;
     z-index: 9999;
-    border: 1px solid #ddd;
+    border: 1px solid #eaeaea;
 }
 .nav img {
     width: 100%;
@@ -288,9 +293,6 @@ h3 a:hover {
 #Blog1 {
     margin: 0;
     padding: 0;
-}
-.content {
-    padding-top: 10px;
 }
 div#comments {
     text-align: center;
@@ -366,7 +368,7 @@ color:#fff;
 li#drop:hover ul {
     display: block;
 }
-Html,.content{background:f7f7f7;}
+Html,.content{background:#f7f7f7;}
 textarea { resize: none; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
 #share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
@@ -380,7 +382,7 @@ body {overflow-x:hidden}
 }
 .featured {
     list-style: none;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 15px;
     padding-top: 10px;
     border-top: 1px solid #ddd;
