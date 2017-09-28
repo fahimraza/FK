@@ -366,7 +366,7 @@ color:#fff;
 li#drop:hover ul {
     display: block;
 }
-Html,.content{background:url("https://2.bp.blogspot.com/-Eyf2euj556s/WWnHf5GySUI/AAAAAAAAGvY/lVW6CAiYbwAGTl3aZXyL9SyRw7F4wtDjACLcBGAs/s1600/bg.jpg") repeat !important}
+Html,.content{background:f7f7f7;}
 textarea { resize: none; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
 #share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
@@ -381,7 +381,9 @@ body {overflow-x:hidden}
 .featured {
     list-style: none;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
 }
 .featured li {
     margin-bottom: 10px;
@@ -389,7 +391,7 @@ body {overflow-x:hidden}
     background: #fff;
     border-radius: 2px;
     padding: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #eee;
 }
 .featured a {
     color: steelblue;
@@ -399,7 +401,7 @@ body {overflow-x:hidden}
     border: 1px solid #eee;
 }
 .featured h3 {
-    border-bottom: 3px solid steelblue;
     margin-bottom: 10px;
     padding-left: 3px;
+    font-size: 19px;
 }
