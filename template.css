@@ -128,7 +128,7 @@ abbr.published {
 #sidebar-right-1 {
     position: relative;
     top: 0px;
-    float: left;
+    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
 }
 body {
     margin: 0;
@@ -175,7 +175,10 @@ h3 a:hover {
 .tabs .widget li a:hover {
     text-decoration: none}
 .widget {
-    line-height: 1.4}
+    line-height: 1.4;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
 .widget ul {
     padding: 0;
     margin: 0;
@@ -206,8 +209,6 @@ h3 a:hover {
     margin-top: -20px;
     position: relative;
     z-index: 10}
-.widget-item-control a {
-    opacity: .5}
 .clearfix {
     font-size: 14px;
     text-align: center;
@@ -226,12 +227,10 @@ h3 a:hover {
     height: 0;
 }
 #sidebar-right-1 h2 {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 19px;
-    color: #444;
-    margin-bottom: 10px;
-    border-bottom: 3px solid steelblue;
+    font-size: 20px;
+    color: #464646;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-bottom: 5px;
 }
 .floater {
     width: 14.7%;
