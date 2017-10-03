@@ -19,6 +19,7 @@
     top: 250px;
     border-radius: 2px;
     cursor: pointer;
+    transition:all 1s linear;
 }
 .sq {
     top: 5px;
