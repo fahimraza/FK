@@ -14,10 +14,11 @@
     left: 229px;
     background: rgba(0, 0, 0, .88);
     vertical-align: middle;
-    padding: 35px 15px;
-    font-size: 25px;
+    padding: 30px 10px;
+    font-size: 24px;
     top: 250px;
     border-radius: 2px;
+    cursor: pointer;
 }
 .sq {
     top: 5px;
@@ -269,9 +270,6 @@ h3 a:hover {
     border: 1px solid #eaeaea;
     background: #f7f7f7;
 }
-.nav:hover {
-    z-index: 9999999;
-}
 .nav img {
     width: 100%;
 }
@@ -413,7 +411,10 @@ body {overflow-x:hidden}
     padding: 5px;
 }
 .featured a {
-    color: steelblue;
+    color: #444;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
 }
 .featured img {
     width: 100%;
