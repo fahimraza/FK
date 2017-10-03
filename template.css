@@ -9,6 +9,16 @@
     padding: 10px;
     color: #fff;
 }
+.slideOutTab p {
+    position: absolute;
+    left: 219px;
+    background: rgba(0, 0, 0, .88);
+    vertical-align: middle;
+    padding: 35px 15px;
+    font-size: 30px;
+    bottom: -10px;
+    border-radius: 2px;
+}
 .sq {
     top: 5px;
     float: left;
