@@ -1,3 +1,22 @@
+.slideOutTab {
+    position: fixed;
+    width: 210px;
+    top: 0;
+    height: 100%;
+    left: -200px;
+    z-index: 999;
+    background: rgba(0, 0, 0, .88);
+    padding: 10px;
+    color: #fff;
+}
+.sq {
+    top: 5px;
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    width: 31%;
+    height: 270px;
+}
 #post-ad{text-align:center}
 .post img {
     border: 1px solid #eaeaea;
