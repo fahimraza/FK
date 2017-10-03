@@ -265,8 +265,12 @@ h3 a:hover {
 .nav {
     position: relative;
     margin-left: 5px;
-    z-index: 9999;
+    z-index: 99;
     border: 1px solid #eaeaea;
+    background: #f7f7f7;
+}
+.nav:hover {
+    z-index: 9999999;
 }
 .nav img {
     width: 100%;
