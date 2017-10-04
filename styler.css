@@ -33,9 +33,10 @@
 #related-title {
     font-size: 125%;
     letter-spacing: .1px;
-    font-weight: bold;
-    height: 40px;
     padding: 0 5px;
+    background: #eee;
+    position: relative;
+    bottom: 5px;
 }
 .more {
     float: left;
