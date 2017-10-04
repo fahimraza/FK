@@ -120,6 +120,12 @@ body {
     font-family: arial,sans-serif;
     line-height: 1.5;
 }
+.popular-posts li:hover {
+    background: #fff;
+}
+.popular-posts li:hover a {
+    color: #4d90fe;
+}
 .popular-posts ul {
     padding: 0;
 }
@@ -128,7 +134,9 @@ body {
     text-decoration: none;
 }
 .popular-posts a {
-    color: #464646;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
 }
 .column-right-outer {
     width: 24%;
