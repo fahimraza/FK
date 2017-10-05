@@ -35,6 +35,8 @@
     letter-spacing: .1px;
     padding: 0 5px;
     background: #eee;
+    height:55px;
+    overflow:hidden;
     position: relative;
     bottom: 5px;
 }
