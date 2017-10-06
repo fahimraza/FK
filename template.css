@@ -290,7 +290,7 @@ h3 a:hover {
 .nav {
     position: relative;
     margin-left: 5px;
-    z-index: 99;
+    z-index: 9;
     border: 1px solid #eaeaea;
     background: #f7f7f7;
 }
