@@ -1,3 +1,15 @@
+.followers {
+    background: #fff;
+    position: fixed;
+    text-align: center;
+    width: 59%;
+    z-index: 9;
+    margin-top: 0px;
+    margin-right: 84.7%;
+    margin-bottom: 0px;
+    margin-left: 15.3%;
+    padding-bottom: 5px;
+}
 .logo {
     width: 100%;
     margin-left: 6px;
@@ -339,7 +351,7 @@ h3 a:hover {
     color: #666;
 }
 #main {
-    padding-top: 5px;
+    padding-top: 40px;
     position: relative;
     float: left;
     width: 59%;
