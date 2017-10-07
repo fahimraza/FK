@@ -8,7 +8,7 @@
     top: 0;
     border-bottom: 1px solid #eaeaea;
 }
-.followers li {
+.followers ul li {
     float: left;
     list-style: none;
     margin-right: 20px;
