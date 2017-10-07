@@ -1,14 +1,30 @@
 .followers {
-    background: #fff;
+    background: #f3f3f3;
     position: fixed;
-    text-align: center;
-    width: 59%;
+    width: 58.8%;
     z-index: 9;
-    margin-top: 0px;
-    margin-right: 84.7%;
-    margin-bottom: 0px;
-    margin-left: 15.3%;
-    padding-bottom: 5px;
+    margin-left: 1px;
+    height: 33px;
+    top: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.followers li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.followers p {
+    margin: 0;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
 }
 .logo {
     width: 100%;
