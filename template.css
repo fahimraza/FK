@@ -289,10 +289,11 @@ h3 a:hover {
 }
 .nav {
     position: relative;
-    margin-left: 5px;
+    margin-left: 10px;
     z-index: 9;
-    border: 1px solid #eaeaea;
-    background: #f7f7f7;
+}
+#drop:hover:after {
+    display: none;
 }
 .nav img {
     width: 100%;
@@ -308,8 +309,6 @@ h3 a:hover {
 }
 .nav li {
     padding: 5px;
-    border-bottom: 1px solid #f2f2f2;
-    background: #fff;
 }
 .nav li:last-child {
     border: none
@@ -320,7 +319,7 @@ h3 a:hover {
     background: #f1f1f1;
 }
 .nav li:hover {
-    background: #111;
+    background: #fff;
 }
 .nav li:hover a {
     color: #fff;
@@ -359,28 +358,16 @@ li#trigger a {
 #comments h4 {
     font-size: 25px;
 }
-.money li {
-    background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #fff;
-    background-position-y: 4px;
-    background-position-x: 4px;
-    text-indent: 24px;
-}
-.money li:hover {
- background: url(https://4.bp.blogspot.com/-gYOCjfhW8jw/WRH_NyhfbZI/AAAAAAAAGoU/F-yNOFiygvgYLlY6X-rAYYMkjmc8TUGRgCLcB/s1600/money.png) no-repeat #111;
-    background-position-y: 4px;
-    background-position-x: 4px;
-    text-indent: 24px;
-}
-.money {
-    border-bottom:1px solid #f2f2f2;
-}
-li#drop li {
+#drop li {
     display: block;
-    background: #111;
+    background: #fff;
     border: 0;
     position: relative;
     right: 5px;
     top: 5px;
+}
+#drop li:hover {
+    background: #f3f3f3;
 }
 li#drop:hover li {
     display: block;
@@ -389,7 +376,7 @@ li#drop:hover li {
     display: none;
 }
 #drop li  a {
-color:#fff;
+color:#666;
 }
 .nav li ul li {
     background: rgba(0, 0, 0, .8);
