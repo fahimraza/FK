@@ -322,7 +322,7 @@ h3 a:hover {
     background: #fff;
 }
 .nav li:hover a {
-    color: #fff;
+    color: #666;
 }
 #main {
     padding-top: 5px;
@@ -399,7 +399,7 @@ color:#666;
 li#drop:hover ul {
     display: block;
 }
-Html,.content{background:#f7f7f7;}
+Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
 #share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,.addthis_inline_share_toolbox,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
