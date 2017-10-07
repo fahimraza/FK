@@ -10,6 +10,9 @@
     border-radius: 3px;
     border-bottom: 3px solid #f1501d;
 }
+.nav h3 a {
+    color:#fff
+}
 .slideOutTab {
     position: fixed;
     width: 210px;
