@@ -3,6 +3,13 @@
     margin-left: 6px;
     margin-top: 5px;
 }
+.nav h3 {
+    background: #ff7c52;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+    border-bottom: 3px solid #f1501d;
+}
 .slideOutTab {
     position: fixed;
     width: 210px;
