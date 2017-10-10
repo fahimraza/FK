@@ -42,6 +42,10 @@
 .followers li:hover img {
   opacity: 1;  
 }
+.followers a:hover {
+    text-decoration: none;
+    color: #333;
+}
 .logo {
     width: 100%;
     margin-left: 6px;
