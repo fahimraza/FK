@@ -8,6 +8,18 @@
     top: 0;
     border-bottom: 1px solid #eaeaea;
 }
+li#Sponsored {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+li#Sponsored p {
+    color: #e15954;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+#Sponsored a {
+    font-size: 14px;
+}
 .followers ul li {
     float: left;
     list-style: none;
