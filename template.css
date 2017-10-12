@@ -1,3 +1,15 @@
+.sq {
+    top: -6px;
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+    background: #f1f1f1;
+    height: 285px;
+}
+.sq span {
+    float: left;
+    width: 50%;
+}
 .followers {
     background: #f3f3f3;
     position: fixed;
@@ -94,14 +106,6 @@ li#Sponsored p {
     bottom: 10px;
     border-radius: 2px;
     cursor: pointer;
-}
-.sq {
-    top: 5px;
-    float: left;
-    position: relative;
-    margin-left: 15px;
-    width: 31%;
-    height: 270px;
 }
 #post-ad{text-align:center}
 .post img {
@@ -480,7 +484,7 @@ li#drop:hover ul {
 }
 Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
-.sq {top:5px;float: left; position: relative; margin-left: 15px; }@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 .followers,#share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
 body {overflow-x:hidden}
 }
