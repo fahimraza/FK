@@ -10,13 +10,16 @@
     float: left;
     width: 50%;
 }
+#recommend {
+    margin: 20px 5px;
+}
 .followers {
-    background: #f3f3f3;
+    background: rgba(255, 255, 255, .9);
     position: fixed;
     width: 58.8%;
     z-index: 9;
     margin-left: 1px;
-    height: 33px;
+    height: 34px;
     top: 0;
     border-bottom: 1px solid #eaeaea;
 }
