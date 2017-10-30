@@ -89,22 +89,6 @@
 .related h2 {
     position: absolute;
 }
-#share {
-    position: fixed;
-    z-index: 9;
-    list-style: none;
-    background: #fff;
-    padding: 4px;
-    bottom: -5px;
-    box-shadow: 0 1px 5px #777;
-    border-radius: 3px;
-    margin-left: 7%;
-}
-#share li {
-    float: left;
-    list-style: none;
-    margin-left: 7px;
-}
 .breadcrumbs {
     font-style: italic;
 }
@@ -112,10 +96,10 @@
     margin-right: 5px;
     margin-left: 5px;
 }
-.breadcrumbs a {
-    color: #fff;
-    background: #4787ed;
-    padding: 1px 10px;
-    border-radius: 100px;
-    text-decoration: none;
+.breadcrumbs {
+    font-style: italic;
+    padding: 0px 5px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
