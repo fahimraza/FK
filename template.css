@@ -1,7 +1,7 @@
 #fund {
     position: fixed;
     left: 0;
-    z-index: 99999999999;
+    z-index: 999999999999999999;
     background: #fff;
     width: 100%;
     display:none;
@@ -16,6 +16,7 @@
 }
 #x-fund {
     position: absolute;
+    display:none;
     right: 20px;
     top: 10px;
     background: #333;
