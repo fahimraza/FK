@@ -19,7 +19,7 @@ $('#fund').delay(30000).fadeIn(100);
 function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
-    date.setTime(date.getTime()+(days*10*10*60*1000));
+    date.setTime(date.getTime()+(days*10*60*1000));
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
