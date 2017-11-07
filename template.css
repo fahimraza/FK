@@ -42,8 +42,7 @@ div#closure {
     top: -6px;
     position: relative;
     text-align: center;
-    padding: 15px 0px;
-    height: 285px;
+    padding-top: 20px;
 }
 .sq span {
     float: left;
@@ -51,66 +50,6 @@ div#closure {
 }
 #recommend {
     margin: 20px 5px;
-}
-.followers {
-    background: rgba(255, 255, 255, .9);
-    position: fixed;
-    width: 58.8%;
-    z-index: 9;
-    margin-left: 1px;
-    height: 34px;
-    top: 0;
-    border-bottom: 1px solid #eaeaea;
-}
-li#Sponsored {
-    background: #fff;
-    border: 1px solid #ddd;
-}
-li#Sponsored p {
-    color: #e15954;
-    font-weight: bold;
-    margin: 5px 0px;
-}
-#Sponsored a {
-    font-size: 14px;
-}
-.followers ul li {
-    float: left;
-    list-style: none;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.followers p {
-    margin: 0;
-    font-weight: bold;
-    float: left;
-    position: relative;
-    top: 5px;
-    left: 10px;
-    font-size: 17px;
-    margin-right: 10px;
-    border-right: 1px solid #ddd;
-    padding-right: 20px;
-}
-.followers a {
-    position: relative;
-    color: #333;
-    bottom: 7px;
-    left: 7px;
-    font-weight: 700;
-    text-decoration: none;
-}
-.followers img {
-    width: 26px;
-    height: 26px;
-    opacity: 0.8;
-}
-.followers li:hover img {
-  opacity: 1;  
-}
-.followers a:hover {
-    text-decoration: none;
-    color: #333;
 }
 .logo {
     width: 100%;
@@ -126,28 +65,6 @@ li#Sponsored p {
 }
 .nav h3 a {
     color:#fff
-}
-.slideOutTab {
-    position: fixed;
-    width: 210px;
-    top: 0;
-    height: 100%;
-    left: -230px;
-    z-index: 999;
-    background: rgba(0, 0, 0, .88);
-    padding: 10px;
-    color: #fff;
-}
-.slideOutTab p {
-    position: absolute;
-    left: 229px;
-    background: rgba(0, 0, 0, .88);
-    vertical-align: middle;
-    padding: 30px 10px;
-    font-size: 24px;
-    bottom: 10px;
-    border-radius: 2px;
-    cursor: pointer;
 }
 #post-ad{text-align:center}
 .post img {
