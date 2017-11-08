@@ -57,11 +57,13 @@ div#closure {
     margin-top: 5px;
 }
 .nav h3 {
-    background: #ff7c52;
+    background: #fb9b4d;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     border-radius: 3px;
-    border-bottom: 3px solid #f1501d;
+}
+.nav h3:hover {
+    background: #f5862c;
 }
 .nav h3 a {
     color:#fff
