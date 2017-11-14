@@ -10,6 +10,7 @@
     padding: 2px 20px;
 }
 #dialog-tray {
+    display:none;
     position: fixed;
     bottom: 0;
     text-align: center;
