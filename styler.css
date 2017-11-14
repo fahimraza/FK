@@ -5,9 +5,20 @@
     font-weight: bold;
     position: relative;
 }
+#dialog-tray button:last-child {
+    background: #f73439;
+    border: 0;
+    color: #fff;
+}
+#dialog-tray button:first-child {
+    background: #27cc14;
+    border: 0;
+    color: #fff;
+}
 #dialog-tray button {
     margin: 10px 10px;
-    padding: 2px 20px;
+    padding: 4px 30px;
+    cursor: pointer;
 }
 #dialog-tray {
     display:none;
