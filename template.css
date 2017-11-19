@@ -105,6 +105,7 @@ div#closure {
     margin-right: -300px;
 }
 body {
+    overflow-x:hidden;
     min-width: 1055px;
     font-family: trebuchet ms;
     color: #464646;
