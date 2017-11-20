@@ -413,6 +413,9 @@ li#trigger a {
 .nav li ul li {
     border: 0;
 }
+.nav li:hover a {
+    color: #4285f4;
+}
 Html,.content{background:#e9ebee;}
 textarea { resize: none; }
 @media screen and (max-width: 700px) {
