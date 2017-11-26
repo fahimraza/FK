@@ -44,9 +44,8 @@
     border-top: 1px solid #ddd;
 }
 #xx-dialog {
-    float: right;
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    top: 10px;
     color: #000;
     font-size: 20px;
     right: 10px;
