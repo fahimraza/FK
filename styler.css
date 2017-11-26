@@ -49,6 +49,7 @@
     color: #000;
     font-size: 20px;
     right: 10px;
+    z-index: 9;
 }
 #xx-dialog:hover {
     text-decoration:none;
