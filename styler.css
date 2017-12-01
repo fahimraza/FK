@@ -21,6 +21,7 @@
     cursor: pointer;
 }
 #dialog-tray {
+    box-shadow: 0px -6px 24px -10px #333;
     display:none;
     position: fixed;
     bottom: 0;
@@ -41,7 +42,7 @@
     background: #ffffff;
     bottom: 40px;
     border-bottom: 1px solid #ddd;
-    box-shadow: 0px -6px 24px -10px #777;
+    box-shadow: 0px -6px 24px -10px #333;
 }
 #xx-dialog {
     position: absolute;
