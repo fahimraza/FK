@@ -11,22 +11,6 @@
     text-align: center;
     padding-top: 200px;
 }
-#x-fund:after {
-    content: "❯";
-    margin-left: 10px;
-    color: steelblue;
-}
-#x-fund {
-    display: none;
-    color: #000;
-    border-bottom: 1px solid;
-    padding: 5px;
-    font-size: 20px;
-    border-radius: 2px;
-}
-div#closure {
-    margin-top: 30px;
-}
 #x-fund:hover {
     text-decoration: none;
     font-weight: bold;
