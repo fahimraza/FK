@@ -33,12 +33,10 @@
     border-top: 1px solid #eaeaea;
 }
 .sq {
-    background: #e9ebee;
     position: relative;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 5px;
-    left: -8px;
 }
 #dialog {
     display: none;
