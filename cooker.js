@@ -1,5 +1,4 @@
 $(document).ready(function() {
-$('#x-fund').delay(28000).fadeIn(100);
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
 $('#fund').delay(20000).fadeIn(100);
@@ -8,7 +7,7 @@ $('#fund').delay(20000).fadeIn(100);
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $('#x-fund').click(function() {
-    $('#fund').hide();
+    $('#fund').hide(8000);
     createCookie('hide', true, 1)
     return false;
   });
