@@ -7,7 +7,7 @@ $('#fund').delay(20000).fadeIn(100);
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $('#x-fund').click(function() {
-    $('#fund').fadeOut(15000);
+    $('#fund').fadeOut(20000);
     createCookie('hide', true, 1)
     return false;
   });
