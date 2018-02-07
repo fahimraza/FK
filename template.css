@@ -285,9 +285,10 @@ h3 a:hover {
 .nav li {
     padding: 5px;
     border: 1px solid #e9ebee;
+    font-size: 14px;
 }
 .nav li:hover a {
-    color: #666;
+    color: #222;
 }
 #main {
     padding-top: 10px;
