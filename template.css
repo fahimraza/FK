@@ -3,6 +3,11 @@
     width: 15%;
     border: 0;
 }
+#top-ad {
+    text-align: center;
+    background: #24292e;
+    padding-top:5px
+}
 .sq {
     top: -17px;
     position: relative;
