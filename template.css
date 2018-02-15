@@ -6,7 +6,8 @@
 #top-ad {
     text-align: center;
     background: #24292e;
-    padding-top:5px
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .sq {
     top: -17px;
