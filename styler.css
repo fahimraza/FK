@@ -1,65 +1,8 @@
-#dialog p {
-    font-size: 30px;
-    margin: 0;
-    bottom: 20px;
-    font-weight: bold;
-    position: relative;
-}
-#dialog-tray button:last-child {
-    background: #f73439;
-    border: 0;
-    color: #fff;
-}
-#dialog-tray button:first-child {
-    background: #27cc14;
-    border: 0;
-    color: #fff;
-}
-#dialog-tray button {
-    margin: 10px 10px;
-    padding: 4px 30px;
-    cursor: pointer;
-}
-#dialog-tray {
-    box-shadow: 0px -6px 24px -10px #333;
-    display:none;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    background: #fff;
-    z-index: 9;
-    height: 40px;
-    width: 59%;
-    border-top: 1px solid #eaeaea;
-}
 .sq {
     position: relative;
     text-align: center;
     margin-top: 10px;
     padding-top: 15px;
-}
-#dialog {
-    display: none;
-    position: fixed;
-    z-index: 99;
-    width: 59%;
-    text-align: center;
-    padding: 40px 0px;
-    background: #ffffff;
-    bottom: 40px;
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0px -6px 24px -10px #333;
-}
-#xx-dialog {
-    position: absolute;
-    top: 10px;
-    color: #000;
-    font-size: 20px;
-    right: 10px;
-    z-index: 9;
-}
-#xx-dialog:hover {
-    text-decoration:none;
 }
 .post-outer {
     width: 98%;
