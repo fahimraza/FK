@@ -75,7 +75,7 @@
 }
 body {
     overflow-x:hidden;
-    min-width: 1055px;
+    padding: 0px 140px;
     font-family: trebuchet ms;
     color: #464646;
     font-size: 14.5px;
@@ -261,7 +261,6 @@ h3 a:hover {
 }
 .nav {
     position: relative;
-    margin-left: 10px;
     z-index: 9;
 }
 .nav img {
