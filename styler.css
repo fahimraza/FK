@@ -158,5 +158,9 @@
     display: none;
 }
 #main {
-    top:-10px;
+    position: relative;
+    float: left;
+    width: 55.5%;
+    background: #fff;
+    margin-right: 10px;
 }
