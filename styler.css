@@ -1,3 +1,4 @@
+body.loading {padding:0 160px;}
 .sq {
     position: relative;
     text-align: center;
@@ -103,7 +104,7 @@
 #main {
     position: relative;
     float: left;
-    width: 55.5%;
+    width: 54%;
     background: #fff;
     margin-right: 10px;
 }
