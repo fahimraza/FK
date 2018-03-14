@@ -1,9 +1,4 @@
 .section{margin:0}
-@media screen and (min-width: 1200px) {
-    body.loading {
-        padding:0 160px
-    }
-}
 #top-ad {
     text-align: center;
     background: #24292e;
@@ -75,12 +70,13 @@
     margin-right: -300px;
 }
 body {
-    overflow-x:hidden;
+    overflow-x: hidden;
     padding: 0px 140px;
     font-family: trebuchet ms;
     color: #464646;
     font-size: 14.5px;
-    min-width:1029px;
+    max-width: 1025px;
+    margin: auto;
 }
 a {
     color: steelblue;
@@ -151,9 +147,6 @@ abbr.published {
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
 }
-body {
-    margin: 0;
-    padding: 0 0 1px}
 .content-outer,.header-outer,.tabs-outer,.main-outer,.main-inner,.footer-outer,.post,.comments,.widget,.date-header,.inline-ad {
     position: relative;
     min-height: 0;
