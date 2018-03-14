@@ -1,8 +1,8 @@
 .section{margin:0}
-body.loading{padding:0 160px}
-#share {
-    width: 15%;
-    border: 0;
+@media screen and (max-width: 1200px) {
+    body.loading {
+        padding:0 160px
+    }
 }
 #top-ad {
     text-align: center;
@@ -80,6 +80,7 @@ body {
     font-family: trebuchet ms;
     color: #464646;
     font-size: 14.5px;
+    min-width:1029px;
 }
 a {
     color: steelblue;
