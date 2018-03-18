@@ -40,13 +40,13 @@
     width: 100%;
 }
 #related-title {
-    font-size: 125%;
+    font-size: 100%;
     letter-spacing: .1px;
     padding: 0 5px;
-    height:55px;
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
-    bottom: 5px;
+    font-weight: bold;
+    height: 60px;
 }
 .more {
     float: left;
