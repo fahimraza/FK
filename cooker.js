@@ -2,7 +2,7 @@ $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
 $('#fund').fadeIn(100);
-    $('#fund').delay(10000).fadeOut(100);
+    $('#fund').delay(8000).fadeOut(100);
   }
 
   // Add the event that closes the popup and sets the cookie that tells us to
@@ -20,7 +20,7 @@ $('#fund').fadeIn(100);
 function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
-    date.setTime(date.getTime()+(days*24*60*60*1000));
+    date.setTime(date.getTime()+(days*60*60*1000));
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
