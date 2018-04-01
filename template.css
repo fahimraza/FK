@@ -5,10 +5,14 @@
 }
 .fahim {
     text-align: center;
+    position: relative;
+    top: 10px;
+    background: #e9ebee;
+    padding-bottom: 10px;
 }
 .fahim img {
     height: 100px;
-    margin: 20px 0px 5px 0px;
+    margin: 20px 10px 5px 0px;
     border-radius: 100px;
     border: 7px double #c5c5c5;
     background: #fff;
