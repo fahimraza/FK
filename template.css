@@ -1,4 +1,18 @@
 .section{margin:0}
+.fahim img:hover {
+    background: #050507;
+    border: 7px double #000001;
+}
+.fahim {
+    text-align: center;
+}
+.fahim img {
+    height: 100px;
+    margin: 20px 0px 5px 0px;
+    border-radius: 100px;
+    border: 7px double #c5c5c5;
+    background: #fff;
+}
 #top-ad {
     text-align: center;
     background: #24292e;
