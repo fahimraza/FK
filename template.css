@@ -398,12 +398,15 @@ body {overflow-x:hidden}
 }
 .PopularPosts .item-title {
     float: left;
-    margin-top: 5px;
+    width: 290px;
+    position: relative;
+    padding: 5px;
+    background: #fff;
 }
 .popular-posts a {
     color: #444;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     font-family: arial,sans-serif;
 }
 .popular-posts a:hover {
