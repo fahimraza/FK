@@ -352,21 +352,6 @@ li#trigger a {
     font-size: 25px;
 }
 .nav li ul li {
-    background: rgba(0, 0, 0, .8);
-}
-.nav li ul li a{
-    color: #fff;
-}
-.nav li ul {
-    position: relative;
-    left: 211px;
-    width: 200px;
-    float: right;
-    height: 0;
-    bottom: 27px;
-    display: none;
-}
-.nav li ul li {
     border: 0;
 }
 .nav li:hover a {
@@ -422,4 +407,10 @@ body {overflow-x:hidden}
 .sub-menu ul li {
 background: #ffffff;
     margin: 2px;
+}
+.sub-menu:hover ul {
+    display: block;
+}
+.sub-menu {
+    cursor: pointer;
 }
