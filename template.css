@@ -414,3 +414,7 @@ background: #ffffff;
 .sub-menu {
     cursor: pointer;
 }
+div#ad {
+    background: #e9ebee;
+    padding: 10px 0px;
+}
