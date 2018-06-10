@@ -499,3 +499,13 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     border: 0;
     padding: 0;
 }
+#search-ad {
+    float: right;
+    position: relative;
+    right: 0;
+    z-index: 999;
+    top: 15px;
+}
+div#spacer {
+    margin-bottom: 35px;
+}
