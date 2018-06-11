@@ -2,4 +2,4 @@
 $("iframe").each(function() {
   this.contentWindow.location.reload(true);
 });
-}, 50000);
+}, 60000);
