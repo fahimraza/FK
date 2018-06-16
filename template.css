@@ -17,12 +17,6 @@
     border: 7px double #c5c5c5;
     background: #fff;
 }
-#top-ad {
-    text-align: center;
-    background: #24292e;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 #recommend {
     margin: 20px 5px;
 }
@@ -383,7 +377,6 @@ background: #ffffff;
     cursor: pointer;
 }
 #ad {
-    background: #e9ebee;
     padding: 25px 0px 10px 0px;
     text-align: center;
 }
