@@ -286,13 +286,8 @@ h3 a:hover {
     top: 40px;
     background: #f1f1f1;
 }
-.nav li:hover {
-    background: #fff;
-    border: 1px solid #eaeaea;
-}
 .nav li {
     padding: 5px;
-    border: 1px solid #e9ebee;
     font-size: 14px;
 }
 .nav li:hover a {
@@ -330,7 +325,6 @@ li#trigger a {
 .nav li:hover a {
     color: #4285f4;
 }
-Html,.content{background:#e9ebee;}
 textarea { resize: none; }
 @media screen and (max-width: 700px) {
 .followers,#share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
