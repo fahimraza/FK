@@ -50,22 +50,6 @@
     color: #fff;
     text-decoration: none;
 }
-.more b {
-    font-size: 500%;
-    position: relative;
-    right: 20px;
-    top: 10px;
-    color: #fff;
-    text-decoration: none;
-}
-.more p {
-    font-size: 500%;
-    margin: 0px;
-    bottom: 10px;
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-}
 #blog-pager {
     overflow: visible;
     width: 90%;
@@ -100,4 +84,6 @@
     width: 54%;
     background: #fff;
     margin-right: 10px;
+    border: 1px solid #eee;
+    bottom: 10px;
 }
