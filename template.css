@@ -415,7 +415,7 @@ background: #ffffff;
     float: left;
     font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
     border: 0;
-    background: #fff;
+    background: #eee;
     border-radius: 3px 0 0 3px;
 }
 
@@ -493,14 +493,4 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
 .search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
     padding: 0;
-}
-#search-ad {
-    float: right;
-    position: relative;
-    right: 0;
-    z-index: 999;
-    top: 15px;
-}
-div#spacer {
-    margin-bottom: 35px;
 }
