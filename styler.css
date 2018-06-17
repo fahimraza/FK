@@ -76,6 +76,7 @@
     width: 54%;
     background: #fff;
     margin-right: 10px;
-    border: 1px solid #eee;
-    bottom: 35px;
+    border-right: 1px solid #eee;
+    bottom: 20px;
+    border-left: 1px solid #eee
 }
