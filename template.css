@@ -1,4 +1,23 @@
 .section{margin:0}
+#fund {
+    position: fixed;
+    z-index: 99999;
+    text-align: center;
+    width: 86%;
+    top: 190px;
+}
+#fund iframe {
+    box-shadow: 0px 0px 120px #000;
+}
+#x-fund {
+    position: absolute;
+    margin: -14px -17px;
+    background: #f73522;
+    color: #fff;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 100px;
+}
 .fahim img:hover {
     background: #050507;
     border: 7px double #000001;
