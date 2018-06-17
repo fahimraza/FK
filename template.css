@@ -4,7 +4,8 @@
     z-index: 99999;
     text-align: center;
     width: 86%;
-    top: 190px;
+    top: 170px;
+    display:none
 }
 #fund iframe {
     box-shadow: 0px 0px 120px #000;
