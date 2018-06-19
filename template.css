@@ -1,24 +1,24 @@
 .section{margin:0}
 #fund {
     position: fixed;
-    z-index: 99999;
-    left: 0;
+    background: #ffffff;
+    width: 500px;
+    height: 200px;
+    padding: 40px;
+    left: 27%;
+    top: 200px;
+    box-shadow: 0 0 50px #444;
+    z-index: 999999;
     text-align: center;
-    width: 100%;
-    top: 190px;
-    display: none;
-}
-#fund iframe {
-    box-shadow: 0px 0px 120px #000;
+    border-radius: 10px;
 }
 #x-fund {
     position: absolute;
-    margin: -30px 155px;
-    background: #f73522;
-    color: #fff;
-    padding: 4px 9px;
+    top: 5px;
+    right: 10px;
+    font-size: 34px;
+    color: #dc2424;
     text-decoration: none;
-    border-radius: 100px;
 }
 .fahim img:hover {
     background: #050507;
