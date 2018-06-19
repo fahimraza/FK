@@ -220,7 +220,6 @@ h3 a:hover {
     text-decoration: none}
 .widget {
     line-height: 1.4;
-    border-bottom: 1px solid #ddd;
     padding-bottom: 15px;
 }
 .widget ul {
