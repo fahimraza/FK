@@ -347,7 +347,6 @@ li#trigger a {
 }
 textarea { resize: none; }
 @media screen and (max-width: 700px) {
-.followers,#share,#pager,.fsk,#email,.related.show,#at-expanded-menu-host,.search,#embeder,#sharer,#comments,.related,#blog-pager,.floater,.column-right-outer,footer {display:none}
 body {overflow-x:hidden}
 }
 .popular-posts ul li {
