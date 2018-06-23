@@ -327,15 +327,6 @@ h3 a:hover {
 div#comments {
     text-align: center;
 }
-.popular-posts ul {
-    padding: 0;
-}
-li#trigger {
-    background: #efc27b;
-}
-li#trigger a {
-    color: #fff;
-}
 #comments h4 {
     font-size: 25px;
 }
@@ -349,40 +340,36 @@ textarea { resize: none; }
 @media screen and (max-width: 700px) {
 body {overflow-x:hidden}
 }
+.popular-posts ul {
+    padding: 0;
+}
 .popular-posts ul li {
     list-style: none;
-    border: 1px solid #e9ebee;
-    margin-bottom: 25px;
+    border: 5px solid #e9ebee;
+    margin-bottom: 20px;
     padding: 0;
 }
 .PopularPosts .item-thumbnail {
-    float: left;
     margin: 0;
-}
-.PopularPosts img {
-    margin-right: 0;
-    background: #ffffff;
-    border: 1px solid #ddd;
-    padding: 0;
-    width: 300px;
-    height: 160px;
-}
-.PopularPosts .item-title {
-    float: left;
-    width: 290px;
-    position: relative;
-    padding: 5px;
-    background: #fff;
 }
 .popular-posts a {
     color: #444;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     font-family: arial,sans-serif;
 }
-.popular-posts a:hover {
-    color: #222;
-    text-decoration: none;
+.PopularPosts img {
+    margin-right: 5px;
+    background: #ffffff;
+    border: 1px solid #e9ebee;
+    padding: 0;
+    width: 120px;
+    height: 85px;
+    float: left;
+}
+.PopularPosts .item-title {
+    position: relative;
+    top: 5px;
 }
 .sub-menu ul {
     position: relative;
