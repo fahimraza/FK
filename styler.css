@@ -62,13 +62,13 @@
     text-align: left;
 }
 #x-related {
-    width: 0;
-    float: right;
-    right: 40px;
-    position: relative;
-    margin: 0px;
-    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    font-size: 50px;
     text-decoration: none;
+    color: #fff;
+    width: 500px;
+    text-align: center;
 }
 .breadcrumbs {
     display: none;
