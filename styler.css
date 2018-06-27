@@ -47,13 +47,18 @@
     width: 90%;
 }
 .related.show {
-    background: #ffffff;
     position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999999999;
-    padding: 30px 200px;
+    top: 0px;
+    z-index: 999;
+    background: #000;
+    width: 500px;
+    right: 0;
     height: 100%;
+    padding: 20px;
+    color: #fff;
+}
+.related.show a {
+    color: #eee;
 }
 #x-related {
     width: 0;
@@ -63,9 +68,6 @@
     margin: 0px;
     font-size: 40px;
     text-decoration: none;
-}
-.related h2 {
-    position: absolute;
 }
 .breadcrumbs {
     display: none;
