@@ -59,6 +59,7 @@
 }
 .related.show a {
     color: #eee;
+    text-align: left;
 }
 #x-related {
     width: 0;
