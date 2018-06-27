@@ -72,9 +72,13 @@
     text-align: center;
     background: #ea2a2a;
     padding: 0px 10px;
+    display:none
+}
+#x-related.show {
+    display: block
 }
 .breadcrumbs {
-    display: none;
+    display: none
 }
 #main {
     position: relative;
