@@ -3,6 +3,7 @@ $(document).ready(function() {
   if (!readCookie('hide')) {
 $('#fund').delay(3000).fadeIn(100);
     $('body').delay(3000).addClass('noscroll');
+    $('body').delay(13000).removeClass('noscroll');
     $('#fund').delay(13000).fadeOut(100);
   }
 
