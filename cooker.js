@@ -2,6 +2,7 @@ $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
 $('#fund').delay(3000).fadeIn(100);
+    $('body').delay(3000).addClass('noscroll');
     $('#fund').delay(13000).fadeOut(100);
   }
 
