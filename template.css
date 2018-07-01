@@ -1,21 +1,16 @@
 .section{margin:0}
 #fund {
-    display:none;
+    display: none;
     position: fixed;
-    background: #ffffff;
-    width: 500px;
-    height: 200px;
-    padding: 40px;
-    left: 27%;
-    top: 200px;
-    box-shadow: 0 0 50px #444;
+    width: 100%;
+    left: 0;
+    top: 150px;
     z-index: 999999;
     text-align: center;
-    border-radius: 10px
 }
-#fund p {
-    font-size: 34px;
-    color: #000
+#fund img {
+    box-shadow: 0px 2px 20px #444;
+    width: 600px;
 }
 #x-fund {
     position: absolute;
