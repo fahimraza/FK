@@ -10,11 +10,11 @@
 }
 #fund img {
     box-shadow: 0px 2px 20px #444;
-    width: 600px;
+    width: 371px;
+    border-radius: 4px;
 }
 #x-fund {
     position: absolute;
-    float: right;
     margin: -22px;
     font-size: 28px;
     color: #ffffff;
