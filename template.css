@@ -1,5 +1,5 @@
 .section{margin:0}
-div#ad-watch-pop {
+#ad-watch-pop {
     position: fixed;
     left: 0;
     top: 0;
@@ -10,11 +10,15 @@ div#ad-watch-pop {
     background: rgba(0, 0, 0, .85);
     z-index: 9;
 }
-div#adwatch {
+#adwatch {
     margin: auto;
     background: #fff;
-    padding: 80px 25px;
+    padding: 45px 25px;
     width: 300px;
+}
+#adwatch li {
+    list-style: none;
+    margin: 10px 0px;
 }
 div#adwatch span {
     font-size: 25px;
@@ -23,9 +27,12 @@ div#adwatch span {
 div#adwatch a {
     background: #68b0c7;
     color: #fff;
-    padding: 10px 30px;
+    padding: 10px 70px;
     font-weight: bold;
     font-size: 17px;
+}
+div#adwatch p {
+    margin: 3px;
 }
 .fahim img:hover {
     background: #050507;
