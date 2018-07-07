@@ -1,27 +1,31 @@
 .section{margin:0}
-#fund {
-    display: none;
+div#ad-watch-pop {
     position: fixed;
-    width: 100%;
     left: 0;
-    top: 160px;
-    z-index: 999999;
+    top: 0;
+    padding-top: 200px;
     text-align: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .85);
+    z-index: 9;
 }
-#fund img {
-    box-shadow: 0px 2px 20px #444;
-    width: 371px;
-    border-radius: 4px;
+div#adwatch {
+    margin: auto;
+    background: #fff;
+    padding: 80px 25px;
+    width: 300px;
 }
-#x-fund {
-    position: absolute;
-    margin: -22px;
-    font-size: 28px;
-    color: #ffffff;
-    text-decoration: none;
-    background: #000;
-    padding: 0px 8px;
-    border-radius: 100px;
+div#adwatch span {
+    font-size: 25px;
+    color: #000;
+}
+div#adwatch a {
+    background: #68b0c7;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 17px;
 }
 .fahim img:hover {
     background: #050507;
