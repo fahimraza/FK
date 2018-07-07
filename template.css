@@ -1,4 +1,8 @@
 .section{margin:0}
+div#join img {
+    width: 56px;
+    margin-top: 10px;
+}
 #ad-watch-pop {
     display:none;
     position: fixed;
