@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
-$('#ad-watch-pop').delay(10000).fadeIn(100);
+$('#ad-watch-pop').delay(30000).fadeIn(100);
 
 }
 
