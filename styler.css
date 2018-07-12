@@ -35,9 +35,8 @@
     width: 54%;
     background: #fff;
     margin-right: 10px;
-    border-right: 1px solid #eee;
-    bottom: 20px;
-    border-left: 1px solid #eee
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd
 }
 #x-related.show {
     display: block;
