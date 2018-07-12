@@ -25,6 +25,7 @@
 #blog-pager {
     overflow: visible;
     width: 90%;
+    margin:0
 }
 .breadcrumbs {
     display: none
