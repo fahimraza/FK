@@ -12,44 +12,6 @@ div#join img {
     width: 56px;
     margin-top: 10px;
 }
-#ad-watch-pop {
-    display:none;
-    position: fixed;
-    left: 0;
-    top: 0;
-    padding-top: 200px;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, .85);
-    z-index: 99999999999999999999999
-}
-#adwatch {
-    margin: auto;
-    background: #fff;
-    padding: 45px 25px;
-    width: 300px;
-}
-#adwatch li {
-    list-style: none;
-    margin: 10px 0px;
-}
-div#adwatch span {
-    font-size: 25px;
-    color: #000;
-}
-div#adwatch a {
-    background: #68b0c7;
-    color: #fff;
-    padding: 10px 70px;
-    font-weight: bold;
-    font-size: 17px;
-    text-decoration:none
-}
-div#adwatch p {
-    margin: 3px;
-    cursor:pointer
-}
 .fahim img:hover {
     background: #050507;
     border: 7px double #000001;
