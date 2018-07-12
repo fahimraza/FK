@@ -1,4 +1,7 @@
 .section{margin:0}
+.content {
+    margin-top: 20px;
+}
 a#join-now {
     color: #fff;
     background: #8bd155;
