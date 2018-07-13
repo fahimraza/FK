@@ -41,6 +41,9 @@ div#join img {
     text-align: center;
     padding: 5px;
     border-radius: 3px;
+    width: 92%;
+    position: relative;
+    top: 4px;
 }
 .nav h3:hover {
     background: #f5862c;
@@ -488,3 +491,29 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
     border: 0;
     padding: 0;
 }
+.kreep .button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+}
+/*Bounce*/
+@keyframes kreep {
+    0% {-webkit-transform: scale(1.1,.9);
+        transform: scale(1.1,.9);}
+   50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+   70% { -webkit-transform: scale(1);
+         transform: scale(1);}
+}
+
+.kreep {
+  display: inline-block;
+  /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+  animation: kreep 0.7s ease 4s infinite alternate;
+}
+
+.kreep:hover {
+  animation: none;
+}
+/*END BOUNCER*/
