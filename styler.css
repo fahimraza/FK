@@ -108,3 +108,21 @@
     height: 60px;
     color: #000;
 }
+#o-related {
+    z-index: 9999;
+    position: fixed;
+    background: #000;
+    bottom: -5px;
+    margin: 0;
+    width: 71px;
+    padding: 20px 0px;
+    left: 49px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+display:block
+}
+#o-related.show {
+ display:none   
+}
