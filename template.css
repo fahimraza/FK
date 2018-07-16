@@ -36,21 +36,6 @@ div#join img {
 #recommend {
     margin: 20px 5px;
 }
-.nav h3 {
-    background: #fb9b4d;
-    text-align: center;
-    padding: 5px;
-    border-radius: 3px;
-    width: 92%;
-    position: relative;
-    top: 4px;
-}
-.nav h3:hover {
-    background: #f5862c;
-}
-.nav h3 a {
-    color:#fff
-}
 #post-ad{text-align:center}
 .post img {
     border: 1px solid #eaeaea;
@@ -276,36 +261,6 @@ h3 a:hover {
     margin-right: 7px;
     height: 10px;
 }
-.nav {
-    position: relative;
-}
-.nav img {
-    width: 100%;
-}
-.nav ul {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-.nav a {
-    color: #222;
-    text-decoration: none;
-}
-.nav li:last-child {
-    border: none
-}
-.nav .active {
-    position: fixed;
-    top: 40px;
-    background: #f1f1f1;
-}
-.nav li {
-    padding: 5px;
-    font-size: 14px;
-}
-.nav li:hover a {
-    color: #222;
-}
 #main {
     position: relative;
     float: left;
@@ -364,133 +319,6 @@ body {overflow-x:hidden}
     position: relative;
     top: 5px;
 }
-.sub-menu ul {
-    position: relative;
-    top: 5px;
-    display: none;
-    background: #ffffff;
-}
-.sub-menu ul li {
-background: #ffffff;
-    margin: 2px;
-}
-.sub-menu:hover ul {
-    display: block;
-}
-.sub-menu {
-    cursor: pointer;
-}
-#ad {
-    padding: 25px 0px 10px 0px;
-    text-align: center;
-}
-.cf:before, .cf:after{
-    content:"";
-    display:table;
-}
-
-.cf:after{
-    clear:both;
-}
-
-.cf{
-    zoom:1;
-}    
-
- /* Form wrapper styling */
-.search-wrapper {
-    width: 300px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
-}
-
-/* Form text input */
-
-.search-wrapper input {
-    width: 217px;
-    height: 20px;
-    padding: 10px 5px;
-    float: left;
-    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
-    border: 0;
-    background: #eee;
-    border-radius: 3px 0 0 3px;
-}
-
-.search-wrapper input:focus {
-    outline: 0;
-    background: #fff;
-    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
-}
-
-.search-wrapper input::-webkit-input-placeholder {
-   color: #999;
-   font-weight: normal;
-   font-style: italic;
-}
-
-.search-wrapper input:-moz-placeholder {
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
-}
-
-.search-wrapper input:-ms-input-placeholder {
-    color: #999;
-    font-weight: normal;
-    font-style: italic;
-}    
-
-/* Form submit button */
-.search-wrapper button {
-overflow: visible;
-position: relative;
-float: right;
-border: 0;
-padding: 0;
-cursor: pointer;
-height: 40px;
-width: 72px;
-font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-color: white;
-text-transform: uppercase;
-background: #D83C3C;
-border-radius: 0 3px 3px 0;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-}
-   
-.search-wrapper button:hover{     
-    background: #e54040;
-}   
-   
-.search-wrapper button:active,
-.search-wrapper button:focus{   
-    background: #c42f2f;
-    outline: 0;   
-}
-
-.search-wrapper button:before { /* left arrow */
-    content: '';
-    position: absolute;
-    border-width: 8px 8px 8px 0;
-    border-style: solid solid solid none;
-    border-color: transparent #d83c3c transparent;
-    top: 12px;
-    left: -6px;
-}
-
-.search-wrapper button:hover:before{
-    border-right-color: #e54040;
-}
-
-.search-wrapper button:focus:before,
-.search-wrapper button:active:before{
-        border-right-color: #c42f2f;
-}      
-
-.search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
-    border: 0;
-    padding: 0;
-}
 .kreep .button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -517,3 +345,25 @@ text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
   animation: none;
 }
 /*END BOUNCER*/
+#wizard {
+    margin-top: 35px;
+}
+#wizard li {
+    list-style: none;
+    margin: 10px 0px;
+    font-size: 15px;
+    border-bottom: 3px solid lightblue;
+    padding-bottom: 4px;
+}
+
+#wizard li:last-child { border: 0}#x-fund {z-index: 9; }
+#wizard li a {
+    color: #222;
+    text-decoration: none;
+}
+#wizard span {
+    font-size: 20px;
+    color: #222;
+    position: relative;
+    bottom: 7px;
+}
