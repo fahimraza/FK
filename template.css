@@ -382,8 +382,9 @@ body {overflow-x:hidden}
     float: left;
 }
 .nav ul {
-    margin: 0;
+    margin: auto;
     padding: 0;
+    max-width: 1025px;
 }
 .nav li {
     float: left;
