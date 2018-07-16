@@ -370,7 +370,7 @@ body {overflow-x:hidden}
     transition-property: height;
     transition-duration: .5s;
     transition-delay: .5s;
-    z-index:99999;
+    z-index:9999;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .nav a {
