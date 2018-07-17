@@ -367,10 +367,8 @@ body {overflow-x:hidden}
     left: 0;
     -webkit-transition-property: height;
     -webkit-transition-duration: .5s;
-    -webkit-transition-delay: .5s;
     transition-property: height;
     transition-duration: .5s;
-    transition-delay: .5s;
     z-index:999;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
