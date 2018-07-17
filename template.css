@@ -1,6 +1,21 @@
 .section{margin:0}
 .content {
+    max-width: 1025px;
+    margin: auto;
     margin-top: 20px;
+}
+#top-banner {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
+    position: relative;
+    top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+#post-ad {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
 }
 .fahim img:hover {
     background: #050507;
@@ -10,20 +25,19 @@
     text-align: center;
     position: relative;
     top: 10px;
-    background: #fff;
+    background: #000;
     padding-bottom: 10px;
 }
 .fahim img {
     height: 100px;
     margin: 20px 10px 5px 0px;
     border-radius: 100px;
-    border: 7px double #c5c5c5;
-    background: #fff;
+    border: 7px double #222;
+    background: #222;
 }
 #recommend {
     margin: 20px 5px;
 }
-#post-ad{text-align:center}
 .post img {
     border: 1px solid #eaeaea;
 }
@@ -64,13 +78,11 @@
 }
 body {
     overflow-x: hidden;
-    padding: 0px 140px;
     font-family: trebuchet ms;
-    color: #464646;
+    color: #000000;
     font-size: 14.5px;
-    max-width: 1025px;
-    margin: auto;
-    padding:0
+    padding: 0;
+    margin: 0;
 }
 a {
     color: steelblue;
@@ -222,15 +234,15 @@ h3 a:hover {
     text-align: center;
     padding: 20px 50px;
     position: relative;
-    background: #fff;
+    background: #000;
+    color: #ddd;
     border-top: 1px solid #ddd;
     margin-top: 10px;
     z-index: 9;
 }
 .clearfix a {
     line-height: 1.7;
-    color: #3993e2;
-    text-decoration: underline
+    color: #418cb1;
 }
 .page-footer {
     height: 0;
