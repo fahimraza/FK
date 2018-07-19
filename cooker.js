@@ -8,7 +8,7 @@ $('#ad-watch-pop').delay(40000).fadeIn(100);
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $(document).ready(function() {
-    createCookie('hide', true, 1)
+    createCookie('hide', true, 1).delay(40000)
     return false;
   });
 
