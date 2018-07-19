@@ -1,9 +1,27 @@
 .section{margin:0}
-#sharer {
-    z-index: 9;
+#ad-watch-pop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999999;
+    height: 100%;
+    width: 100%;
+    padding-top: 200px;
     text-align: center;
-    margin-left: 40px;
-    margin-bottom: 460px;
+    background: rgba(0, 0, 0, .9);
+    display:none
+}
+#ad-watch-pop p {
+    color: #fff;
+    font-size: 25px;
+}
+#ad-watch-pop a {
+    color: #fff;
+    background: #8BC34A;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    text-decoration:none
 }
 .content {
     max-width: 1025px;
