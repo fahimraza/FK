@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // If the 'hide cookie is not set we hide the message
   if (!readCookie('hide')) {
-$('#ad-watch-pop').delay(20000).fadeIn(100);
+$('#ad-watch-pop').delay(40000).fadeIn(100);
 
 }
   // Add the event that closes the popup and sets the cookie that tells us to
@@ -10,7 +10,7 @@ $('#ad-watch-pop').delay(20000).fadeIn(100);
     setTimeout(function() {
     createCookie('hide', true, 1)
     return false;
-      }, 30000);
+      }, 40000);
   });
 
 });
@@ -21,7 +21,7 @@ $('#ad-watch-pop').delay(20000).fadeIn(100);
 function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
-    date.setTime(date.getTime()+(days*2*60*1000));
+    date.setTime(date.getTime()+(days*60*60*1000));
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
