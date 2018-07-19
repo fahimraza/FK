@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  // If the 'hide cookie is not set we hide the message
+  // If the 'hide cookie is not set we show the message
   if (!readCookie('hide')) {
 $('#ad-watch-pop').delay(40000).fadeIn(100);
 
@@ -7,10 +7,12 @@ $('#ad-watch-pop').delay(40000).fadeIn(100);
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $(document).ready(function() {
+    if (!readCookie('hide')) {
     setTimeout(function() {
     createCookie('hide', true, 1)
     return false;
       }, 40000);
+    };
   });
 
 });
