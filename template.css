@@ -36,11 +36,6 @@
     top: 10px;
     border-bottom: 1px solid #ddd;
 }
-#post-ad {
-    text-align: center;
-    padding: 10px;
-    background: #ddd;
-}
 .fahim img:hover {
     background: #050507;
     border: 7px double #000001;
@@ -373,12 +368,12 @@ body {overflow-x:hidden}
 }
 #wizard li {
     list-style: none;
-    margin: 10px 0px;
-    font-size: 15px;
+    margin: 15px 0px;
+    font-size: 19px;
     border-bottom: 3px solid lightblue;
-    padding-bottom: 4px;
+    padding-bottom: 7px;
+    text-align: center;
 }
-
 #wizard li:last-child { border: 0}#x-fund {z-index: 9; }
 #wizard li a {
     color: #222;
