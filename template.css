@@ -1,28 +1,4 @@
 .section{margin:0}
-#ad-watch-pop {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99999999;
-    height: 100%;
-    width: 100%;
-    padding-top: 200px;
-    text-align: center;
-    background: rgba(0, 0, 0, .9);
-    display:none
-}
-#ad-watch-pop p {
-    color: #fff;
-    font-size: 25px;
-}
-#ad-watch-pop a {
-    color: #fff;
-    background: #8BC34A;
-    padding: 10px 40px;
-    font-size: 20px;
-    border-radius: 3px;
-    text-decoration:none
-}
 .content {
     max-width: 1025px;
     margin: auto;
@@ -97,11 +73,19 @@
 }
 body {
     overflow-x: hidden;
+    padding: 0px 140px;
     font-family: trebuchet ms;
-    color: #000000;
+    color: #464646;
     font-size: 14.5px;
+    max-width: 1025px;
+    width: 1025px;
+    margin: auto;
     padding: 0;
-    margin: 0;
+}
+#home_ad {
+    float: left;
+    width: 300px;
+    margin: 5px;
 }
 a:hover {
     color: #576ef1;
@@ -273,7 +257,7 @@ h3 a:hover {
     font-weight: bold;
 }
 .floater {
-    width: 14.7%;
+    width: 150px;
     float: left;
     position: relative;
     margin-right: 7px;
@@ -295,12 +279,6 @@ div#comments {
 }
 #comments h4 {
     font-size: 25px;
-}
-.nav li ul li {
-    border: 0;
-}
-.nav li:hover a {
-    color: #4285f4;
 }
 textarea { resize: none; }
 @media screen and (max-width: 700px) {
@@ -337,95 +315,46 @@ body {overflow-x:hidden}
     position: relative;
     top: 5px;
 }
-.kreep .button {
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    background: transparent;
-    border: 0;
-    font-size: 16px;
-}
-/*Bounce*/
-@keyframes kreep {
-    0% {-webkit-transform: scale(1.1,.9);
-        transform: scale(1.1,.9);}
-   50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
-   70% { -webkit-transform: scale(1);
-         transform: scale(1);}
-}
-
-.kreep {
-  display: inline-block;
-  /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
-  animation: kreep 0.7s ease 4s infinite alternate;
-}
-
-.kreep:hover {
-  animation: none;
-}
-/*END BOUNCER*/
-#wizard {
-    margin-top: 35px;
-}
-#wizard li {
-    list-style: none;
-    margin: 15px 0px;
-    font-size: 19px;
-    border-bottom: 3px solid lightblue;
-    padding-bottom: 7px;
-    text-align: center;
-}
-#wizard li:last-child { border: 0}#x-fund {z-index: 9; }
-#wizard li a {
-    color: #222;
-    text-decoration: none;
-}
-#wizard span {
-    font-size: 20px;
-    color: #222;
-    position: relative;
-    bottom: 7px;
-}
-.nav:hover {
-    height: 155px;
-}
-.nav {
-    width: 100%;
-    height: 50px;
-    overflow: hidden;
-    background: #000;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    -webkit-transition-property: height;
-    -webkit-transition-duration: .5s;
-    transition-property: height;
-    transition-duration: .5s;
-    z-index:999;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-}
 .nav a {
-    color: #fff;
+    color: #222;
     text-decoration: none;
 }
 .nav img {
-    width: 180px;
-    float: left;
+    width: 100%;
+}
+.nav h3 {
+    background: #fb9b4d;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
 }
 .nav ul {
-    margin: auto;
     padding: 0;
-    max-width: 1025px;
+    list-style: none;
+    margin: 0;
 }
 .nav li {
-    float: left;
-    list-style: none;
-    padding: 15px 10px;
-    margin: 2px 1px;
+    padding: 5px;
+    border: 1px solid #e9ebee;
+    font-size: 14px;
+}
+.nav li:hover {
+    background: #fff;
+    border: 1px solid #eaeaea;
 }
 .nav li:hover a {
-    color: #bbb;
+    color: #4285f4;
 }
-.riser {
- height:50px;
- width:100%
+.sub-menu {
+    cursor: pointer;
+}
+.sub-menu ul {
+    position: relative;
+    top: 5px;
+    display: none;
+    background: #ffffff;
+}
+.sub-menu ul li {
+    background: #ffffff;
+    margin: 2px;
 }
