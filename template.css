@@ -319,8 +319,10 @@ body {overflow-x:hidden}
     background: #fb9b4d;
     text-align: center;
     padding: 5px;
-    color:#fff;
     border-radius: 3px;
+}
+.nav h3 a{
+    color:#fff;
 }
 .nav ul {
     padding: 0;
