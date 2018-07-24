@@ -17,10 +17,12 @@
 .blogheader p a{
     color:#fff;
 }
+#header-content {
+    width: 1025px;
+    margin: auto;
+}
 #top-ad {
-    position:absolute;
-    top:0;
-    right:10px
+    float: right;
 }
 .content {
     max-width: 1025px;
@@ -67,19 +69,10 @@
 }
 body {
     overflow-x: hidden;
-    padding: 0px 140px;
     font-family: trebuchet ms;
     color: #464646;
     font-size: 14.5px;
-    max-width: 1025px;
-    width: 1025px;
-    margin: auto;
     padding: 0;
-}
-#home_ad {
-    float: left;
-    width: 300px;
-    margin: 5px;
 }
 a:hover {
     color: #576ef1;
