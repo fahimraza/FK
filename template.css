@@ -18,7 +18,9 @@
     color:#fff;
 }
 #top-ad {
-    float: right;
+    position:absolute;
+    top:0;
+    right:10px
 }
 .content {
     max-width: 1025px;
