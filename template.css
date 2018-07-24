@@ -1,29 +1,24 @@
 .section{margin:0}
+.blogheader {
+    margin: 10px 0px;
+    height: 90px;
+}
+.blogheader h3 {
+    background: #fb9b4d;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+.blogheader h3 a{
+    color:#fff;
+}
+#top-ad {
+    float: right;
+}
 .content {
     max-width: 1025px;
     margin: auto;
     margin-top: 20px;
-}
-.fahim img:hover {
-    background: #050507;
-    border: 7px double #000001;
-}
-.fahim {
-    text-align: center;
-    position: relative;
-    top: 10px;
-    background: #000;
-    padding-bottom: 10px;
-}
-.fahim img {
-    height: 100px;
-    margin: 20px 10px 5px 0px;
-    border-radius: 100px;
-    border: 7px double #222;
-    background: #222;
-}
-#recommend {
-    margin: 20px 5px;
 }
 .post img {
     border: 1px solid #eaeaea;
@@ -227,17 +222,18 @@ h3 a:hover {
 .clearfix {
     font-size: 14px;
     text-align: center;
-    padding: 20px 50px;
+    padding: 10px 50px;
     position: relative;
-    background: #000;
-    color: #ddd;
-    border-top: 1px solid #ddd;
+    background: #eaeaea;
+    color: #191919;
     margin-top: 10px;
     z-index: 9;
 }
 .clearfix a {
     line-height: 1.7;
-    color: #418cb1;
+    color: #3993e2;
+    font-weight: normal;
+    font-size: 15px;
 }
 .page-footer {
     height: 0;
@@ -314,15 +310,6 @@ body {overflow-x:hidden}
 }
 .nav img {
     width: 100%;
-}
-.nav h3 {
-    background: #fb9b4d;
-    text-align: center;
-    padding: 5px;
-    border-radius: 3px;
-}
-.nav h3 a{
-    color:#fff;
 }
 .nav ul {
     padding: 0;
