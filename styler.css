@@ -29,8 +29,8 @@
     width: 575px;
     background: #fff;
     margin-right: 10px;
-    border-right: 1px solid #ddd;
-    border-left: 1px solid #ddd
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd
 }
 #x-related {
     position: relative;
