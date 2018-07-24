@@ -4,14 +4,6 @@
     margin: auto;
     margin-top: 20px;
 }
-#top-banner {
-    text-align: center;
-    padding: 10px;
-    background: #ddd;
-    position: relative;
-    top: 10px;
-    border-bottom: 1px solid #ddd;
-}
 .fahim img:hover {
     background: #050507;
     border: 7px double #000001;
@@ -318,6 +310,7 @@ body {overflow-x:hidden}
 .nav a {
     color: #222;
     text-decoration: none;
+    font-weight: normal;
 }
 .nav img {
     width: 100%;
@@ -326,6 +319,7 @@ body {overflow-x:hidden}
     background: #fb9b4d;
     text-align: center;
     padding: 5px;
+    color:#fff;
     border-radius: 3px;
 }
 .nav ul {
@@ -335,26 +329,8 @@ body {overflow-x:hidden}
 }
 .nav li {
     padding: 5px;
-    border: 1px solid #e9ebee;
     font-size: 14px;
-}
-.nav li:hover {
-    background: #fff;
-    border: 1px solid #eaeaea;
 }
 .nav li:hover a {
     color: #4285f4;
-}
-.sub-menu {
-    cursor: pointer;
-}
-.sub-menu ul {
-    position: relative;
-    top: 5px;
-    display: none;
-    background: #ffffff;
-}
-.sub-menu ul li {
-    background: #ffffff;
-    margin: 2px;
 }
