@@ -78,7 +78,7 @@ a:hover {
     color: #576ef1;
 }
 a {
-    color: #324de2;
+    color: #4285f4;
     text-decoration: none;
     font-weight: bold;
 }
@@ -318,7 +318,7 @@ body {overflow-x:hidden}
 }
 .nav li {
     padding: 5px;
-    font-size: 14px;
+    font-size: 15px;
 }
 .nav li:hover a {
     color: #4285f4;
