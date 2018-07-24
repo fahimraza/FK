@@ -1,18 +1,18 @@
 .section{margin:0}
 .blogheader {
-    margin: 10px 0px;
+    background: #eee;
     height: 90px;
+    padding: 10px;
 }
 .blogheader p {
-    position: relative;
-    margin: 0 0 0 5px;
-    width: 197px;
+    position: absolute;
+    width: 150px;
     background: #fb9b4d;
     text-align: center;
-    font-size: 19px;
-    padding: 4px;
+    font-size: 17px;
+    padding: 3px 0px;
+    margin: 0 0 0 5px;
     border-radius: 3px;
-    bottom: 2px;
 }
 .blogheader p a{
     color:#fff;
