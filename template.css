@@ -3,13 +3,18 @@
     margin: 10px 0px;
     height: 90px;
 }
-.blogheader h3 {
+.blogheader p {
+    position: relative;
+    margin: 0 0 0 5px;
+    width: 197px;
     background: #fb9b4d;
     text-align: center;
-    padding: 5px;
+    font-size: 19px;
+    padding: 4px;
     border-radius: 3px;
+    bottom: 2px;
 }
-.blogheader h3 a{
+.blogheader p a{
     color:#fff;
 }
 #top-ad {
