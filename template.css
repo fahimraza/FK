@@ -1,4 +1,18 @@
 .section{margin:0}
+#yourad p {
+    font-size: 18px;
+    color: #000;
+}
+#yourad li {
+    margin: 15px 0px;
+    list-style: none;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+#yourad a {
+    color: #333;
+}
 .blogheader {
     background: #eee;
     height: 90px;
