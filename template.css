@@ -13,6 +13,15 @@
 #yourad a {
     color: #333;
 }
+#yourad li:last-child a {
+    color: #4b7ad2;
+    font-style: italic;
+}
+div#yourad li:last-child {
+    border: 0;
+    font-size: 13px;
+    text-align: right;
+}
 .blogheader {
     background: #eee;
     height: 90px;
