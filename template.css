@@ -61,12 +61,10 @@ div#yourad li:last-child {
 .content {
     max-width: 1025px;
     margin: auto;
-    margin-top: 35px
+    margin-top: 25px
 }
 #post-ad {
-    text-align: center;
-    position: relative;
-    top: 15px;
+    text-align: center
 }
 .post img {
     border: 1px solid #eaeaea;
