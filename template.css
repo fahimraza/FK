@@ -263,6 +263,7 @@ h3 a:hover {
     color: #191919;
     margin-top: 10px;
     z-index: 9;
+    margin-bottom: 40px;
 }
 .clearfix a {
     line-height: 1.7;
