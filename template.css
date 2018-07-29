@@ -179,7 +179,11 @@ abbr.published {
     position: relative;
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
-    width: 300px
+    float: left;
+    width: 0px;
+}
+#sidebar-right-1 .widget,#sidebar-right-1 #widget {
+    width: 300px;
 }
 .content-outer,.header-outer,.tabs-outer,.main-outer,.main-inner,.footer-outer,.post,.comments,.widget,.date-header,.inline-ad {
     position: relative;
