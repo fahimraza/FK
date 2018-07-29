@@ -40,16 +40,11 @@ div#yourad li:last-child {
 }
 .blogheader p {
     position: absolute;
-    width: 150px;
-    background: #fb9b4d;
-    text-align: center;
-    font-size: 17px;
-    padding: 3px 0px;
-    margin: 0 0 0 5px;
-    border-radius: 3px;
+    font-size: 23px;
+    margin: -5px 0px 0px 7px;
 }
-.blogheader p a{
-    color:#fff;
+.blogheader p a {
+    color: #fb9b4d;
 }
 #header-content {
     width: 1025px;
