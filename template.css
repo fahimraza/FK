@@ -1,27 +1,4 @@
 .section{margin:0}
-#yourad p {
-    font-size: 18px;
-    color: #000;
-}
-#yourad li {
-    margin: 15px 0px;
-    list-style: none;
-    border: 1px solid #ddd;
-    padding: 5px;
-    border-radius: 3px;
-}
-#yourad a {
-    color: #333;
-}
-#yourad li:last-child a {
-    color: #4b7ad2;
-    font-style: italic;
-}
-div#yourad li:last-child {
-    border: 0;
-    font-size: 13px;
-    text-align: right;
-}
 #support {
     position: fixed;
     left: 0;
