@@ -38,18 +38,18 @@
 .related a {
     font-family: 'Montserrat', sans-serif !important;
     color: #333;
-    width: 270px;
+    width: 280px;
     position: relative;
     margin-bottom: 15px;
-    margin-right: 10px;
 }
 .related img {
-    width: 140px;
-    height: 89px;
+    width: 110px;
+    height: 85px;
     border: 1px solid #ddd;
     background: #eee;
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 #related-title {
     position: relative;
