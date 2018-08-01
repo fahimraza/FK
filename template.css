@@ -1,15 +1,4 @@
 .section{margin:0}
-#support {
-    position: fixed;
-    left: 0;
-    padding: 4px;
-    bottom: 0;
-    text-align: center;
-    width: 100%;
-    z-index: 99;
-    background: #fff;
-    box-shadow: 0 0 10px #555;
-}
 .blogheader {
     background: #eee;
     height: 90px;
