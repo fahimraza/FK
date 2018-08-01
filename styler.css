@@ -54,3 +54,18 @@
 #related-title {
     position: relative;
 }
+.Booster {
+    overflow-y: scroll;
+    height: 540px;
+    box-shadow: inset -7px -8px 20px -5px #333;
+}
+.Booster::-webkit-scrollbar {
+    width: 10px;
+}
+.Booster::-webkit-scrollbar-thumb {
+    background: #2196f3;
+    border-radius: 70px;
+}
+.Booster::-webkit-scrollbar-track {
+    background: #ddd;
+}
