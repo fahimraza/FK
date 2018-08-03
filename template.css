@@ -339,4 +339,5 @@ div#accordion::-webkit-scrollbar {
 div#accordion {
     overflow-y: scroll;
     overflow-x: hidden;
+    width:157px
 }
