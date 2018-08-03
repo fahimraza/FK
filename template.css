@@ -324,3 +324,19 @@ body {overflow-x:hidden}
 .nav li:hover a {
     color: #4285f4;
 }
+#accordion::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+div#accordion::-webkit-scrollbar-thumb {
+    background: #aaa;
+}
+div#accordion::-webkit-scrollbar-track {
+    background: #ddd;
+}
+div#accordion::-webkit-scrollbar {
+    width: 8px;
+}
+div#accordion {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
