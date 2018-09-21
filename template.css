@@ -254,7 +254,7 @@ h3 a:hover {
 .page-footer {
     height: 0;
 }
-.widget p {
+.column-right-outer .widget p {
     font-size: 18px;
     margin: 0px 0px 30px 0;
     position: relative;
@@ -380,7 +380,7 @@ textarea { resize: none; }
     right: 10px;
     color: #000;
 }
-.widget p b {
+.column-right-outer .widget p b {
     letter-spacing: 0;
     font-size: 19px;
 }
