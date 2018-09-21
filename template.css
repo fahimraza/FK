@@ -338,3 +338,7 @@ textarea { resize: none; }
     right: 10px;
     color: #000;
 }
+.widget p b {
+    letter-spacing: 0;
+    font-size: 19px;
+}
