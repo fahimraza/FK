@@ -10,7 +10,6 @@
 #search a:hover {
     background: #4787ed;
 }
-
 div#search a {
     float: left;
     margin-right: 15px;
@@ -274,12 +273,12 @@ h3 a:hover {
     height: 100%;
     width: 14%;
     background: #fff;
-    padding-top: 10px;
     padding-left: 10px;
     z-index:9
 }
 .nav img {
-    width: 100%;
+    width: 98%;
+    height: 55px;
 }
 .nav ul {
     padding: 0;
