@@ -10,11 +10,11 @@
 #search a:hover {
     background: #4787ed;
 }
-div#search a {
+#search a {
     float: left;
-    margin-right: 15px;
     padding: 8px 25px;
     background: #000;
+    margin-top: 5px;
     border-radius: 70px;
     color: #fff;
     font-weight: bold;
@@ -26,20 +26,19 @@ div#search a {
     z-index: 9;
     left: 0;
     width: 100%;
+    list-style: none;
     background: rgba(255, 255, 255, 0.95);
-    padding: 5px 0px 10px 16%;
+    padding: 5px 0px 7px 16%;
     box-shadow: 3px -1px 10px 0px #aaa;
 }
-input#q {
-    background: url(https://4.bp.blogspot.com/-ZlP7QKTU-mA/W6TSrxzKvUI/AAAAAAAAH1k/DUtiz6Z40I0Q0LHIqPU5G_st7MaZjJkpgCLcBGAs/s1600/rsz_1rsz_1search.png) no-repeat transparent;
-    border: 0;
-    border-bottom: 2px solid #1a1a1a;
-    position: relative;
-    top: 5px;
-    height: 20px;
+#q {
+    background: url(https://4.bp.blogspot.com/-ZlP7QKTU-mA/W6TSrxzKvUI/AAAAAAAAH1k/DUtiz6Z40I0Q0LHIqPU5G_st7MaZjJkpgCLcBGAs/s1600/rsz_1rsz_1search.png) no-repeat #eee;
+    border: 1px solid #ddd;
+    background-position: 10px;
     width: 450px;
-    padding: 0px 0px 11px 50px;
-    font-size: 25px;
+    padding: 8px 0px 8px 40px;
+    font-size: 21px;
+    border-radius: 3px;
 }
 input#q:focus {
 outline:0
