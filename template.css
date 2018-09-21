@@ -1,4 +1,11 @@
 .section{margin:0}
+#random { width: 100%; border: 0; height: 250px; }
+.related p {
+    font-size: 23px;
+    color: #000;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
 .blogheader {
     background: #eee;
     height: 120px;
