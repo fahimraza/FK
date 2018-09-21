@@ -42,7 +42,7 @@
 body {
     min-width: 1055px;
     font-family: trebuchet ms;
-    color: #464646;
+    color: #333;
     font-size: 14.5px;
 }
 a {
@@ -98,6 +98,7 @@ body {
 }
 .column-right-outer {
     width: 24%;
+    margin-top: 15px;
 }
 .sidebar section {
     background-color: #eee}
@@ -332,7 +333,7 @@ color:#fff;
 li#drop:hover ul {
     display: block;
 }
-Html,.content{background:#f7f7f7;}
+Html,.content{background:#eee;}
 textarea { resize: none; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }
 #drop:after {
