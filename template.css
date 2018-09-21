@@ -7,6 +7,29 @@
 .post h2 {
     padding: 10px 0;
 }
+#search {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 5px 0px 10px 16%;
+}
+input#q {
+    background: url(https://4.bp.blogspot.com/-ZlP7QKTU-mA/W6TSrxzKvUI/AAAAAAAAH1k/DUtiz6Z40I0Q0LHIqPU5G_st7MaZjJkpgCLcBGAs/s1600/rsz_1rsz_1search.png) no-repeat transparent;
+    border: 0;
+    border-bottom: 2px solid #1a1a1a;
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 600px;
+    padding: 0px 0px 11px 50px;
+    font-size: 25px;
+}
+input#q:focus {
+outline:0
+}
 .main-inner .columns {
     padding-left: 0;
     padding-right: 360px;
