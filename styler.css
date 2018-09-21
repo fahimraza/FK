@@ -18,12 +18,19 @@
 }
 #related-posts a {
     width: 100%;
-    height: 205px;
+    height: 175px;
     color: #000;
     margin: 10px 0px;
     background: #fff;
     box-shadow: 0 0 6px #aaa;
     border-radius: 3px;
+}
+.related {
+    height: 220px;
+    overflow: hidden;
+}
+#related-posts .related {
+    overflow: visible;
 }
 .related a {
     width: 31.3%;
@@ -48,9 +55,9 @@
     letter-spacing: .1px;
     font-weight: bold;
     height: 40px;
-    padding: 0 10px;
+    padding: 5px 10px;
     background: #fff;
-    bottom: 19px;
+    bottom: 35px;
     position: relative;
 }
 #blog-pager {
