@@ -31,6 +31,10 @@
     padding: 5px 0px 7px 16%;
     box-shadow: 3px -1px 10px 0px #aaa;
 }
+}
+#search li {
+ float:left   
+}
 #q {
     background: url(https://4.bp.blogspot.com/-ZlP7QKTU-mA/W6TSrxzKvUI/AAAAAAAAH1k/DUtiz6Z40I0Q0LHIqPU5G_st7MaZjJkpgCLcBGAs/s1600/rsz_1rsz_1search.png) no-repeat #eee;
     border: 1px solid #ddd;
