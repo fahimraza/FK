@@ -16,10 +16,6 @@
     font-weight: 700;
     font-size: 39px;
 }
-
-#related-posts a img {
-    border: 1px solid #eee;
-}
 #related-posts a {
     width: 100%;
     height: 205px;
@@ -46,6 +42,16 @@
     font-weight: bold;
     height: 40px;
     padding: 0 5px;
+}
+#related-posts #related-title {
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: bold;
+    height: 40px;
+    padding: 0 10px;
+    background: #fff;
+    bottom: 19px;
+    position: relative;
 }
 #blog-pager {
     overflow: visible;
