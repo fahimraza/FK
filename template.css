@@ -1,4 +1,14 @@
 .section{margin:0}
+#buy {
+    list-style: none;
+}
+#buy b {
+    font-size: 80px;
+    color: #7b4;
+}
+#buy form {
+    margin-top: 20px;
+}
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
 .post img {
