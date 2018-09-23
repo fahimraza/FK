@@ -148,7 +148,6 @@ body {
 }
 .column-right-outer {
     width: 24%;
-    margin-top: 70px;
 }
 .sidebar section {
     background-color: #eee}
@@ -321,13 +320,11 @@ h3 a:hover {
     color: #fff;
 }
 #main {
-    padding-top: 10px;
     position: relative;
     float: left;
     width: 59%;
     background: #fff;
     margin-right: 1.3%;
-    margin-top: 55px;
 }
 #Blog1 {
     margin: 0;
