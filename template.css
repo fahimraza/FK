@@ -17,46 +17,6 @@
 .post h2 {
     padding: 10px 0;
 }
-#search a:hover {
-    background: #4787ed;
-}
-#search a {
-    float: left;
-    padding: 8px 25px;
-    background: #000;
-    margin-top: 5px;
-    border-radius: 70px;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-}
-#search {
-    position: fixed;
-    top: 0;
-    z-index: 9;
-    left: 0;
-    width: 100%;
-    list-style: none;
-    background: rgba(255, 255, 255, 0.95);
-    padding: 5px 0px 7px 16%;
-    box-shadow: 3px -1px 10px 0px #aaa;
-}
-#search li {
-    float: left;
-    margin-right: 15px;
-}
-#q {
-    background: url(https://4.bp.blogspot.com/-ZlP7QKTU-mA/W6TSrxzKvUI/AAAAAAAAH1k/DUtiz6Z40I0Q0LHIqPU5G_st7MaZjJkpgCLcBGAs/s1600/rsz_1rsz_1search.png) no-repeat #eee;
-    border: 1px solid #ddd;
-    background-position: 10px;
-    width: 450px;
-    padding: 8px 0px 8px 40px;
-    font-size: 21px;
-    border-radius: 3px;
-}
-input#q:focus {
-outline:0
-}
 .main-inner .columns {
     padding-left: 0;
     padding-right: 360px;
