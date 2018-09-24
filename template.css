@@ -7,11 +7,10 @@
     background: #fff;
     overflow-x: hidden;
     padding: 10px;
-    margin-right: 1%;
     z-index: 9;
 }
 #height {
-    width: 15%;
+    width: 14.7%;
     position: relative;
     height: 1000px;
     float: left;
