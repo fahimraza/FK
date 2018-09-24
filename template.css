@@ -239,14 +239,28 @@ h3 a:hover {
     height: 10px;
     margin-right: 1%;
 }
-.nav {
+.Left-sidebar {
+    width: 15%;
+    float: left;
     position: fixed;
-    min-width: 14%;
+    overflow-y: scroll;
     height: 100%;
-    width: 14%;
     background: #fff;
-    padding-left: 10px;
-    z-index:9
+    overflow-x: hidden;
+    padding: 10px;
+    margin-right: 1%;
+    z-index: 9;
+}
+#height {
+    width: 15%;
+    position: relative;
+    height: 1000px;
+    float: left;
+    margin-right: 1%;
+}
+.nav {
+    background: #fff;
+    padding: 0;
 }
 .nav img {
     width: 98%;
