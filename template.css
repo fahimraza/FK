@@ -1,3 +1,27 @@
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .85);
+    z-index: 999;
+}
+#search {
+    z-index: 99999;
+    position: fixed;
+    margin-top: 250px;
+    text-align: center;
+    width: 100%;
+}
+#k {
+    background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat transparent;
+    border: 0;
+    border-bottom: 1px dotted #ddd;
+    width: 500px;
+    padding: 15px 0px 10px 55px;
+    font-size: 30px;
+    color: #ddd;
+    background-position: 10px;
+}
 .Left-sidebar {
     width: 14.5%;
     float: left;
