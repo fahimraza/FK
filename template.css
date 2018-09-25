@@ -1,3 +1,13 @@
+#search-on {
+    background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat #f39204;
+    padding: 10px 0px 10px 35px;
+    background-size: 18px;
+    cursor: pointer;
+    background-position: 10px 10px;
+    color: #e4f2e0;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
 #overlay {
     position: fixed;
     width: 100%;
