@@ -4,6 +4,7 @@
     height: 100%;
     background: rgba(0, 0, 0, .85);
     z-index: 999;
+    display:none
 }
 #search {
     z-index: 99999;
@@ -11,6 +12,7 @@
     margin-top: 250px;
     text-align: center;
     width: 100%;
+    display:none
 }
 #k {
     background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat transparent;
@@ -21,6 +23,9 @@
     font-size: 30px;
     color: #ddd;
     background-position: 10px;
+}
+#k:focus {
+    outline:none
 }
 .Left-sidebar {
     width: 14.5%;
