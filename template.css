@@ -347,23 +347,6 @@ div#comments {
 #comments h4 {
     font-size: 25px;
 }
-li#drop li {
-    display: block;
-    background: #111;
-    border: 0;
-    position: relative;
-    right: 5px;
-    top: 5px;
-}
-li#drop:hover li {
-    display: block;
-}
-#drop:hover li {
-    display: none;
-}
-#drop li  a {
-color:#fff;
-}
 .nav li ul li {
     background: rgba(0, 0, 0, .8);
 }
@@ -382,18 +365,31 @@ color:#fff;
 .nav li ul li {
     border: 0;
 }
-li#drop:hover ul {
-    display: block;
+.accordion:hover .accordion-item:hover .accordion-item-content,.accordion .accordion-item--default .accordion-item-content {
+max-height:600px;
+}
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    border-radius: 4px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.60s;
+}
+.accordion-item-content li {
+    background: #eee;
+}
+#drop:after {
+    content: "❯";
+    float: right;
+    color: #000;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    font-size: 17px;
+    transform: rotate(90deg);
 }
 Html,.content{background:#eee;}
 textarea { resize: none; }
 .sq {top:5px;float: left; position: relative; margin-left: 15px; }
-#drop:after {
-    content: "❯";
-    position: absolute;
-    right: 10px;
-    color: #000;
-}
 .column-right-outer .widget p b {
     letter-spacing: 0;
     font-size: 19px;
