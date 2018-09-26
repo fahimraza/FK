@@ -25,7 +25,7 @@
     border-radius: 3px;
 }
 .related {
-    height: 220px;
+    height: 215px;
     overflow: hidden;
 }
 #related-posts .related {
@@ -34,7 +34,7 @@
 .related a {
     width: 31.3%;
     margin-right: 2%;
-    color: #555;
+    color: #212121;
     margin-bottom: 40px;
     margin-top: 10px;
 }
@@ -62,18 +62,4 @@
 #blog-pager {
     overflow: visible;
     width: 90%;
-}
-.breadcrumbs {
-    font-style: italic;
-}
-.breadcrumbs span {
-    margin-right: 5px;
-    margin-left: 5px;
-}
-.breadcrumbs a {
-    color: #fff;
-    background: #4787ed;
-    padding: 1px 10px;
-    border-radius: 100px;
-    text-decoration: none;
 }
