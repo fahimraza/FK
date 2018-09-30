@@ -822,11 +822,6 @@ iframe.avatar-hovercard-iframe {
 	display: none
 }
 
-.comments .comments-content .comment-replies {
-	margin-left: 36px;
-	margin-top: 1em
-}
-
 .comments .comments-content .comment {
 	margin-bottom: 16px;
 	padding-bottom: 8px
