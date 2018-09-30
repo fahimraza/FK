@@ -183,8 +183,6 @@ body {
     opacity: .9}
 abbr.published {
     display: none}
-.widget {
-    margin: 10px 0}
 #sidebar-right-1 {
     position: relative;
     top: 0px;
@@ -193,10 +191,6 @@ abbr.published {
 body {
     margin: 0;
     padding: 0 0 1px}
-.content-outer,.header-outer,.tabs-outer,.main-outer,.main-inner,.footer-outer,.post,.comments,.widget,.date-header,.inline-ad {
-    position: relative;
-    min-height: 0;
-}
 .footer-outer {
     margin-bottom: -1px}
 .tabs-inner {
@@ -234,10 +228,6 @@ h3 a:hover {
     float: left}
 .tabs .widget li a:hover {
     text-decoration: none}
-.widget {
-    line-height: 1.4;
-    padding-bottom: 15px;
-}
 .widget ul {
     padding: 0;
     margin: 0;
@@ -477,23 +467,6 @@ body {
 	margin: 0;
 	padding: 0 0 1px
 }
-.content-outer,
-.header-outer,
-.tabs-outer,
-.main-outer,
-.main-inner,
-.footer-outer,
-.post,
-.comments,
-.widget,
-.date-header,
-.inline-ad {
-	position: relative;
-	min-height: 0;
-	_position: static;
-	_height: 1%
-}
-
 .footer-outer {
 	margin-bottom: -1px
 }
@@ -519,24 +492,10 @@ body {
 .footer-inner {
 	padding: 30px 15px
 }
-
-.section {
-	margin: 0 15px
-}
-
-.widget {
-	margin: 30px 0;
-	_margin: 0 0 10px
-}
-
-.section:first-child .widget:first-child {
-	margin-top: 0
-}
 a img {
 	border: none;
 	position: relative
 }
-
 h1,
 h2,
 h3,
@@ -551,15 +510,6 @@ h1 a:hover {
 
 h3 a:hover {
 	text-decoration: none
-}
-.widget {
-	line-height: 1.4
-}
-
-.widget ul {
-	padding: 0 0 0 1.25em;
-	margin: 0;
-	line-height: 1.2
 }
 .post-body {
 	width: 100%;
