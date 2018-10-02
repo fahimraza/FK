@@ -112,7 +112,9 @@
     margin-right: -300px;
 }
 body {
-    min-width: 1055px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
     font-family: Roboto, sans-serif;
     color: #333;
     font-size: 14.5px;
