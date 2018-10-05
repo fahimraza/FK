@@ -120,12 +120,12 @@ body {
     font-size: 14.5px;
 }
 a {
-    color: steelblue;
+    color: #ff5e00;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
-    color: #00a8e3;
+    color: #ff3d00;
 }
 a:visited {
     color: #888}
