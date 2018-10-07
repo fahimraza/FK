@@ -1019,3 +1019,38 @@ td.tr-caption {
 		display: none
 	}
 }
+#people {
+    float: left;
+    position: relative;
+    top: 12px;
+    margin-right: 20px;
+}
+#people li {
+    margin: 0px 0px 8px 0px;
+}
+#buy img {
+    width: 100%;
+}
+#paynow {
+   text-decoration:none;
+    background: #ffc439;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+}
+#tell {
+    text-decoration:none;
+    float: left;
+    width: 290px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background: #1477c5;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 4px;
+}
