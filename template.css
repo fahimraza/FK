@@ -1,3 +1,12 @@
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #ff5e00
+}
+
+::selection {
+    color: #fff;
+    background: #ff5e00
+}
 #search-on {
     background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat #ff5e00;
     padding: 10px 0px 10px 35px;
