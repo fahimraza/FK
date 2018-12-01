@@ -51,39 +51,11 @@
     outline:none
 }
 .Left-sidebar {
-    width: 14.5%;
+    width: 180px;
     float: left;
-    position: fixed;
-    overflow-y: scroll;
-    height: 100%;
-    background: #fff;
-    overflow-x: hidden;
     padding: 10px;
-    z-index: 9;
-}
-#height {
-    width: 15%;
-    position: relative;
-    height: 1000px;
-    float: left;
-    margin-right: 1%;
-    background: #fff;
-}
-.nav {
-    background: #fff;
-    padding: 0;
 }
 .section{margin:0}
-#buy {
-    list-style: none;
-}
-#buy b {
-    font-size: 80px;
-    color: #7b4;
-}
-#buy form {
-    margin-top: 20px;
-}
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
 .post img {
@@ -184,7 +156,8 @@ body {
     color: #464646;
 }
 .column-right-outer {
-    width: 24%;
+    width: 300px;
+    padding: 0px 10px;
 }
 .sidebar section {
     background-color: #eee}
@@ -309,10 +282,6 @@ h3 a:hover {
 }
 .nav li {
     padding: 8px;
-    background: #fff;
-}
-.nav li:last-child {
-    border: none
 }
 .nav .active {
     position: fixed;
@@ -320,7 +289,7 @@ h3 a:hover {
     background: #f1f1f1;
 }
 .nav li:hover {
-    background: #111;
+    background: #ff5e00;
 }
 .nav li:hover a {
     color: #fff;
@@ -328,9 +297,8 @@ h3 a:hover {
 #main {
     position: relative;
     float: left;
-    width: 57%;
+    width: calc(100% - 550px);
     background: #eee;
-    margin-right: 1%;
     padding: 0px 10px;
 }
 #Blog1 {
@@ -381,15 +349,13 @@ max-height:600px;
 #drop:after {
     content: "❯";
     float: right;
-    color: #000;
+    color: #ff5e00;
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     font-size: 17px;
     transform: rotate(90deg);
 }
 Html,.content{background:#eee;}
-textarea { resize: none; }
-.sq {top:5px;float: left; position: relative; margin-left: 15px; }
 .column-right-outer .widget p b {
     letter-spacing: 0;
     font-size: 19px;
@@ -1035,30 +1001,4 @@ td.tr-caption {
 }
 #people li {
     margin: 0px 0px 8px 0px;
-}
-#buy img {
-    width: 100%;
-}
-#paynow {
-   text-decoration:none;
-    background: #ffc439;
-    color: black;
-    padding: 5px 20px;
-    border-radius: 100px;
-    font-weight: bold;
-    float: left;
-    position: relative;
-    margin-right: 10px;
-}
-#tell {
-    text-decoration:none;
-    float: left;
-    width: 290px;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    background: #1477c5;
-    color: #fff;
-    font-size: 17px;
-    border-radius: 4px;
 }
