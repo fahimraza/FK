@@ -11,44 +11,80 @@
     background: none;
     border: 0;
 }
-#search-on {
-    background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat #ff5e00;
-    padding: 10px 0px 10px 35px;
-    background-size: 18px;
-    cursor: pointer;
-    background-position: 10px 10px;
-    color: #e4f2e0;
-    border-radius: 100px;
-    margin-bottom: 5px;
+#box::placeholder {
+  font-weight: normal;
+color:#fd6200
 }
-#overlay {
+.svg-icon {
+    width: 1em;
+    height: 1em;
+    font-size: 40px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #fd6200;
+}
+
+.svg-icon circle {
+  stroke: #fd6200;
+  stroke-width: 10;
+}
+.height {
+    height: 56px;
+    margin-bottom: 30px;
+}
+.topper {
+    background: #fff;
     position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .85);
-    z-index: 999;
-    display:none
-}
-#search {
+    top: 0;
+    left: 0;
     z-index: 99999;
-    position: fixed;
-    margin-top: 250px;
-    text-align: center;
     width: 100%;
-    display:none
 }
-#k {
-    background: url(https://3.bp.blogspot.com/-YC8iHBNrqzY/W6othMHYoRI/AAAAAAAAH2E/-v_XzK9PIUI_ptO65ycyB6C8_4zws9d3wCLcBGAs/s1600/rsz_icon.png) no-repeat transparent;
+.topper span {
+float:left;
+margin:0 10px
+}
+#logo {
+    width: 180px;
+}
+form#box {
+    margin: 6px 0px;
+}
+#box input {
     border: 0;
-    border-bottom: 1px dotted #ddd;
-    width: 500px;
-    padding: 15px 0px 10px 55px;
-    font-size: 30px;
-    color: #ddd;
-    background-position: 10px;
+    border-bottom: 1px solid #fd6200;
+    padding: 10px 5px;
+    font-size: 18px;
+    width: 370px;
 }
-#k:focus {
-    outline:none
+#box input:focus {
+    outline: none;
+}
+#box button {
+    background: none;
+    border: 0;
+    float: right;
+    cursor: pointer;
+}
+.clearfix a {
+    margin: 0px 10px;
+}
+.top-ad {
+    float: right;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 20px;
+}
+#Feed1 li {
+    padding: 0px 0px 15px 0px;
+}
+#Feed1 a {
+    color: #ff5e00;
 }
 .Left-sidebar {
     width: 180px;
