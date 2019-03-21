@@ -4,8 +4,9 @@
 }
 .topper span iframe {
     border: 0;
-    width: 370px;
+    width: 200%;
     height: 35px;
+    margin-top: 15px;
 }
 ::selection {
     color: #fff;
