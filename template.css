@@ -2,7 +2,11 @@
     color: #fff;
     background: #ff5e00
 }
-
+.topper span iframe {
+    border: 0;
+    width: 370px;
+    height: 35px;
+}
 ::selection {
     color: #fff;
     background: #ff5e00
