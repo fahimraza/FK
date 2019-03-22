@@ -21,17 +21,18 @@
 color:#fd6200
 }
 .svg-icon {
-    width: 1em;
-    height: 1em;
-    font-size: 40px;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #ff5e16;
+    margin: -1px 0px 0px -6px;
 }
-
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: #fd6200;
+  fill: #fff;
 }
-
 .svg-icon circle {
   stroke: #fd6200;
   stroke-width: 10;
@@ -59,11 +60,12 @@ form#box {
     margin: 6px 0px;
 }
 #box input {
-    border: 0;
-    border-bottom: 1px solid #fd6200;
-    padding: 10px 5px;
-    font-size: 18px;
+    border: 1px solid #fd6200;
+    padding: 9px 5px;
+    font-size: 17px;
     width: 370px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 #box input:focus {
     outline: none;
