@@ -66,3 +66,12 @@ ul#my-popular a {
     color: #000;
     text-decoration: none;
 }
+#my-popular p {
+    background: #ff5e00;
+    color: #fff;
+    width: 230px;
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+    margin: 0 auto;
+}
