@@ -15,35 +15,20 @@
     font-weight: 700;
     font-size: 38px;
 }
-#related-posts .related a {
+.related-posts a {
     width: 100%;
     color: #000;
     margin: 0 0 15px 0;
 }
-#related-posts .related img {
+.related-posts img {
     width: 90px;
     height: 75px;
     float: left;
     margin-right: 8px;
     border: 1px solid #ccc;
 }
-.related {
-    height: 215px;
-    overflow: hidden;
-}
-#related-posts .related {
+.related-posts {
     overflow: visible;
-}
-.related a {
-    width: 31.3%;
-    margin-right: 2%;
-    color: #212121;
-    margin-bottom: 40px;
-    margin-top: 10px;
-}
-.related img {
-    height: 150px;
-    width: 100%;
 }
 #related-title {
     font-size: 16px;
@@ -52,7 +37,7 @@
     height: 40px;
     padding: 0 5px;
 }
-#related-posts #related-title {
+.related-posts {
     font-size: 16px;
     letter-spacing: .1px;
     font-weight: bold;
