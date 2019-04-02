@@ -46,3 +46,23 @@
     overflow: visible;
     width: 90%;
 }
+ul#my-popular {
+    list-style: none;
+    font-size: 18px;
+    float: left;
+    padding: 15px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 10px 0px;
+}
+ul#my-popular li {
+    float: left;
+    font-weight: bold;
+    width: 47%;
+    padding-left: 1%;
+    margin: 10px 2% 10px 0px;
+}
+ul#my-popular a {
+    color: #000;
+    text-decoration: none;
+}
