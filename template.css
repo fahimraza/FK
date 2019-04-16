@@ -94,7 +94,7 @@ form#box {
 .Left-sidebar {
     width: 180px;
     float: left;
-    padding: 10px;
+    padding: 40px 10px 10px 10px;
 }
 .section{margin:0}
 #random { width: 100%; border: 0; height: 250px; }
