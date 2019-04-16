@@ -2,12 +2,6 @@
     color: #fff;
     background: #ff5e00
 }
-.topper span iframe {
-    border: 0;
-    width: 200%;
-    height: 35px;
-    margin-top: 15px;
-}
 ::selection {
     color: #fff;
     background: #ff5e00
@@ -37,24 +31,28 @@ color:#fd6200
   stroke: #fd6200;
   stroke-width: 10;
 }
-.height {
-    height: 56px;
-    margin-bottom: 30px;
+#height {
+    height: 94px;
+    margin-bottom: 15px;
 }
 .topper {
-    background: #fff;
-    position: fixed;
+    background: #ffffff;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 99999;
     width: 100%;
 }
-.topper span {
-float:left;
-margin:0 10px
+.top-content {
+    width: 1000px;
+    margin: 0 auto;
 }
 #logo {
-    width: 180px;
+    float: left;
+    margin: 17px 45px 17px 0px;
+}
+#ezoic-pub-ad-placeholder-103 {
+    float: left;
 }
 form#box {
     margin: 6px 0px;
