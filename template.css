@@ -31,6 +31,8 @@ color:#fff
     padding: 5px;
     background: #000;
     width: 100%;
+    list-style: none;
+    float: left;
 }
 #top-ad li:first-child {
     float: left;
@@ -285,10 +287,6 @@ h3 a:hover {
     top: 10px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-}
-.nav img {
-    width: 98%;
-    height: 55px;
 }
 .nav ul {
     padding: 0;
