@@ -30,7 +30,7 @@ color:#fd6200
   stroke-width: 10;
 }
 #height {
-    height: 94px;
+    height: 180px;
     margin-bottom: 15px;
 }
 .topper {
@@ -308,6 +308,9 @@ h3 a:hover {
     width: 98%;
     height: 55px;
 }
+.nav {
+    float: left;
+}
 .nav ul {
     padding: 0;
     list-style: none;
@@ -319,11 +322,8 @@ h3 a:hover {
 }
 .nav li {
     padding: 8px;
-}
-.nav .active {
-    position: fixed;
-    top: 40px;
-    background: #f1f1f1;
+	float:left;
+	text-align:left
 }
 .nav li:hover {
     background: #ff5e00;
@@ -369,28 +369,6 @@ div#comments {
 }
 .nav li ul li {
     border: 0;
-}
-.accordion:hover .accordion-item:hover .accordion-item-content,.accordion .accordion-item--default .accordion-item-content {
-max-height:600px;
-}
-.accordion-item-content,
-.accordion:hover .accordion-item-content {
-    border-radius: 4px;
-    max-height: 0px;
-    overflow: hidden;
-    transition: all 0.60s;
-}
-.accordion-item-content li {
-    background: #eee;
-}
-#drop:after {
-    content: "❯";
-    float: right;
-    color: #ff5e00;
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    font-size: 17px;
-    transform: rotate(90deg);
 }
 Html,.content{background:#eee;}
 .column-right-outer .widget p b {
