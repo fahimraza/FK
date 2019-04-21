@@ -2,6 +2,9 @@
     width: 98%;
     position: relative;
     float: left;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #eaeaea;
 }
 .separator {
     padding-top: 15px;
