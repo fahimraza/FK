@@ -46,3 +46,10 @@
     overflow: visible;
     width: 90%;
 }
+div#PopularPosts3 {
+    margin-top: 15px;
+}
+#left-sidebar h2 {
+ margin-bottom:15px;
+color:#ff5e00;
+}
