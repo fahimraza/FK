@@ -12,25 +12,10 @@
 }
 #box::placeholder {
   font-weight: normal;
-color:#fd6200
+color:#fff
 }
 #Left-sidebar h2 {
     margin-bottom: 20px;
-}
-.svg-icon {
-    width: 40px;
-    height: 37px;
-    background: #ff5e16;
-    margin: -1px 0px 0px -6px;
-}
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-  fill: #fff;
-}
-.svg-icon circle {
-  stroke: #fd6200;
-  stroke-width: 10;
 }
 .topper {
     background: #ffffff;
@@ -43,27 +28,29 @@ color:#fd6200
     margin-right: 15px;
 }
 #top-ad {
-    text-align: center;
     padding: 5px;
     background: #000;
+    width: 100%;
 }
+#top-ad li:first-child {
+    float: left;
+}
+#top-ad li:nth-child(2) {
+    float: right;
+    margin-right: 20px;
+}	
 form#box {
-    margin: 6px 0px;
+    margin: 27px 0px;
 }
 #box input {
-    border: 1px solid #ccc;
+    border: 1px solid #fff;
     padding: 9px 5px;
-    font-size: 15px;
-    width: 242px;
+    width: 230px;
+    background: transparent;
+    color: #fff;
 }
 #box input:focus {
     outline: none;
-}
-#box button {
-    background: none;
-    border: 0;
-    float: right;
-    cursor: pointer;
 }
 .clearfix a {
     margin: 0px 10px;
