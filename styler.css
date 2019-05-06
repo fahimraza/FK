@@ -54,3 +54,23 @@ div#PopularPosts3 {
  margin-bottom:15px;
 color:#ff5e00;
 }
+.PopularPosts .item-title {
+	padding-bottom: .2em;
+    width: 188px;
+    text-align: center;
+}
+.PopularPosts img {
+	padding-right: .4em
+    padding: 0;
+    border: 2px solid #222;
+    width: 184px;
+    background: #fff;
+    height: 125px;
+}
+.popular-posts a {
+    color: #464646;
+    color: #222;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
