@@ -65,12 +65,6 @@ form#box {
     z-index: 999;
     margin-bottom: 20px;
 }
-#Feed1 li {
-    padding: 0px 0px 15px 0px;
-}
-#Feed1 a {
-    color: #ff5e00;
-}
 .Left-sidebar {
     width: 180px;
     float: left;
@@ -174,7 +168,10 @@ body {
     text-decoration: none;
 }
 .popular-posts a {
-    color: #464646;
+    color: #222;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
 }
 .column-right-outer {
     width: 300px;
@@ -629,11 +626,16 @@ div.clear {
 }
 
 .PopularPosts img {
-	padding-right: .4em
+    padding: 0;
+    border: 2px solid #222;
+    width: 184px;
+    background: #fff;
+    height: 125px;
 }
-
 .PopularPosts .item-title {
-	padding-bottom: .2em
+    padding-bottom: .2em;
+    width: 188px;
+    text-align: center;
 }
 .default-avatar {
 	display: none
