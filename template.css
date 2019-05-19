@@ -1,3 +1,10 @@
+#ads-links {
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 138px;
+    z-index: 999;
+}
 ::-moz-selection { /* Code for Firefox */
     color: #fff;
     background: #ff5e00
