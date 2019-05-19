@@ -9,6 +9,9 @@
 .separator {
     padding-top: 15px;
 }
+.column-right-outer {
+    margin-top: 11px;
+}
 .post-title.entry-title {
     color: #ff5e00;
     position: relative;
