@@ -176,8 +176,7 @@ body {
 }
 .popular-posts a {
     color: #222;
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
 }
 .column-right-outer {
@@ -624,25 +623,23 @@ div.clear {
 	clear: both
 }
 .PopularPosts .item-thumbnail {
-	float: left;
-	margin: 0 5px 5px 0
+    float: left;
+    margin: 0 10px 0px 0;
 }
 
 .PopularPosts .widget-content ul li {
 	padding: .7em 0
 }
-
 .PopularPosts img {
     padding: 0;
-    border: 2px solid #222;
-    width: 184px;
+    border: 1px solid #222;
+    width: 90px;
     background: #fff;
-    height: 125px;
+    height: 80px;
+    float: left;
 }
 .PopularPosts .item-title {
-    padding-bottom: .2em;
-    width: 188px;
-    text-align: center;
+    padding-bottom: .2em
 }
 .default-avatar {
 	display: none
