@@ -20,7 +20,7 @@ $(".sidebar-box .button").click(function() {
       "max-height": 9999
     })
     .animate({
-      "height": totalHeight
+      "height": 100%
     });
   
   // fade out read-more
