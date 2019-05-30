@@ -1,6 +1,6 @@
 var $el, $ps, $up, totalHeight;
 
-$(".sidebar-box .button").click(function() {
+$(".continue").click(function() {
       
   totalHeight = 0
 
