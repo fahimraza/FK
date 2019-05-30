@@ -17,7 +17,7 @@ $(".sidebar-box .button").click(function() {
   $up
     .css({
       // Set height to prevent instant jumpdown when max height is removed
-      "max-height": 9999
+      "max-height": 99999999
     });
   
   // fade out read-more
