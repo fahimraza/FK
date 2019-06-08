@@ -96,12 +96,17 @@ color:#ff5e00;
     text-align: center;
 }
 .PopularPosts img {
-	padding-right: .4em
-    padding: 0;
-    border: 2px solid #222;
-    width: 184px;
-    background: #fff;
-    height: 125px;
+    border: 0;
+    width: 60px;
+    background: transparent;
+    height: 60px;
+    margin-right: 5px;
+}
+div#PopularPosts3 P {
+    font-size: 29px;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 2;
 }
 .popular-posts a {
     color: #464646;
