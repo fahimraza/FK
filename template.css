@@ -1,10 +1,3 @@
-#ads-links {
-    position: relative;
-    top: 10px;
-    float: right;
-    right: 138px;
-    z-index: 999;
-}
 ::-moz-selection { /* Code for Firefox */
     color: #fff;
     background: #ff5e00
@@ -165,19 +158,16 @@ body {
     padding-right: 5px}
 .popular-posts ul li {
     list-style: none;
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 .popular-posts ul {
     padding: 0;
 }
-.popular-posts a:hover {
-    color: #ff5e00;
-    text-decoration: none;
-}
 .popular-posts a {
-    color: #222;
+    color: #ff5e00;
     font-size: 16px;
     text-align: center;
+    letter-spacing: 1px;
 }
 .column-right-outer {
     width: 300px;
@@ -283,13 +273,12 @@ h3 a:hover {
     height: 0;
 }
 .column-right-outer .widget p {
-    font-size: 18px;
-    margin: 0px 0px 30px 0;
-    position: relative;
+    font-size: 30px;
     color: #000;
-    top: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 2;
 }
 .nav ul {
     padding: 0;
@@ -632,11 +621,10 @@ div.clear {
 }
 .PopularPosts img {
     padding: 0;
-    border: 1px solid #222;
-    width: 90px;
-    background: #fff;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     float: left;
+    margin-right: 5px;
 }
 .PopularPosts .item-title {
     padding-bottom: .2em
