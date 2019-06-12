@@ -29,7 +29,7 @@
     background: #000;
     color: #fff;
 }
-.read-more a {
+.read-more button {
     padding: 15px 100px;
     border-radius: 3px;
     text-decoration: none;
@@ -38,6 +38,7 @@
     border: 2px solid #000;
     color: #000;
     background: #fff;
+    cursor: pointer;
 }
 .separator {
     padding-top: 15px;
