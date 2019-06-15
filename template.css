@@ -16,30 +16,6 @@ color:#fff
 }
 #Left-sidebar h2 {
     margin-bottom: 20px;
-}
-.topper {
-    background: #ffffff;
-    width: 100%;
-    float: left;
-    border-bottom: 15px solid #000;
-}
-#logo {
-    float: left;
-    margin-right: 15px;
-}
-#top-ad {
-    padding: 5px;
-    background: #000;
-    width: 100%;
-    list-style: none;
-    float: left;
-}
-#top-ad li:first-child {
-    float: left;
-}
-#top-ad li:nth-child(2) {
-    float: right;
-    margin-right: 20px;
 }	
 form#box {
     margin: 27px 0px;
@@ -57,20 +33,11 @@ form#box {
 .clearfix a {
     margin: 0px 10px;
 }
-.top-ad {
-    float: right;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    z-index: 999;
-    margin-bottom: 20px;
-}
 .Left-sidebar {
     width: 180px;
     float: left;
     padding: 40px 10px 10px 10px;
 }
-.section{margin:0}
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
 .post img {
@@ -983,14 +950,25 @@ td.tr-caption {
     display: none;
 }
 .nav li ul li {
+	float: none;
     border: 0;
     margin: 0;
+	background:#fff
 }
 .nav li:hover ul {
     display: block;
 }
 #logo {
-    float: left;
-    margin-right: 15px;
+    margin-right: 10px;
     width: 150px;
+}
+#top-ad {
+    margin-top: 55px;
+    float: right;
+}
+.Left-sidebar {
+    width: 180px;
+    float: left;
+    padding: 40px 10px 10px 10px;
+    margin-top: 15px;
 }
