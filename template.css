@@ -280,26 +280,6 @@ h3 a:hover {
     margin-bottom: 20px;
     line-height: 2;
 }
-.nav ul {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-.nav a {
-    color: #000;
-    text-decoration: none;
-}
-.nav li {
-    padding: 8px;
-	float:left;
-	text-align:left
-}
-.nav li:hover {
-    background: #ff5e00;
-}
-.nav li:hover a {
-    color: #fff;
-}
 #main {
     position: relative;
     float: left;
@@ -320,24 +300,6 @@ div#comments {
 .section{margin:0}
 #comments h4 {
     font-size: 25px;
-}
-.nav li ul li {
-    background: rgba(0, 0, 0, .8);
-}
-.nav li ul li a{
-    color: #fff;
-}
-.nav li ul {
-    position: relative;
-    left: 211px;
-    width: 200px;
-    float: right;
-    height: 0;
-    bottom: 30px;
-    display: none;
-}
-.nav li ul li {
-    border: 0;
 }
 Html,.content{background:#eee;}
 .column-right-outer .widget p b {
@@ -987,4 +949,48 @@ td.tr-caption {
 }
 #people li {
     margin: 0px 0px 8px 0px;
+}
+.nav {
+    height: 40px;
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+}
+.nav ul {
+    padding: 0;
+    list-style: none;
+    width: 1197px;
+    height: 40px;
+    margin: auto;
+}
+.nav a {
+    color: #000;
+    text-decoration: none;
+}
+.nav li {
+    padding: 8px;
+    float: left;
+    text-align: left;
+    margin: 4px 1px;
+}
+.nav li ul {
+    margin: 7px 0px;
+    position: absolute;
+    width: 160px;
+    text-align: center;
+    display: none;
+}
+.nav li ul li {
+    border: 0;
+    margin: 0;
+}
+.nav li:hover ul {
+    display: block;
+}
+#logo {
+    float: left;
+    margin-right: 15px;
+    width: 150px;
 }
