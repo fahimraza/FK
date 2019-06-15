@@ -965,8 +965,9 @@ td.tr-caption {
 }
 #top-ad {
     margin-top: 55px;
-    float: left;
-    margin-left: 50px;
+    float: right;
+    text-align: center;
+    margin-right: 70px;
 }
 .Left-sidebar {
     width: 180px;
