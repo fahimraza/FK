@@ -961,6 +961,7 @@ td.tr-caption {
 #logo {
     margin-right: 10px;
     width: 150px;
+    float: left;
 }
 #top-ad {
     margin-top: 55px;
