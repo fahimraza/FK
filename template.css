@@ -965,10 +965,11 @@ td.tr-caption {
     float: left;
 }
 #top-ad {
-    margin-top: 55px;
+    margin-top: 60px;
     float: right;
     text-align: center;
     margin-right: 70px;
+    width: calc(100% - 270px);
 }
 .Left-sidebar {
     width: 180px;
