@@ -41,6 +41,7 @@
     cursor: pointer;
     width: 350px;
     margin: auto;
+	display:none
 }
 .separator {
     padding-top: 15px;
@@ -126,6 +127,7 @@ div#PopularPosts3 P {
     background: #34d058;
     margin: auto;
     letter-spacing: 0.5px;
+	display:none
 }
 #not-subscribed:hover {
     background: #28a745;
