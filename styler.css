@@ -41,6 +41,7 @@
     cursor: pointer;
     width: 350px;
     margin: auto;
+	display:none
 }
 .separator {
     padding-top: 15px;
