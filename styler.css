@@ -131,3 +131,13 @@ div#PopularPosts3 P {
 #not-subscribed:hover {
     background: #28a745;
 }
+.lecture p {
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+}
+.lecture {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 15px 0px 15px 0px;
+    color: #fff;
+    border-radius: 5px;
+}
