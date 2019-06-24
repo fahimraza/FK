@@ -41,7 +41,6 @@
     cursor: pointer;
     width: 350px;
     margin: auto;
-	display:none
 }
 .separator {
     padding-top: 15px;
@@ -140,4 +139,7 @@ div#PopularPosts3 P {
     padding: 15px 0px 15px 0px;
     color: #fff;
     border-radius: 5px;
+}
+.lecture2 {
+	display:none
 }
