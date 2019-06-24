@@ -43,7 +43,7 @@
     margin: auto;
 	display:none
 }
-#caring,#share {
+#lecture2 {
 	display:none
 }
 .separator {
@@ -143,8 +143,7 @@ div#PopularPosts3 P {
     width: 150px;
 }
 .lecture {
-    background: rgba(0, 0, 0, 0.85);
     padding: 15px 0px 15px 0px;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
 }
