@@ -139,7 +139,7 @@ div#PopularPosts3 P {
     margin: 30px 0px;
     text-align: center;
 }
-.lecture img {
+.lecture img:first-child {
     width: 150px;
 }
 .lecture {
