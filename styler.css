@@ -147,3 +147,6 @@ div#PopularPosts3 P {
     color: #000;
     border-radius: 5px;
 }
+img#lock-img {
+    width: auto;
+}
