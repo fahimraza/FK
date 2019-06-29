@@ -966,7 +966,7 @@ td.tr-caption {
     float: left;
 }
 #top-ad {
-    margin-top: 60px;
+    margin-top: 25px;
     float: right;
     text-align: center;
     margin-right: 70px;
@@ -975,7 +975,7 @@ td.tr-caption {
 .Left-sidebar {
     width: 180px;
     float: left;
-    padding: 40px 10px 10px 10px;
+    padding: 20px 10px 10px 10px;
     margin-top: 15px;
 }
 #pushalert-ticker {
@@ -983,4 +983,19 @@ td.tr-caption {
 }
 .contents {
 	margin-top: 40px;
+}
+.searches {
+    background: #ff5e00;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+}
+.searches a {
+    color: #fff;
+    background: #000;
+    padding: 4px 10px;
+    border-radius: 50px;
+    margin: 0px 8px 0px 0px;
+    font-size: 14px;
+    text-decoration: none;
 }
