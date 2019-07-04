@@ -1007,3 +1007,22 @@ td.tr-caption {
     padding: 5px 10px 5px 0px;
     margin-right: 10px;
 }
+form#box button {
+    background: #ff5e00;
+    border: 0;
+    position: absolute;
+    height: 29px;
+    bottom: 0;
+    margin-left: 60px;
+    width: 31px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+#box button img {
+    width: 23px;
+    height: 23px;
+}
