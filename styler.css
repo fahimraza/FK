@@ -117,35 +117,25 @@ div#PopularPosts3 P {
     font-size: 16px;
     letter-spacing: 1.1px;
 }
-#not-subscribed {
-    padding: 15px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 17px;
-    border: 0;
-    color: #fff;
-    cursor: pointer;
-    width: 400px;
-    background: #34d058;
-    margin: auto;
-    letter-spacing: 0.5px;
-}
 #not-subscribed:hover {
-    background: #28a745;
+    background: none;
+    text-decoration: none;
 }
 .lecture p {
     font-size: 30px;
-    margin: 30px 0px;
+    margin: 20px 0px;
     text-align: center;
 }
 .lecture img:first-child {
-    width: 150px;
+    width: 120px;
 }
 .lecture {
     padding: 15px 0px 15px 0px;
     color: #000;
     border-radius: 5px;
+}
+.lecture center {
+    margin: 0px 0px 20px 0px;
 }
 img#lock-img {
     width: auto;
