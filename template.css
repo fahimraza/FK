@@ -18,15 +18,17 @@ color:#fff
     margin-bottom: 20px;
 }	
 #box {
-    width: 183px;
     float: left;
     margin: 5px 0px;
 }
 #box input {
     border: 1px solid #aaa;
     padding: 6px 0px 6px 10px;
-    width: 170px;
-    border-radius: 100px;
+    width: 135px;
+    float: left;
+    border-right: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 #box input:focus {
     outline: none;
@@ -1010,17 +1012,15 @@ td.tr-caption {
 form#box button {
     background: #ff5e00;
     border: 0;
-    position: absolute;
     height: 29px;
     bottom: 0;
-    margin-left: 60px;
     width: 31px;
-    margin-bottom: 6px;
     cursor: pointer;
     outline: none;
     padding: 0;
     border-top-right-radius: 13px;
     border-bottom-right-radius: 13px;
+    float: right;
 }
 #box button img {
     width: 23px;
