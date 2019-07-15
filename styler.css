@@ -117,10 +117,6 @@ div#PopularPosts3 P {
     font-size: 16px;
     letter-spacing: 1.1px;
 }
-#not-subscribed:hover {
-    background: none;
-    text-decoration: none;
-}
 .lecture p {
     font-size: 30px;
     margin: 20px 0px;
@@ -134,9 +130,20 @@ div#PopularPosts3 P {
     color: #000;
     border-radius: 5px;
 }
-.lecture center {
-    margin: 0px 0px 20px 0px;
+#not-subscribed {
+    padding: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    width: 400px;
+    background: #ff5e00;
+    margin: auto;
+    letter-spacing: 0.5px;
 }
-img#lock-img {
-    width: auto;
+#not-subscribed:hover {
+    text-decoration: none;
 }
