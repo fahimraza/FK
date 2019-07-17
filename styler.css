@@ -133,12 +133,10 @@ img#LOCK {
 #not-subscribed:hover {
     text-decoration: none;
 }
-.In-post-ad {
-    background: rgba(255, 255, 255, .8);
-}
 .dynamic-ad {
 	position: absolute;
     text-align: center;
     margin-top: -520px;
     width: 100%;
+	background: rgba(255, 255, 255, .8);
 }
