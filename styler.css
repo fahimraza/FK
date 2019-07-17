@@ -30,20 +30,6 @@
     color: #fff;
 }
 #subscribed {
-    padding: 15px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    border: 2px solid #000;
-    color: #fff;
-    background: #000;
-    cursor: pointer;
-    width: 350px;
-    margin: auto;
-	display:none
-}
-#lecture2 {
 	display:none
 }
 .separator {
@@ -119,30 +105,38 @@ div#PopularPosts3 P {
 }
 .lecture p {
     font-size: 30px;
-    margin: 20px 0px;
+    margin: 0;
+    float: left;
+    margin-top: 10px;
+    width: 300px;
     text-align: center;
 }
-.lecture img:first-child {
-    width: 120px;
-}
 .lecture {
-    padding: 15px 0px 15px 0px;
     color: #000;
-    border-radius: 5px;
+    margin-top: 15px;
+}
+.lecture-inner {
+width: 400px;
+    margin: auto;
+}
+img#LOCK {
+    width: 100px;
+    float: left;
 }
 #not-subscribed {
-    padding: 15px;
+    padding: 10px 0px;
     border-radius: 3px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 15px;
     border: 0;
     color: #fff;
+    float: left;
     cursor: pointer;
-    width: 400px;
+    width: 300px;
     background: #ff5e00;
-    margin: auto;
     letter-spacing: 0.5px;
+    margin-top: 10px;
 }
 #not-subscribed:hover {
     text-decoration: none;
