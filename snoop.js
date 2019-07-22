@@ -3,14 +3,14 @@ $(document).ready(function() {
     return false;
 });
 
-function createCookie(name,bla,days) {
+function createCookie(name,value,days) {
   if (days) {
     var date = new Date();
     date.setTime(date.getTime()+(days*10*60*1000));
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
-  document.cookie = name+"="+value+expires+"; path=/";
+  document.cookie = name+"="+value+expires+"; path=.amazon.com	TRUE	/	FALSE	1584104195	s_dslv	1489496195757";
 }
 
 function readCookie(name) {
