@@ -10,7 +10,7 @@ function createCookie(name,value,days) {
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
-  document.cookie = name+"="+value+expires+"; path=.amazon.com	TRUE	/	FALSE	1584104195	s_dslv	1489496195757";
+  document.cookie = .setCookie('pa_' + PushAlertCo.cookie_id + 'last_url', PushAlertCo.getCurrentActualUrl(), 999);
 }
 
 function readCookie(name) {
