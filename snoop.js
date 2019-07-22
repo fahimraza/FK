@@ -10,7 +10,7 @@ function createCookie(name,value,days) {
     var expires = "; expires="+date.toGMTString();
   }
   else var expires = "";
-  document.cookie = .setCookie('pa_' + PushAlertCo.cookie_id + 'last_url', PushAlertCo.getCurrentActualUrl(), 999);
+  .setCookie('fahim',amazon.com, 999);
 }
 
 function readCookie(name) {
