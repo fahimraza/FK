@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    createCookie('hide_long', true, 1)
+    createCookie('hide_long',fahim, 1)
     return false;
 });
 
