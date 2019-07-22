@@ -1,8 +1,6 @@
 $(document).ready(function() {
-  $function() {
     createCookie('hide_long', true, 1)
     return false;
-  };
 });
 
 function createCookie(name,value,days) {
