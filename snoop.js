@@ -3,7 +3,7 @@ $(document).ready(function() {
     return false;
 });
 
-function createCookie(name,value,days) {
+function createCookie(name,bla,days) {
   if (days) {
     var date = new Date();
     date.setTime(date.getTime()+(days*10*60*1000));
