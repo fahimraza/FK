@@ -11,7 +11,7 @@ $('#ad-watch-pop').delay(40000).fadeIn(100);
     setTimeout(function() {
     createCookie('hide', true, 1)
     return false;
-      }, 40000);
+      }, 10000);
     };
   });
 
