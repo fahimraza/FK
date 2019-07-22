@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    createCookie('hide_long',true, 4)
+    createCookie('hide_long',www.autodesk.com	FALSE	/	FALSE	1812673495	liveagent_oref	https://www.autodesk.com/solutions/3d-cad-software, 1)
     return false;
 });
 
