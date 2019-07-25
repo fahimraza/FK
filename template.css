@@ -272,6 +272,7 @@ h3 a:hover {
     width: calc(100% - 550px);
     background: #eee;
     padding: 0px 10px;
+    margin-top: 30px;
 }
 #Blog1 {
     margin: 0;
@@ -1047,6 +1048,9 @@ form#box button {
     text-align: center;
     width: calc(100% - 270px);
     position: relative;
-    top: 20px;
+    top: 14px;
     right: 30px;
+}
+.gsc-control-cse.gsc-control-cse-en {
+    padding: 0;
 }
