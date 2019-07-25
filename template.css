@@ -54,7 +54,8 @@ color:#fff
 .Left-sidebar {
     width: 180px;
     float: left;
-    padding: 40px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px;
 }
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
