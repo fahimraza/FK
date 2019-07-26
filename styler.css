@@ -42,27 +42,27 @@
 .related-posts a {
     width: 100%;
     color: #000;
-    margin: 0 0 15px 0;
+    margin: 0 0 20px 0;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0px;
+    border: 1px solid #ddd;
 }
 .related-posts img {
-    width: 85px;
-    height: 70px;
-    float: right;
-    margin-left: 8px;
-    border: 1px solid #ccc;
+    width: 290px;
+    height: 140px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 .related-posts {
     overflow: visible;
 }
 #related-title {
-    font-size: 17px;
-    font-weight: normal;
     padding: 0 5px;
-}
-.related-posts {
-    font-size: 16px;
-    letter-spacing: .1px;
-    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 1.1px;
+    font-weight: normal;
 }
 #blog-pager {
     overflow: visible;
@@ -132,11 +132,4 @@ img#LOCK {
 }
 #not-subscribed:hover {
     text-decoration: none;
-}
-.dynamic-ad {
-	position: absolute;
-    text-align: center;
-    margin-top: -520px;
-    width: 100%;
-	background: rgba(255, 255, 255, .8);
 }
