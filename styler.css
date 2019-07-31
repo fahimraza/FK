@@ -132,27 +132,14 @@ img#LOCK {
     text-decoration: none;
 }
 .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 800px;
 }
-
 .pirate {
   position: -webkit-sticky;
   position: sticky;
   top: 50px;
-}
-
-.police {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.doctor {
-  position: -webkit-sticky;
-  position: sticky;
-  bottom: 1rem;
-  align-self: flex-end;
+  margin-top:10px;
 }
