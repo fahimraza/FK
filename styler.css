@@ -8,7 +8,6 @@
 .sidebar-box {
     max-height: 1600px;
     position: relative;
-    overflow: hidden;
 }
 .sidebar-box .read-more {
     position: absolute;
