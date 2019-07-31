@@ -131,3 +131,28 @@ img#LOCK {
 #not-subscribed:hover {
     text-decoration: none;
 }
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 800px;
+}
+
+.pirate {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+}
+
+.police {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.doctor {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
+}
