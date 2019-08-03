@@ -28,9 +28,6 @@
 #box::placeholder {
   font-weight: normal;
 color:#fff
-}
-#Left-sidebar h2 {
-    margin-bottom: 20px;
 }	
 #box {
     float: left;
@@ -50,12 +47,6 @@ color:#fff
 }
 .clearfix a {
     margin: 0px 10px;
-}
-.Left-sidebar {
-    width: 180px;
-    float: left;
-    padding: 0px 10px 10px 10px;
-    margin-top: 10px;
 }
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
@@ -115,10 +106,6 @@ a:hover {
 }
 a:visited {
     color: #888}
-.sidebar {
-    position: relative;
-    right: 5px;
-    top: 25px}
 .post-comment-link {
     float: right}
 body {
@@ -159,8 +146,6 @@ body {
     width: 300px;
     padding: 0px 10px;
 }
-.sidebar section {
-    background-color: #eee}
 .code {
     border: solid #eee;
     border-width: 0 0 0 10px;
@@ -176,7 +161,7 @@ abbr.published {
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
     width: 300px;
-    float: right;
+    float: left;
     margin-top: 10px;
 }
 body {
@@ -293,19 +278,6 @@ Html,.content{background:#eee;}
 .column-right-outer .widget p b {
     letter-spacing: 0;
     font-size: 19px;
-}
-#Left-sidebar::-webkit-scrollbar-thumb:hover {
-    background: #bbb;
-}
-div#Left-sidebar::-webkit-scrollbar-track {
-    background: #eee;
-}
-div#Left-sidebar::-webkit-scrollbar {
-    width: 8px;
-}
-div#Left-sidebar::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 100px;
 }
 #comment-post-message a {
     background: #000;
@@ -992,12 +964,6 @@ td.tr-caption {
     margin-right: 70px;
     width: calc(100% - 270px);
 }
-.Left-sidebar {
-    width: 180px;
-    float: left;
-    padding: 20px 10px 10px 10px;
-    margin-top: 15px;
-}
 #pushalert-ticker {
     display: none;
 }
@@ -1054,4 +1020,8 @@ form#box button {
 }
 .gsc-control-cse.gsc-control-cse-en {
     padding: 0;
+}
+.center-content {
+    width: 1025px;
+    margin: auto;
 }
