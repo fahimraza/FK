@@ -172,9 +172,12 @@ body {
 abbr.published {
     display: none}
 #sidebar-right-1 {
-    position: relative;
+    position: sticky;
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
+    width: 300px;
+    float: right;
+    margin-top: 10px;
 }
 body {
     margin: 0;
