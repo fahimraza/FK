@@ -108,8 +108,6 @@ a:visited {
     color: #888}
 .post-comment-link {
     float: right}
-body {
-    overflow-x: hidden}
 .blog-pager-older-link,.home-link,.blog-pager-newer-link {
     font-size: 15px;
     padding-top: 8px;
@@ -194,7 +192,6 @@ h3 a:hover {
 .tabs .widget ul,.tabs .widget ul {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     list-style: none}
 .tabs .widget li,.tabs .widget li {
     margin: 0;
