@@ -182,8 +182,6 @@ abbr.published {
 body {
     margin: 0;
     padding: 0 0 1px}
-.footer-outer {
-    margin-bottom: -1px}
 .tabs-inner {
     padding: 0 15px}
 .footer-inner {
@@ -380,9 +378,9 @@ body {
 	padding: 0 0 1px
 }
 .footer-outer {
-	margin-bottom: -1px
+    float: left;
+    width: 100%;
 }
-
 .content-inner {
 	padding: 10px
 }
