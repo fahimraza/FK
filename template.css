@@ -869,7 +869,7 @@ td.tr-caption {
     text-align: center;
     width: 100%;
     position: relative;
-    top: 10px;
+    top: 14px;
 }
 #pushalert-ticker {
     display: none;
@@ -916,14 +916,6 @@ form#box button {
 #box button img {
     width: 23px;
     height: 23px;
-}
-#top-ad {
-    float: right;
-    text-align: center;
-    width: calc(100% - 270px);
-    position: relative;
-    top: 14px;
-    right: 30px;
 }
 .gsc-control-cse.gsc-control-cse-en {
     padding: 0;
