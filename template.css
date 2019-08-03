@@ -255,10 +255,10 @@ h3 a:hover {
 #main {
     position: relative;
     float: left;
-    width: calc(100% - 550px);
+    width: 700px;
     background: #eee;
     padding: 0px 10px;
-    margin-top: 30px;
+    margin-top: 42px;
 }
 #Blog1 {
     margin: 0;
@@ -395,7 +395,6 @@ h3 a:hover {
 }
 .post-body {
 	width: 100%;
-	_overflow: hidden
 }
 
 .post-header,
@@ -454,102 +453,11 @@ h3 a:hover {
 	font-style: italic;
 	opacity: .5
 }
-.column-center-outer,
-.column-left-outer,
-.column-right-outer {
-	position: relative;
-	float: left;
-	_display: inline;
-	_overflow: hidden
-}
-
-.column-center-outer {
-	width: 100%
-}
-
-.column-left-outer {
-	margin-left: -100%
-}
-.body-fauxcolumns,
-.content-fauxcolumns {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	height: 100%;
-	_height: expression(this.parentNode.offsetHeight + 'px');
-	width: 100%;
-	overflow: hidden
-}
-
-.body-fauxcolumns .fauxcolumn-outer {
-	width: 100%
-}
-
-.content-fauxcolumns .fauxcolumn-outer {
-	position: relative;
-	overflow: visible;
-	height: 100%;
-	margin: 0 auto
-}
-
-.content-fauxcolumns .fauxcolumn-left {
-	width: 100%
-}
-
-section,
-nav,
-article,
-aside,
-hgroup,
-header,
-footer {
-	display: block
-}
-
-time,
-mark {
-	display: inline
-}
-a.follower-link {
-	cursor: pointer
-}
-
 a.next-page-link {
 	cursor: pointer
 }
-.follower {
-	width: 32px;
-	height: 32px;
-	float: left;
-	margin: 2px
-}
-
-.follower img {
-	width: 32px;
-	clip: rect(0, 32px, 32px, 0);
-	position: absolute
-}
 div.clear {
 	clear: both
-}
-.PopularPosts .item-thumbnail {
-    float: left;
-    margin: 0 10px 0px 0;
-}
-
-.PopularPosts .widget-content ul li {
-	padding: .7em 0
-}
-.PopularPosts img {
-    padding: 0;
-    width: 60px;
-    height: 60px;
-    float: left;
-    margin-right: 5px;
-}
-.PopularPosts .item-title {
-    padding-bottom: .2em
 }
 .default-avatar {
 	display: none
@@ -958,11 +866,10 @@ td.tr-caption {
     float: left;
 }
 #top-ad {
-    margin-top: 25px;
-    float: right;
     text-align: center;
-    margin-right: 70px;
-    width: calc(100% - 270px);
+    width: 100%;
+    position: relative;
+    top: 10px;
 }
 #pushalert-ticker {
     display: none;
