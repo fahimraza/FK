@@ -154,14 +154,6 @@ a:visited {
     opacity: .9}
 abbr.published {
     display: none}
-#sidebar-right-1 {
-    position: sticky;
-    top: 0px;
-    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
-    width: 300px;
-    float: left;
-    margin-top: 10px;
-}
 body {
     margin: 0;
     padding: 0 0 1px}
@@ -920,4 +912,13 @@ form#box button {
 .center-content {
     width: 1025px;
     margin: auto;
+}
+}
+#sidebar-right-1 {
+    position: relative;
+    top: 0px;
+    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
+    width: 300px;
+    float: right;
+    margin-top: 40px;
 }
