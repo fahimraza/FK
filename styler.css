@@ -74,33 +74,6 @@
     overflow: visible;
     width: 90%;
 }
-#left-sidebar h2 {
- margin-bottom:15px;
-color:#ff5e00;
-}
-.PopularPosts .item-title {
-	padding-bottom: .2em;
-    width: 188px;
-    text-align: center;
-}
-.PopularPosts img {
-    border: 0;
-    width: 60px;
-    background: transparent;
-    height: 60px;
-    margin-right: 5px;
-}
-div#PopularPosts3 P {
-    font-size: 29px;
-    margin: 0;
-    margin-bottom: 15px;
-    line-height: 2;
-}
-.popular-posts a {
-    color: #ff5e00;
-    font-size: 16px;
-    letter-spacing: 1.1px;
-}
 .lecture p {
     font-size: 30px;
     margin: 0;
@@ -150,4 +123,13 @@ img#LOCK {
   position: sticky;
   top: 50px;
   margin-top:10px;
+}
+#sidebar-right-1 {
+    position: relative;
+    top: 0px;
+    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
+    width: 300px;
+    float: right;
+    margin-top: 40px;
+    height: 1950px;
 }
