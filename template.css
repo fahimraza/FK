@@ -45,8 +45,12 @@ color:#fff
 #box input:focus {
     outline: none;
 }
+.clearfix a:visited {
+    color: #ff5e00;
+}
 .clearfix a {
     margin: 0px 10px;
+    color: #ff5e00;
 }
 #random { width: 100%; border: 0; height: 250px; }
 #post-ad{text-align:center}
@@ -226,9 +230,9 @@ h3 a:hover {
     text-align: center;
     padding: 20px 50px;
     position: relative;
-    background: #fff;
     margin-top: 30px;
     z-index: 99;
+    line-height: 1.7;
 }
 .page-footer {
     height: 0;
