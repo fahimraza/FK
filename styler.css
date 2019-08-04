@@ -124,12 +124,7 @@ img#LOCK {
   top: 50px;
   margin-top:10px;
 }
-#sidebar-right-1 {
+#sidebar-height {
     position: relative;
-    top: 0px;
-    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
-    width: 300px;
-    float: right;
-    margin-top: 40px;
-    height: 1950px;
+    height: 20px;
 }
