@@ -144,3 +144,12 @@ img#LOCK {
 .related #related-title {
     margin-top: 5px;
 }
+.labels a {
+    color: #fff;
+    background: #ff5e00;
+    padding: 0px 10px;
+    border-radius: 100px;
+    line-height: 2;
+    float: left;
+    margin: 0px 0px 10px 10px;
+}
