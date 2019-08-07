@@ -152,7 +152,9 @@ img#LOCK {
     line-height: 2;
     float: left;
     margin: 0px 0px 10px 10px;
+	text-decoration:none
 }
 .labels {
-	background:none
+    padding: 0;
+    background: none;
 }
