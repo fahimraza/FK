@@ -11,15 +11,13 @@
     padding: 5px;
     background: #ff5e00;
 }
-.labels span {
+.labels a {
+    color: #000;
+    background: #fff;
+    line-height: 2;
+    padding: 3px 10px;
     margin: 2px;
-    line-height: 1.7;
     border-radius: 100px;
-}
-.labels span a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0px 10px;
 }
 .gsc-control-cse.gsc-control-cse-en {
     background: none;
