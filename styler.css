@@ -144,6 +144,12 @@ img#LOCK {
 .related #related-title {
     margin-top: 5px;
 }
+.labels {
+    padding: 0;
+    background: none;
+    height: 160px;
+    width: 100%;
+}
 .labels a {
     color: #fff;
     background: #ff5e00;
@@ -153,8 +159,4 @@ img#LOCK {
     float: left;
     margin: 0px 0px 10px 10px;
 	text-decoration:none
-}
-.labels {
-    padding: 0;
-    background: none;
 }
