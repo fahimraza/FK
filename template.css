@@ -247,7 +247,7 @@ h3 a:hover {
     position: relative;
     float: left;
     width: 700px;
-    margin-top: 42px;
+    margin-top: 5px;
     background: #dfdfdf;
 }
 #Blog1 {
@@ -921,6 +921,5 @@ form#box button {
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
     width: 300px;
-    float: right;
-    margin-top: 40px;
+    float: right
 }
