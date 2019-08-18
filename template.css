@@ -905,6 +905,7 @@ form#box button {
     width: 290px;
     float: right;
     margin-left: 10px;
+height: calc(100vh - 90px);
 }
 .side-ad {
     width: 120px;
