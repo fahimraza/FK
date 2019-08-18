@@ -59,9 +59,10 @@
 }
 #related-title {
     padding: 0 5px;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 1.1px;
     font-weight: normal;
+    text-align: left;
 }
 #blog-pager {
     overflow: visible;
