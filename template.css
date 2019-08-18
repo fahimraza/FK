@@ -898,5 +898,15 @@ form#box button {
     top: 0px;
     font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
     width: 420px;
-    float: right
+    float: right;
+	text-align:center
+}
+#related-posts {
+    width: 290px;
+    float: right;
+    margin-left: 10px;
+}
+.side-ad {
+    width: 120px;
+    float: left;
 }
