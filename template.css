@@ -903,10 +903,12 @@ form#box button {
 }
 #related-posts {
     width: 290px;
-    float: right;
+    float: left;
     margin-left: 10px;
 }
 .side-ad {
-    width: 120px;
+    float: left;
+}
+.side-ad span {
     float: left;
 }
