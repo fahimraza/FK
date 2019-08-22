@@ -908,4 +908,5 @@ form#box button {
 }
 .side-ad {
     float: left;
+    width: calc(100% - 300px);
 }
