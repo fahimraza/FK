@@ -895,19 +895,13 @@ form#box button {
 }
 #sidebar-right-1 {
     position: relative;
-    top: 0px;
-    font-family: "Roboto","helvetica neue",helvetica,arial,sans-serif;
-    width: 420px;
+    height: 1000px;
+    width: 120px;
     float: right;
-	text-align:center
+    text-align: center;
 }
-#related-posts {
-    width: 290px;
-    float: right;
-    margin-left: 10px;
-}
-.side-ad {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#sidebar-left-1 {
+    float: left;
+    width: 300px;
+    height: 1000px;
 }
