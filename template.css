@@ -897,8 +897,10 @@ form#box button {
     position: relative;
     width: 120px;
     float: right;
+	    background: #fff;
 }
 #sidebar-left-1 {
     float: left;
     width: 300px;
+	    background: #fff;
 }
