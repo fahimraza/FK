@@ -128,14 +128,19 @@ img#LOCK {
     margin: auto;
 }
 .related a {
-    width: 31%;
-    margin-bottom: 35px;
+    width: 49%;
+    margin-bottom: 20px;
     color: #000;
-    margin-right: 10px;
+    margin-right: 1%;
+    background: #fff;
+    padding: 5px 0px;
+    border-radius: 3px;
 }
 .related img {
-    width: 100%;
-    height: 150px;
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin: 0px 5px;
 }
 .related #related-title {
     margin-top: 5px;
