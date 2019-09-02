@@ -246,9 +246,9 @@ h3 a:hover {
 #main {
     position: relative;
     float: left;
-    width: 620px;
-    margin-top: 5px;
+    width: 600px;
     background: #dfdfdf;
+    margin: 0px 10px;
 }
 #Blog1 {
     margin: 0;
