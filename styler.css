@@ -29,13 +29,13 @@
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700;
     font-size: 38px;
-    padding: 0px 20px;
+    padding: 10px 10px 0px 10px;
 }
 .related-posts a {
     width: 100%;
     color: #000;
     margin: 0 0 20px 0;
-    background: #fff;
+    background: #eee;
     border-radius: 5px;
     text-align: center;
     padding: 5px 0px;
