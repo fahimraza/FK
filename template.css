@@ -247,9 +247,18 @@ h3 a:hover {
     position: relative;
     float: left;
     width: 600px;
-    background: #ffffff;
     padding: 0px 10px;
     margin: 0 5px;
+}
+.big-title {
+    color: #000000;
+    background: #eee;
+    position: relative;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+    font-size: 47px;
+    text-align: center;
+    padding: 15px 0px;
 }
 #Blog1 {
     margin: 0;
@@ -265,7 +274,9 @@ div#comments {
 #comments h4 {
     font-size: 25px;
 }
-Html,.content{background:#dfdfdf;}
+Html, .content {
+    background: #eeeeee;
+}
 .column-right-outer .widget p b {
     letter-spacing: 0;
     font-size: 19px;
@@ -860,9 +871,7 @@ td.tr-caption {
     text-align: center;
     width: 100%;
     position: relative;
-    top: 14px;
-    height: 120px;
-    margin-bottom: 15px;
+    background: #eeeeee;
 }
 #pushalert-ticker {
     display: none;
