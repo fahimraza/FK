@@ -129,19 +129,6 @@ a:visited {
 .blog-pager-older-link {
     padding-left: 7px;
     padding-right: 5px}
-.popular-posts ul li {
-    list-style: none;
-    margin: 15px 0px;
-}
-.popular-posts ul {
-    padding: 0;
-}
-.popular-posts a {
-    color: #ff5e00;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 1px;
-}
 .column-right-outer {
     width: 300px;
     padding: 0px 10px;
@@ -252,7 +239,6 @@ h3 a:hover {
 }
 .big-title {
     color: #000000;
-    background: #eee;
     position: relative;
     font-family: 'Montserrat', sans-serif !important;
     font-weight: 700;
@@ -273,9 +259,6 @@ div#comments {
 .section{margin:0}
 #comments h4 {
     font-size: 25px;
-}
-Html, .content {
-    background: #eeeeee;
 }
 .column-right-outer .widget p b {
     letter-spacing: 0;
@@ -903,14 +886,7 @@ form#box button {
     width: 1050px;
     margin: auto;
 }
-#sidebar-right-1 {
-    position: relative;
-    width: 120px;
-    float: right;
-	    background: #fff;
-}
 #sidebar-left-1 {
     float: left;
-    width: 300px;
-	    background: #fff;
+    width: 420px;
 }
