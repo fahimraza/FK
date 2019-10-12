@@ -6,6 +6,12 @@
     color: #fff;
     background: #ff5e00
 }
+#link-ad {
+    text-align: center;
+    background: #eee;
+    padding: 10px 0px;
+    height: 90px;
+}
 .labels {
     text-align: center;
     padding: 5px;
