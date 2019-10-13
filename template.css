@@ -881,5 +881,10 @@ form#box button {
 }
 #sidebar-left-1 {
     float: left;
-    width: 420px;
+    width: 120px;
+}
+#sidebar-right-1 {
+    width: 350px;
+    float: right;
+    text-align: center;
 }
