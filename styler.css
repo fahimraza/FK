@@ -102,12 +102,9 @@ img#LOCK {
     font-weight: normal;
     text-align: left;
 }
-.related {
-    float: left;
-    margin-top: 30px;
-}
-#main,#sidebar-left-1 {
+#main, #sidebar-left-1 {
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .post-title.entry-title {
     color: #000000;
