@@ -102,6 +102,10 @@ img#LOCK {
     font-weight: normal;
     text-align: left;
 }
+.related {
+    float: left;
+    margin-top: 30px;
+}
 #main,#sidebar-left-1 {
     margin-top: 10px;
 }
