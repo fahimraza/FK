@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
-  if (!readCookie('pa_10826_1_last_url')) {
+  if (readCookie('pa_10826_1_last_url')) {
 $('#ad-watch-pop').delay(10000).fadeIn(100);
 }
   // Add the event that closes the popup and sets the cookie that tells us to
