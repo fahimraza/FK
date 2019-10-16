@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
-  if (!readCookie('hide')) {
-$('#ad-watch-pop').delay(10000).fadeIn(100);
+  if (!readCookie('pushalert_10826_1_already_subscribed')) {
+$('#ad-watch-pop').fadeIn(100);
 }
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
