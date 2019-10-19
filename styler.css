@@ -102,8 +102,8 @@ img#LOCK {
     font-weight: normal;
     text-align: left;
 }
-#main, #sidebar-left-1 {
-    margin-top: 10px;
+#main, #sidebar-left-1, #sidebar-right-1 {
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 .post-title.entry-title {
