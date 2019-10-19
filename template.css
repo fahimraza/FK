@@ -6,12 +6,6 @@
     color: #fff;
     background: #ff5e00
 }
-#link-ad {
-    text-align: center;
-    background: #eee;
-    padding: 10px 0px;
-    height: 90px;
-}
 .labels {
     text-align: center;
     padding: 5px;
@@ -876,15 +870,14 @@ form#box button {
     padding: 0;
 }
 .center-content {
-    width: 1050px;
+    width: 1000px;
     margin: auto;
 }
 #sidebar-left-1 {
-    float: left;
+	float: right;
     width: 120px;
 }
 #sidebar-right-1 {
-    width: 350px;
-    float: right;
-    text-align: center;
+    width: 300px;
+    float: left;
 }
