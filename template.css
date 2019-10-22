@@ -793,7 +793,7 @@ td.tr-caption {
 .nav {
     height: 40px;
     position: fixed;
-    z-index: 99999;
+    z-index: 9;
     background: #fff;
     width: 100%;
     text-align: center;
