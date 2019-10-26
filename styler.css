@@ -80,7 +80,9 @@ img#LOCK {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 800px;
+    height: 2000px;
+    margin: 0% -40% 0% -62%;
+    background: #fff;
 }
 .pirate {
   position: -webkit-sticky;
