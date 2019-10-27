@@ -870,14 +870,14 @@ form#box button {
     padding: 0;
 }
 .center-content {
-    width: 1000px;
+    width: 900px;
     margin: auto;
 }
 #sidebar-left-1 {
 	float: right;
-    width: 120px;
+    width: 160px;
 }
 #sidebar-right-1 {
-    width: 300px;
+    width: 160px;
     float: left;
 }
