@@ -828,14 +828,10 @@ form#box button {
     padding: 0;
 }
 .center-content {
-    width: 900px;
+    width: 950px;
     margin: auto;
 }
 #sidebar-left-1 {
-	float: right;
-    width: 160px;
-}
-#sidebar-right-1 {
-    width: 160px;
+    width: 350px;
     float: left;
 }
