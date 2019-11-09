@@ -46,38 +46,6 @@ color:#fff
 .post h2 {
     padding: 10px 0;
 }
-.main-inner .columns {
-    padding-left: 0;
-    padding-right: 360px;
-    background: #fff;
-}
-.main-inner .fauxcolumn-center-outer {
-    left: 0;
-    right: 360px;
-}
-.main-inner .fauxcolumn-left-outer {
-    width: 0;
-}
-.main-inner .column-left-outer {
-    width: 0;
-    right: 100%;
-    margin-left: -0;
-}
-#layout {
-    min-width: 0;
-}
-#layout .content-outer {
-    min-width: 0;
-    width: 800px;
-}
-#layout .region-inner {
-    min-width: 0;
-    width: auto;
-}
-.main-inner .column-right-outer {
-    width: 300px;
-    margin-right: -300px;
-}
 body {
     width: 100%;
     max-width: 100%;
@@ -121,28 +89,6 @@ abbr.published {
 body {
     margin: 0;
     padding: 0 0 1px}
-.tabs-inner {
-    padding: 0 15px}
-.footer-inner {
-    padding: 0}
-.section:first-child .widget:first-child {
-    margin-top: 0}
-.section:first-child #uds-searchControl+.widget {
-    margin-top: 0}
-.section: last-child .widget: last-child {
-    margin-bottom: 0}
-.tabs:first-child .widget {
-    margin-bottom: 0}
-a img {
-    border: 0;
-    position: relative}
-h1,h2,h3,h4 {
-    margin: 0;
-    position: relative}
-h1 a:hover {
-    text-decoration: none}
-h3 a:hover {
-    text-decoration: none}
 .clearfix {
     font-size: 14px;
     text-align: center;
@@ -152,16 +98,8 @@ h3 a:hover {
     z-index: 99;
     line-height: 1.7;
 }
-.page-footer {
-    height: 0;
-}
-.column-right-outer .widget p {
-    font-size: 30px;
-    color: #000;
-    margin: 0;
-    width: 100%;
-    margin-bottom: 20px;
-    line-height: 2;
+.post-title.entry-title {
+    font-size: 4vw;
 }
 #main {
     position: relative;
@@ -174,13 +112,8 @@ h3 a:hover {
 div#comments {
     text-align: center;
 }
-.section{margin:0}
 #comments h4 {
     font-size: 25px;
-}
-.column-right-outer .widget p b {
-    letter-spacing: 0;
-    font-size: 19px;
 }
 #comment-post-message a {
     background: #000;
@@ -252,85 +185,6 @@ body {
 	margin: 0;
 	padding: 0 0 1px
 }
-.footer-outer {
-    float: left;
-    width: 100%;
-}
-.content-inner {
-	padding: 10px
-}
-
-.tabs-inner {
-	padding: 0 15px
-}
-
-.main-inner {
-	padding: 30px 0
-}
-
-.main-inner .column-center-inner,
-.main-inner .column-left-inner,
-.main-inner .column-right-inner {
-	padding: 0 15px
-}
-
-.footer-inner {
-	padding: 30px 15px
-}
-a img {
-	border: none;
-	position: relative
-}
-h1,
-h2,
-h3,
-h4 {
-	margin: 0;
-	position: relative
-}
-
-h1 a:hover {
-	text-decoration: none
-}
-
-h3 a:hover {
-	text-decoration: none
-}
-.post-body {
-	width: 100%;
-}
-
-.post-header,
-.post-footer {
-	line-height: 1.6
-}
-
-.post-footer-line>* {
-	margin-right: 1em
-}
-
-.post-footer-line>*:last-child {
-	margin-right: 0
-}
-
-.post-timestamp {
-	margin-left: -1em
-}
-
-.post-footer-line>*:first-child {
-	margin-left: 0
-}
-
-.post .tr-caption-container {
-	position: relative
-}
-
-.inline-ad {
-	margin: 2em 0;
-	text-align: center;
-	line-height: 0
-}
-
 #comments .comment-author {
 	padding-left: 25px
 }
@@ -356,9 +210,6 @@ h3 a:hover {
 	font-style: italic;
 	opacity: .5
 }
-a.next-page-link {
-	cursor: pointer
-}
 div.clear {
 	clear: both
 }
@@ -382,18 +233,9 @@ div.clear {
 .clearboth {
 	clear: both
 }
-.backlink-toggle-zippy {
-	padding-right: 11px;
-	margin-right: .1em;
-	cursor: pointer;
-	cursor: hand;
-	background: url(https://resources.blogblog.com/img/triangle_ltr.gif) no-repeat left center
-}
-
 .expanded-backlink .backlink-toggle-zippy {
 	background-image: url("https://resources.blogblog.com/img/triangle_open.gif")
 }
-
 .collapsed-backlink .collapseable {
 	display: none
 }
@@ -923,5 +765,22 @@ display:none;
 }
 .related a:nth-child(2n+2) {
     margin-left: 5%;
+}
+	.code {
+    border: solid #eee;
+    border-width: 0 0 0 10px;
+    background: url(//2.bp.blogspot.com/-e0n4DYVgyuU/Vjh8YBpEtkI/AAAAAAAAD5Y/cUP632j6_6o/s1600/code-background.jpg);
+    font: 13px monospace;
+    margin: 20px 0 0 0;
+    padding: 0 10px 0;
+    opacity: .9}
+	.clearfix {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 50px;
+    position: relative;
+    margin-top: 30px;
+    z-index: 99;
+    line-height: 1.7;
 }
 }
