@@ -742,7 +742,7 @@ td.tr-caption {
 .nav li:hover ul {
     display: block;
 }
-#logo {
+#logo img {
     margin-right: 10px;
     width: 150px;
     float: left;
