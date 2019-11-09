@@ -633,11 +633,12 @@ form#box button {
 #menu-o,#menu-x {
 display:none
 }
-	.related a {
+.related a {
     width: 23%;
-    margin: 10px;
+    margin: 10px 10px 35px 10px;
     display: grid;
     color: #000;
+    height: 215px;
     font-size: 17px;
 }
 .related img {
@@ -646,8 +647,8 @@ display:none
     border: 1px solid #ddd;
     margin-bottom: 8px;
 }
-	
 }
+
 @media only screen and (max-width: 600px) {
 #box::placeholder {
   font-weight: normal;
