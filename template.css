@@ -816,13 +816,18 @@ form#box button {
 color:#fff
 }	
 #box {
-    float: left;
-    margin: 5px 0px;
+    margin: 5px auto;
+    width: 220px;
+}
+	#box button {
+    background: #ff5e00;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #box input {
     border: 1px solid #aaa;
     padding: 6px 0px 6px 10px;
-    width: 135px;
     float: left;
     border-right: 0;
     border-bottom-left-radius: 50px;
@@ -830,6 +835,9 @@ color:#fff
 }
 #box input:focus {
     outline: none;
+}
+	#box img {
+    width: 24px;
 }
 .nav {
     position: fixed;
@@ -840,11 +848,27 @@ color:#fff
     height: 100%;
     overflow-y: scroll;
 }
-	.nav ul {
+.nav ul {
     padding: 0;
     list-style: none;
-    text-align: left;
     margin: 0;
+    text-align: center;
 }
-	
+.nav ul li {
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+	}
+.nav ul li ul {
+    background: #eee;
+    margin: 10px 10px 0px 0px;
+}
+	.nav ul li ul a {
+    font-weight: normal;
+    font-size: 17px;
+}
+	#logo {
+    width: 200px;
+}
 }
