@@ -701,7 +701,8 @@ body {
     font-family: Roboto, sans-serif;
     color: #333;
     font-size: 14.5px;
-	margin: 0;
+    margin: 0;
+    overflow-x: hidden;
 }
 a {
     color: #ff5e00;
@@ -749,6 +750,7 @@ display:none;
     margin-top: 65px;
     font-size: 16px;
     color: #000;
+    width: 100%;
 }
 .related a {
     color: #000;
@@ -782,5 +784,10 @@ display:none;
     margin-top: 30px;
     z-index: 99;
     line-height: 1.7;
+}
+	#PostBody img {
+    width: 94%;
+    border: 1px solid #ddd;
+    float: left;
 }
 }
