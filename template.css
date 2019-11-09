@@ -896,4 +896,10 @@ position: absolute;
     top: 10px;
 display:none;
 }
+	#random {
+    width: 100%;
+    border: 0;
+    height: 635px;
+    margin-top: 40px;
+}
 }
