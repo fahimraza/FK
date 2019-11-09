@@ -809,7 +809,7 @@ form#box button {
     border: 0;
     height: 630px;
 }
-#menu-o {
+#menu-o,menu-x {
 display:none
 }
 }
