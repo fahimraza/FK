@@ -845,14 +845,14 @@ color:#fff
     width: 100%;
     z-index: 999;
     background: #fff;
-    height: 100%;
-    overflow-y: scroll;
 }
 .nav ul {
     padding: 0;
     list-style: none;
     margin: 0;
     text-align: center;
+    height: 100%;
+    overflow-y: scroll;
 }
 .nav ul li {
     text-align: left;
@@ -869,12 +869,13 @@ color:#fff
     font-size: 17px;
 }
 	#logo {
-    width: 200px;
+    width: 100%;
 }
 body {
     font-family: Roboto, sans-serif;
     color: #333;
     font-size: 14.5px;
+	margin: 0;
 }
 a {
     color: #ff5e00;
@@ -885,5 +886,7 @@ a:hover {
     color: #ff3d00;
 }
 a:visited {
-    color: #888}
+    color: #888
+	}
+
 }
