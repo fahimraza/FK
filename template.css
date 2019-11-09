@@ -898,7 +898,7 @@ a:visited {
     height: 600px;
     display: none;
 }
-	#menu-o {
+#menu-o {
     position: absolute;
     right: 10px;
     top: 10px;
@@ -909,5 +909,13 @@ a:visited {
     letter-spacing: 1px;
     font-size: 15px;
     border-radius: 4px;
+    text-decoration: none;
+}
+#menu-x {
+position: absolute;
+    right: 10px;
+    top: 10px;
+display:none;
+	z-index:99;
 }
 }
