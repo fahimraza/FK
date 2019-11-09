@@ -908,4 +908,20 @@ display:none;
     font-size: 16px;
     color: #000;
 }
+.related a {
+    color: #000;
+    width: 47%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+	.related img {
+    width: 100%;
+    height: 120px;
+}
+#related-title {
+    font-size: 17px;
+}
+.related a:nth-child(2n+2) {
+    margin-left: 5%;
+}
 }
