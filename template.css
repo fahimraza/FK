@@ -659,12 +659,6 @@ iframe.avatar-hovercard-iframe {
 	display: none
 }
 
-@media screen and (max-device-width:480px) {
-	.comments .comments-content .comment-replies {
-		margin-left: 0
-	}
-}
-
 table.tr-caption-container {
 	padding: 4px;
 	margin-bottom: .5em
@@ -696,21 +690,6 @@ td.tr-caption {
 	visibility: hidden;
 	width: 100px;
 	height: 20px
-}
-
-@media all {
-	.BLOG_mobile_video_class {
-		display: none
-	}
-}
-
-@media handheld {
-	.BLOG_mobile_video_class {
-		display: inline
-	}
-	.BLOG_video_class {
-		display: none
-	}
 }
 #people {
     float: left;
@@ -809,7 +788,7 @@ form#box button {
     border: 0;
     height: 630px;
 }
-#menu-o,menu-x {
+#menu-o,#menu-x {
 display:none
 }
 }
