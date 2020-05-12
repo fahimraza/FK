@@ -45,7 +45,7 @@ body {
     font-size: 14.5px;
 }
 .code {
-    border: solid #eee;
+    border: solid #f3f3f3;
     border-width: 0 0 0 10px;
     background: url(//2.bp.blogspot.com/-e0n4DYVgyuU/Vjh8YBpEtkI/AAAAAAAAD5Y/cUP632j6_6o/s1600/code-background.jpg);
     font: 13px monospace;
@@ -91,5 +91,5 @@ div#comments {
 #comments h4 {
     font-size: 25px;
 }
-Html,.content{background:#eee;}
+Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
