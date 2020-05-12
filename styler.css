@@ -1,70 +1,21 @@
-.sidebar-box {
-    max-height: 1600px;
-    position: relative;
-    overflow:hidden
+.post-outer {
+    padding: 5px 20px;
 }
-.sidebar-box .read-more {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    padding: 50px 0 69px 0;
-    background: rgba(255, 255, 255, 0.7);
-}
-#subscribed {
-	display:none
-}
-.lecture p {
-    font-size: 30px;
-    margin: 0;
+.related {
+    background: #f3f3f3;
     float: left;
-    margin-top: 10px;
-    width: 300px;
-    text-align: center;
+    margin: 0px -30px;
+    padding: 20px;
 }
-.lecture {
-    color: #000;
-    margin-top: 25px;
+.related a {
+    width: 49%;
+    font-size: 16px;
+    height: 120px;
+    margin-right: 1%;
 }
-.lecture-inner {
-width: 400px;
-    margin: auto;
-}
-img#LOCK {
-    width: 100px;
+.related img {
+    width: 110px;
     float: left;
-}
-#not-subscribed {
-    padding: 10px 0px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
-    border: 0;
-    color: #fff;
-    float: left;
-    cursor: pointer;
-    width: 300px;
-    background: #ff5e00;
-    letter-spacing: 0.5px;
-    margin-top: 10px;
-}
-#not-subscribed:hover {
-    text-decoration: none;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 2000px;
-    margin: 0% -40% 0% -62%;
-    background: #fff;
-}
-.pirate {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
-  margin-top:10px;
+    height: 90px;
+    margin-right: 8px;
 }
