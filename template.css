@@ -6,6 +6,9 @@
 .post h2 {
     padding: 10px 0;
 }
+a {
+ color:#fd4500;
+}
 .main-inner .columns {
     padding-left: 0;
     padding-right: 360px;
