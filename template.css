@@ -25,12 +25,16 @@
     float: right;
     width: auto;
     border: 0;
+font-size:20px;
 }
-
+#nav span, #search span {
+	display:none
+	}
 #search {
     width: auto;
     border: 0;
     float: right;
+	font-size:20px;
 }
 
 #nav i,#search i {
