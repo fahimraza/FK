@@ -1,5 +1,3 @@
-#random { width: 100%; border: 0; height: 250px; }
-#post-ad{text-align:center}
 .post img {
     border: 1px solid #eaeaea;
 }
@@ -96,3 +94,8 @@ div#comments {
 }
 Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
+@media only screen and (max-width: 600px) {
+  .content {
+    background-color: lightblue;
+  }
+}
