@@ -21,20 +21,21 @@
     float: left;
     width: 100%;
 }
-	  #nav {
-    float: right;
-    width: auto;
+#nav {
+    width: 60px;
     border: 0;
-font-size:20px;
+    font-size: 20px;
+    text-align: center;
 }
 #nav span, #search span {
 	display:none
 	}
 #search {
-    width: auto;
+    width: 60px;
     border: 0;
-    float: right;
-	font-size:20px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
 }
 
 #nav i,#search i {
@@ -82,6 +83,7 @@ button.accordion b {
 }
 img#logo {
     float: left;
+    width: 218px;
 }
 
 form#_bcd_141013_search_form {
@@ -133,12 +135,18 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
 	left: /*padding-s*/5px;/*padding-e*/
 }
 .header {
-    float: left;
-    width: 100%;
     z-index: 9999;
     position: relative;
     border-bottom: 10px solid #f3f3f3;
+    background: #fff;
+    width: 340px;
+    margin: auto;
 }
+.header-container {
+text-align:center;
+width:100%;
+background:#fff;
+	}
 }
 @media only screen and (min-width: 600px) {
 .post img {
