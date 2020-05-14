@@ -137,7 +137,7 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
 .header {
     z-index: 9999;
     position: relative;
-    border-bottom: 10px solid #f3f3f3;
+    border: 0;
     background: #fff;
     width: 340px;
     margin: auto;
