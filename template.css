@@ -359,6 +359,31 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     position: relative;
     border-bottom: 10px solid #f3f3f3;
 }
+.footer a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 50px 0px;
+    margin-top: 90px;
+}
+#pride {
+    padding: 10px 0px;
+    float: left;
+    border-right: 1px solid #ddd;
+}
+div#footer-center {
+    width: 800px;
+    margin: auto;
+}
+#credits {
+    line-height: 30px;
+    padding: 10px 0px;
+}	
 }
 .duper-ad {
     width: 100%;
@@ -380,21 +405,4 @@ a#x-super {
     font-size: 25px;
     position: relative;
     bottom: 10px;
-}
-.footer a {
-    margin: 10px;
-    text-decoration: none;
-    font-size: 14px;
-}
-.footer {
-    text-align: center;
-    width: 100%;
-    background: #fff;
-    padding: 50px 0px;
-    margin-top: 90px;
-}
-#pride {
-width:100%;
-text-align:center;
-padding:10px 0px;
 }
