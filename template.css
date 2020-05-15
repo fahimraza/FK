@@ -375,3 +375,9 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     text-align: center;
     padding: 10px 0px;
 }
+a#x-super {
+    float: right;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
