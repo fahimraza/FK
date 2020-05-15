@@ -392,3 +392,9 @@ a#x-super {
     position: relative;
     bottom: 10px;
 }
+.search-form {
+    background: #f3f3f3;
+    padding: 15px 0px;
+    float: left;
+    width: 100%;
+}
