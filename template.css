@@ -237,10 +237,12 @@ div#comments {
 }
 Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
-  #nav {
+#nav {
     float: right;
     width: auto;
     border: 0;
+    position: relative;
+    top: 15px;
 }
 
 #nav i {
