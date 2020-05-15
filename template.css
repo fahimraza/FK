@@ -360,3 +360,18 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     border-bottom: 10px solid #f3f3f3;
 }
 }
+.duper-ad {
+    width: 100%;
+    background: #e4e4e8;
+    text-align: center;
+    padding: 10px 0px;
+}
+.super-ad {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    background: rgba(228, 228, 232, 0.8);
+    text-align: center;
+    padding: 10px 0px;
+}
