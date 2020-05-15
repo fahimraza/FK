@@ -27,18 +27,10 @@ font-family: Roboto, sans-serif;
     font-size: 20px;
     text-align: center;
 }
-#nav span, #search span {
+#nav span {
 	display:none
 	}
-#search {
-    width: 60px;
-    border: 0;
-    float: left;
-    font-size: 20px;
-    text-align: center;
-}
-
-#nav i,#search i {
+#nav i {
 margin-right:5px
 }
 .accordion {
@@ -91,12 +83,12 @@ form#_bcd_141013_search_form {
     display: block;
     clear: both;
     float: none;
-	
-	border: /*border-width-s*/1px solid;/*border-width-e*/
-	border-color: /*border-color-s*/#dddddd;/*border-color-e*/
-    padding: /*padding-s*/5px;/*padding-e*/
-    font-size: /*font-size-s*/12px;/*font-size-e*/
-	background-color: /*bg-color-s*/#ffffff;/*bg-color-e*/
+    border: /*border-width-s*/1px solid;
+    border-color: /*border-color-s*/#dddddd;
+    padding: 5px 20px;
+    font-size: /*font-size-s*/12px;
+    background-color: /*bg-color-s*/#ffffff;
+    border-radius: 100px;
 }
 input#_bcd_141013_search_text {
     width: auto;
@@ -115,20 +107,19 @@ button#_bcd_141013_search_submit:hover {
 }
 button#_bcd_141013_search_submit {
     width: auto;
-	padding: 0 /*padding-s*/5px;/*padding-e*/
+    padding: 0px;
     margin: 0;
     position: absolute;
-    right: /*padding-s*/5px;/*padding-e*/
-    top: /*padding-s*/5px;/*padding-e*/
+    right: /*padding-s*/5px;
+    top: /*padding-s*/5px;
     line-height: 2em;
-    height: 2em;
     text-align: center;
     cursor: pointer;
-	border: none;
-	min-width: 2em;
-	
-	color: /*submit-text-color-s*/#ffffff;/*submit-text-color-e*/
-    background: /*submit-bg-color-s*/#fd4500;/*submit-bg-color-e*/
+    border: none;
+    min-width: 2em;
+    color: /*submit-text-color-s*/#ffffff;
+    background: /*submit-bg-color-s*/#fd4500;
+    border-radius: 100px;
 }
 html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
 	right: auto;
@@ -141,6 +132,7 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     background: #fff;
     width: 340px;
     margin: auto;
+	    background: #fff;
 }
 .header-container {
 text-align:center;
@@ -251,13 +243,7 @@ textarea { resize: none; }
     border: 0;
 }
 
-#search {
-    width: auto;
-    border: 0;
-    float: right;
-}
-
-#nav i,#search i {
+#nav i {
 margin-right:5px
 }
 .accordion {
@@ -304,17 +290,17 @@ img#logo {
     float: left;
 }
 
-form#_bcd_141013_search_form {
+#_bcd_141013_search_form {
     position: relative;
     display: block;
     clear: both;
     float: none;
-	
-	border: /*border-width-s*/1px solid;/*border-width-e*/
-	border-color: /*border-color-s*/#dddddd;/*border-color-e*/
-    padding: /*padding-s*/5px;/*padding-e*/
-    font-size: /*font-size-s*/12px;/*font-size-e*/
-	background-color: /*bg-color-s*/#ffffff;/*bg-color-e*/
+    border: /*border-width-s*/1px solid;
+    border-color: /*border-color-s*/#dddddd;
+    padding: 5px 20px;
+    font-size: /*font-size-s*/12px;
+    background-color: /*bg-color-s*/#ffffff;
+    border-radius: 100px;
 }
 input#_bcd_141013_search_text {
     width: auto;
@@ -333,20 +319,19 @@ button#_bcd_141013_search_submit:hover {
 }
 button#_bcd_141013_search_submit {
     width: auto;
-	padding: 0 /*padding-s*/5px;/*padding-e*/
+    padding: 0px;
     margin: 0;
     position: absolute;
-    right: /*padding-s*/5px;/*padding-e*/
-    top: /*padding-s*/5px;/*padding-e*/
+    right: /*padding-s*/5px;
+    top: /*padding-s*/5px;
     line-height: 2em;
-    height: 2em;
     text-align: center;
     cursor: pointer;
-	border: none;
-	min-width: 2em;
-	
-	color: /*submit-text-color-s*/#ffffff;/*submit-text-color-e*/
-    background: /*submit-bg-color-s*/#fd4500;/*submit-bg-color-e*/
+    border: none;
+    min-width: 2em;
+    color: /*submit-text-color-s*/#ffffff;
+    background: /*submit-bg-color-s*/#fd4500;
+    border-radius: 100px;
 }
 html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
 	right: auto;
@@ -358,6 +343,7 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     z-index: 9999;
     position: relative;
     border-bottom: 10px solid #f3f3f3;
+	    background: #fff;
 }
 .footer a {
     margin: 10px;
