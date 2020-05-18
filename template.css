@@ -219,13 +219,13 @@ img#logo {
     float: left;
     width: 170px;
 }
-	.header-container {
+.header-container {
     position: fixed;
     left: 0;
     width: 100%;
     background: #fff;
     z-index: 999;
-		height:40px;
+    height: 47px;
 }
 	.header {
     width: 800px;
@@ -312,11 +312,11 @@ input#search-in {
     width: 350px;
 }
 button.submit-search {
-    background: #fd4500;
-    color: #fff;
+    background: #f3f3f3;
+    color: #fd4500;
     border: 0;
     border-radius: 100px;
-    padding: 8px 11px;
+    padding: 8px 15px 9px 5px;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0;
     margin: 0px -20px;
