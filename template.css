@@ -171,15 +171,6 @@ div#comments {
 }
 Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
-#nav {
-    float: right;
-    width: auto;
-    border: 0;
-    position: relative;
-    background: #fff;
-    font-size: 23px;
-    margin: 9px 10px;
-}
 #nav i {
 margin-right:5px
 }
@@ -234,6 +225,7 @@ img#logo {
     width: 100%;
     background: #fff;
     z-index: 999;
+		height:40px;
 }
 	.header {
     width: 800px;
@@ -248,9 +240,9 @@ img#logo {
     position: relative;
     background: #fff;
     font-size: 23px;
-    margin: 9px 10px;
+    margin: 12px;
 }
-	#navigate {
+#navigate {
 display:none;
 }
 	div#navigate li a {
@@ -305,5 +297,32 @@ div#footer-center {
 #credits {
     line-height: 30px;
     padding: 10px 0px;
-}	
+}
+.searcher {
+    float: left;
+    width: 500px;
+    text-align: center;
+    margin: 6px 0px;
+}
+input#search-in {
+    background: #f3f3f3;
+    border: 0;
+    border-radius: 100px;
+    padding: 10px 0px 10px 10px;
+    width: 350px;
+}
+button.submit-search {
+    background: #fd4500;
+    color: #fff;
+    border: 0;
+    border-radius: 100px;
+    padding: 8px 11px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0;
+    margin: 0px -20px;
+    font-size: 16px;
+}
+	input#search-in,#nav,.submit-search:focus {
+	outline:none;	
+	}
 }
