@@ -22,10 +22,13 @@ font-family: Roboto, sans-serif;
     width: 100%;
 }
 #nav {
-    width: 60px;
+    float: right;
+    width: auto;
     border: 0;
-    font-size: 20px;
-    text-align: center;
+    position: relative;
+    background: #fff;
+    font-size: 23px;
+    margin: 9px 10px;
 }
 #nav i {
 margin-right:5px
@@ -70,72 +73,6 @@ button.accordion b {
     color: #fff;
     margin-right:8px;
 }
-img#logo {
-    float: left;
-    width: 218px;
-}
-
-form#_bcd_141013_search_form {
-    position: relative;
-    display: block;
-    clear: both;
-    float: none;
-    border: /*border-width-s*/1px solid;
-    border-color: /*border-color-s*/#dddddd;
-    padding: 5px 20px;
-    font-size: /*font-size-s*/12px;
-    background-color: /*bg-color-s*/#ffffff;
-    border-radius: 100px;
-}
-input#_bcd_141013_search_text {
-    width: auto;
-    border: none;
-    margin: 0;
-	padding: 0;
-    line-height: 2em;
-    height: 2em;
-    outline: none;
-	background: transparent;
-	
-	color: /*text-color-s*/#000000;/*text-color-e*/
-}
-button#_bcd_141013_search_submit:hover {
-    opacity: 0.8;
-}
-button#_bcd_141013_search_submit {
-    width: auto;
-    padding: 0px;
-    margin: 0;
-    position: absolute;
-    right: /*padding-s*/5px;
-    top: /*padding-s*/5px;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    min-width: 2em;
-    color: /*submit-text-color-s*/#ffffff;
-    background: /*submit-bg-color-s*/#fd4500;
-    border-radius: 100px;
-}
-html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
-	right: auto;
-	left: /*padding-s*/5px;/*padding-e*/
-}
-.header {
-    z-index: 9999;
-    position: relative;
-    border: 0;
-    background: #fff;
-    width: 340px;
-    margin: auto;
-	    background: #fff;
-}
-.header-container {
-text-align:center;
-width:100%;
-background:#fff;
-	}
 }
 @media only screen and (min-width: 600px) {
 .post img {
@@ -239,9 +176,10 @@ textarea { resize: none; }
     width: auto;
     border: 0;
     position: relative;
-    top: 15px;
+    background: #fff;
+    font-size: 23px;
+    margin: 9px 10px;
 }
-
 #nav i {
 margin-right:5px
 }
@@ -265,6 +203,7 @@ margin-right:5px
 
 .panel {
     float: left;
+	width:100%;
     padding: 5px;
     background-color: #fff;
     max-height: 0;
@@ -287,62 +226,49 @@ button.accordion b {
 }
 img#logo {
     float: left;
+    width: 170px;
 }
-
-#_bcd_141013_search_form {
-    position: relative;
-    display: block;
-    clear: both;
-    float: none;
-    border: /*border-width-s*/1px solid;
-    border-color: /*border-color-s*/#dddddd;
-    padding: 5px 20px;
-    font-size: /*font-size-s*/12px;
-    background-color: /*bg-color-s*/#ffffff;
-    border-radius: 100px;
-}
-input#_bcd_141013_search_text {
-    width: auto;
-    border: none;
-    margin: 0;
-	padding: 0;
-    line-height: 2em;
-    height: 2em;
-    outline: none;
-	background: transparent;
-	
-	color: /*text-color-s*/#000000;/*text-color-e*/
-}
-button#_bcd_141013_search_submit:hover {
-    opacity: 0.8;
-}
-button#_bcd_141013_search_submit {
-    width: auto;
-    padding: 0px;
-    margin: 0;
-    position: absolute;
-    right: /*padding-s*/5px;
-    top: /*padding-s*/5px;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-    border: none;
-    min-width: 2em;
-    color: /*submit-text-color-s*/#ffffff;
-    background: /*submit-bg-color-s*/#fd4500;
-    border-radius: 100px;
-}
-html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
-	right: auto;
-	left: /*padding-s*/5px;/*padding-e*/
-}
-.header {
-    float: left;
+	.header-container {
+    position: fixed;
+    left: 0;
     width: 100%;
-    z-index: 9999;
+    background: #fff;
+    z-index: 999;
+}
+	.header {
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    height: 40px;
+}
+#nav {
+    float: right;
+    width: auto;
+    border: 0;
     position: relative;
-    border-bottom: 10px solid #f3f3f3;
-	    background: #fff;
+    background: #fff;
+    font-size: 23px;
+    margin: 9px 10px;
+}
+	#navigate {
+display:none;
+}
+	div#navigate li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+div#navigate li {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0px;
+}
+	div#navigate {
+    background: #fff;
+    float: left;
+    list-style: none;
 }
 .footer a {
     margin: 10px;
@@ -355,6 +281,17 @@ html[dir=&quot;rtl&quot;] button#_bcd_141013_search_submit {
     background: #fff;
     padding: 50px 0px;
     margin-top: 90px;
+}
+	a#x-nav {
+    float: right;
+    margin: 5px 17px;
+    font-size: 25px;
+}
+.leaderboard {
+    width: 728px;
+    margin: auto;
+    background: #f3f3f3;
+    padding: 70px 36px 20px 36px;
 }
 #pride {
     padding: 10px 0px;
@@ -369,31 +306,4 @@ div#footer-center {
     line-height: 30px;
     padding: 10px 0px;
 }	
-}
-.duper-ad {
-    width: 100%;
-    background: #e4e4e8;
-    text-align: center;
-    padding: 10px 0px;
-}
-.super-ad {
-    position: fixed;
-    bottom: 0;
-    z-index: 999;
-    width: 100%;
-    background: rgba(228, 228, 232, 0.8);
-    text-align: center;
-    padding: 10px 0px;
-}
-a#x-super {
-    float: right;
-    font-size: 25px;
-    position: relative;
-    bottom: 10px;
-}
-.search-form {
-    background: #f3f3f3;
-    padding: 15px 0px;
-    float: left;
-    width: 100%;
 }
