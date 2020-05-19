@@ -32,18 +32,25 @@ a#x-nav {
     background: #fff;
     padding: 5px 20px;
 }
-	.searcher {
+.searcher {
     float: left;
-    width: 500px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    padding: 10px;
+    z-index: 999;
     text-align: center;
-    margin: 6px 0px;
 }
-input#search-in {
+.searcher form {
+    width: 90%;
+}
+#search-in {
     background: #f3f3f3;
     border: 0;
     border-radius: 100px;
     padding: 10px 0px 10px 10px;
-    width: 350px;
+    width: 60%;
 }
 button.submit-search {
     background: #f3f3f3;
@@ -55,6 +62,14 @@ button.submit-search {
     border-top-left-radius: 0;
     margin: 0px -20px;
     font-size: 16px;
+}
+button#o-search {
+    color: #000;
+    border: 0;
+    font-size: 22px;
+    background: #fff;
+    float: right;
+    margin: 10px 0px;
 }
 	input#search-in,#nav,.submit-search:focus {
 	outline:none;	
@@ -397,5 +412,8 @@ button.submit-search {
 }
 	input#search-in,#nav,.submit-search:focus {
 	outline:none;	
+	}
+	#o-search { 
+	display:none;	
 	}
 }
