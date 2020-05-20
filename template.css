@@ -388,7 +388,7 @@ div#footer-center {
 }
 .searcher {
     float: left;
-    width: 500px;
+    width: 480px;
     text-align: center;
     margin: 6px 0px;
 }
@@ -416,4 +416,18 @@ button.submit-search {
 	#o-search { 
 	display:none;	
 	}
+}
+a#join {
+    float: left;
+    margin: 8px 0px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 4px;
+    color: #444;
+    background: #f3f3f3;
+}
+a#join i {
+    margin-right: 5px;
 }
