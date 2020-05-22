@@ -190,21 +190,6 @@ a {
     right: 100%;
     margin-left: -0;
 }
-#layout {
-    min-width: 0;
-}
-#layout .content-outer {
-    min-width: 0;
-    width: 800px;
-}
-#layout .region-inner {
-    min-width: 0;
-    width: auto;
-}
-.main-inner .column-right-outer {
-    width: 300px;
-    margin-right: -300px;
-}
 body {
     min-width: 1055px;
     font-family: Roboto, sans-serif;
@@ -258,7 +243,6 @@ div#comments {
 #comments h4 {
     font-size: 25px;
 }
-Html,.content{background:#f3f3f3;}
 textarea { resize: none; }
 #nav i {
 margin-right:5px
