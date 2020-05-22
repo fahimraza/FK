@@ -3,20 +3,10 @@
     width: 250px;
     padding: 0px 10px;
 }
-.relator li a:before {
-    content: '\f105';
-    font-family: fontawesome;
-    color: #fd4500;
-    font-size: 25px;
-    float: right;
-    padding: 0px 0px 0px 8px;
-}
 .relator li {
     list-style: none;
     border-bottom: 1px solid #ddd;
     padding: 10px 0px 10px 5px;
-    height: 40px;
-    overflow:hidden;
 }
 .relator a {
     text-decoration: none;
