@@ -1,21 +1,26 @@
-.post-outer {
-    padding: 5px 20px;
-}
-.related {
-    background: #f3f3f3;
+.relator {
     float: left;
-    margin: 0px -30px;
-    padding: 20px;
+    width: 250px;
+    padding: 0px 10px;
 }
-.related a {
-    width: 49%;
-    font-size: 16px;
-    height: 120px;
-    margin-right: 1%;
+.relator li a:before {
+    content: '\f105';
+    font-family: fontawesome;
+    color: #fd4500;
+    font-size: 25px;
+    float: right;
+    padding: 0px 0px 0px 8px;
 }
-.related img {
-    width: 110px;
-    float: left;
-    height: 90px;
-    margin-right: 8px;
+.relator li {
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px 10px 5px;
+    height: 40px;
+}
+.relator a {
+    text-decoration: none;
+    color: #111;
+}
+#related-posts h2 {
+    display: none;
 }
