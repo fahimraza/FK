@@ -1,7 +1,5 @@
 h1.post-title.entry-title {
-    font-size: 35px;
-    float: left;
-    margin:10px 0px;
+    display: none;
 }
 .content {
     background: #f3f3f3;
@@ -12,4 +10,11 @@ body {
     font-family: Roboto, sans-serif;
     background: #f3f3f3;
     overflow-x: hidden;
+}
+.post img {
+margin: 0;
+padding: 0;
+border: 0; 
+float: none;
+width: 90%;
 }
