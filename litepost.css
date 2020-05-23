@@ -51,3 +51,12 @@ p#o-explore i {
     margin: 0;
     font-weight: bold;
 }
+p#show-more {
+    position: absolute;
+    top: 194px;
+    right: 0;
+    background: rgb(255, 83, 31);
+    font-size: 15px;
+    padding: 2px 5px;
+    color: #fff;
+}
