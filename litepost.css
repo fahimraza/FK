@@ -19,3 +19,35 @@ float: none;
 width: 90%;
 height: 100%;
 }
+div#explore:hover {
+    height: 100%;
+}
+div#explore {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+#explore a {
+    color: #111;
+    text-decoration: none;
+}
+
+div#explore li {
+    list-style: none;
+    padding: 6px 6px;
+    border-bottom: 1px solid #ddd;
+}
+p#o-explore i {
+    font-size: 28px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+#o-explore {
+    display: block;
+    padding: 5px 10px;
+    left: 0;
+    color: #ff531f;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+}
