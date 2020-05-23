@@ -15,3 +15,14 @@
 #related-posts h2 {
     display: none;
 }
+#main {
+    position: relative;
+    width: 870px;
+    background: #fff;
+    margin: auto;
+    margin-top: 60px;
+}
+.date-outer {
+    float: left;
+    width: 600px;
+}
