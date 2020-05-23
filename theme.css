@@ -178,3 +178,14 @@ a#join {
 a#join i {
     margin-right: 5px;
 }
+.footer a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: orangered;
+    line-height: 28px;
+}
+.footer {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
