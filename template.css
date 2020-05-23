@@ -62,9 +62,14 @@ abbr.published {
 }
 #main {
     position: relative;
-    width: 800px;
+    width: 870px;
     background: #fff;
     margin: auto;
+    margin-top: 60px;
+}
+.date-outer {
+    float: left;
+    width: 600px;
 }
 #Blog1 {
     margin: 0;
