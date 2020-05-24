@@ -37,20 +37,6 @@ div#explore li {
     padding: 6px 6px;
     border-bottom: 1px solid #ddd;
 }
-p#o-explore i {
-    font-size: 28px;
-    float: left;
-    margin: 0px 10px 0px 0px;
-}
-#o-explore {
-    display: block;
-    padding: 5px 10px;
-    left: 0;
-    color: #ff531f;
-    font-size: 20px;
-    margin: 0;
-    font-weight: bold;
-}
 p#show-more {
     position: absolute;
     top: 194px;
@@ -59,4 +45,5 @@ p#show-more {
     font-size: 15px;
     padding: 2px 5px;
     color: #fff;
+    z-index: 9;
 }
