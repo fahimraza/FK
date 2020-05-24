@@ -24,6 +24,10 @@
     margin-top: 60px;
 }
 .date-outer {
+    float: right;
+    width: 550px;
+}
+.sidebar {
+    width: 300px;
     float: left;
-    width: 600px;
 }
