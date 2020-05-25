@@ -1,5 +1,6 @@
 .content {
     margin-top: 60px;
+    margin-bottom: 90px;
 }
 	.featured {
     padding: 10px;
@@ -188,4 +189,23 @@ a#join i {
     background: #fff;
     padding: 10px;
     text-align: center;
+}
+div#pager {
+    width: 220px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+a#Blog1_blog-pager-older-link {
+    background: #fd4500;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+a#Blog1_blog-pager-older-link:hover {
+background:#000	
 }
