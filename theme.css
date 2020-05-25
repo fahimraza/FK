@@ -190,12 +190,12 @@ a#join i {
     padding: 10px;
     text-align: center;
 }
-div#pager {
-    width: 220px;
-    margin: auto;
+#pager {
+    width: 100%;
     text-align: center;
     position: relative;
     top: 50px;
+    float: left;
 }
 a#Blog1_blog-pager-older-link {
     background: #fd4500;
