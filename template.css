@@ -258,12 +258,12 @@ a#join {
 a#join i {
     margin-right: 5px;
 }
-div#pager {
-    width: 220px;
-    margin: auto;
+#pager {
+    width: 100%;
     text-align: center;
     position: relative;
     top: 50px;
+    float: left;
 }
 a#Blog1_blog-pager-older-link {
     background: #fd4500;
