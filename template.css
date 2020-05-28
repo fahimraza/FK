@@ -216,7 +216,7 @@ div#footer-center {
 }
 .searcher {
     float: left;
-    width: 480px;
+    width: 460px;
     text-align: center;
     margin: 6px 0px;
 }
@@ -225,7 +225,7 @@ input#search-in {
     border: 0;
     border-radius: 100px;
     padding: 10px 0px 10px 10px;
-    width: 350px;
+    width: 330px;
 }
 button.submit-search {
     background: #f3f3f3;
@@ -248,12 +248,12 @@ a#join {
     float: left;
     margin: 8px 0px;
     text-decoration: none;
-    border: 1px solid #ddd;
+    border: 1px solid #fd4500;
     font-size: 14px;
-    padding: 5px;
+    padding: 4px 7px;
     border-radius: 4px;
-    color: #444;
-    background: #f3f3f3;
+    color: #fff;
+    background: #fd4500;
 }
 a#join i {
     margin-right: 5px;
