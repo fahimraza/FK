@@ -257,6 +257,7 @@ a#join {
 }
 a#join i {
     margin-right: 5px;
+	font-size:13px;
 }
 #pager {
     width: 100%;
