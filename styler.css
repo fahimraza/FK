@@ -1,3 +1,31 @@
+div#refree {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+div#refree a {
+    background: #fd4500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+h1.post-title.entry-title {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+iframe.random {
+margin-top:20px;
+}
+.inner-body .separator:first-child {
+    display: none;
+}
+}
+a.timestamp-link {
+    display: none;
+}
 .relator {
     float: left;
     padding: 0px 5px;
