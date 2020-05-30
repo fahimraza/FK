@@ -58,4 +58,10 @@ a.timestamp-link {
 .sidebar {
     width: 300px;
     float: left;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.left-side {
+    width: 490px;
+    float: left;
 }
