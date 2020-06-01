@@ -152,6 +152,7 @@ div#footer-center {
     padding: 10px 0px;
 }
 .searcher {
+	display:none;
     float: left;
     width: 280px;
     text-align: center;
