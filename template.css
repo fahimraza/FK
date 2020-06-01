@@ -83,10 +83,11 @@ textarea { resize: none; }
 margin-right:5px
 }
 #logo {
-    text-align: center;
+    text-align: justify;
 }
 #logo img {
     width: 170px;
+    margin-left: 90px;
 }
 .header-container {
     position: fixed;
