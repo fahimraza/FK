@@ -74,9 +74,6 @@ abbr.published {
 div#comments {
     text-align: center;
 }
-.popular-posts ul {
-    padding: 0;
-}
 .section{margin:0}
 #comments h4 {
     font-size: 25px;
@@ -84,47 +81,6 @@ div#comments {
 textarea { resize: none; }
 #nav i {
 margin-right:5px
-}
-.accordion {
-    background-color: #fff;
-    color: #222;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    border-bottom: 1px solid #eee;
-}
-
-.active, .accordion:hover {
-  background-color: #fff;
-}
-
-.panel {
-    float: left;
-	width:100%;
-    padding: 5px;
-    background-color: #fff;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    list-style: none;
-    font-size: 14px;
-}
-
-.panel a {
-color:#111
-}
-
-button.accordion b {
-    background: #fbc019;
-    padding: 5px 11px;
-    border-radius: 100px;
-    color: #fff;
-    margin-right:8px;
 }
 img#logo {
     float: left;
@@ -154,30 +110,6 @@ img#logo {
     font-size: 23px;
     margin: 12px;
 }
-#navigate {
-display:none;
-}
-	div#navigate li a {
-    color: #222;
-    text-decoration: none;
-    font-size: 14px;
-    margin-left: 10px;
-}
-#navigate li {
-    width: 100%;
-    position: relative;
-    border-bottom: 1px solid #eee;
-    padding: 15px 0px;
-    float: left;
-}
-	div#navigate {
-    background: #fff;
-    float: left;
-    list-style: none;
-		height:500px;
-		overflow-y:scroll;
-		overflow-x:hidden;
-}
 .footer a {
     margin: 10px;
     text-decoration: none;
@@ -194,12 +126,6 @@ display:none;
     float: right;
     margin: 5px 17px;
     font-size: 25px;
-}
-.leaderboard {
-    width: 728px;
-    margin: auto;
-    background: #f3f3f3;
-    padding: 70px 36px 20px 36px;
 }
 #pride {
     padding: 10px 0px;
@@ -238,12 +164,6 @@ button.submit-search {
     margin: 0px -20px;
     font-size: 16px;
 }
-	input#search-in,#nav,.submit-search:focus {
-	outline:none;	
-	}
-	#o-search { 
-	display:none;	
-	}
 a#join {
     float: left;
     margin: 8px 0px;
