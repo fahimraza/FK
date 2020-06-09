@@ -13,7 +13,7 @@
     margin: 0px 10px;
 }
 #logo img {
-width:100px;
+width:150px;
 }
 .header-container {
     height: 50px;
@@ -152,7 +152,7 @@ background:#000
 }
 post-label {
     background: #eee;
-    float: left;
+    float: right;
     padding: 12px 10px;
     text-transform: uppercase;
 }
