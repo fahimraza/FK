@@ -9,7 +9,7 @@
 }
 	#logo {
     float: left;
-    width: 100px;
+    width: 70px;
     margin: 0px 10px;
 }
 .header-container {
@@ -109,15 +109,13 @@ margin-right:5px
 a#join {
     float: right;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px;
     border-radius: 4px;
+margin:4px 0px;
 }
 #join span {
 display:none
-}
-a#join i {
-    margin-right: 5px;
 }
 .footer a {
     margin: 0px 10px;
