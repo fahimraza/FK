@@ -228,10 +228,15 @@ background:#000
     background: #f3f3f3;
     padding: 12px 10px;
     text-transform: uppercase;
+    width: 780px;
+    margin: auto;
 }
 .post-label a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
+}
+#labeled {
+    background: #f3f3f3;
 }
