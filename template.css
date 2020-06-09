@@ -83,11 +83,10 @@ textarea { resize: none; }
 margin-right:5px
 }
 #logo {
-    text-align: justify;
+    text-align: center;
 }
 #logo img {
     width: 170px;
-    margin-left: 90px;
 }
 .header-container {
     position: fixed;
@@ -95,14 +94,12 @@ margin-right:5px
     width: 100%;
     background: #fff;
     z-index: 999;
-    height: 47px;
 	top:0;
 }
 	.header {
     width: 800px;
     margin: 0 auto;
     background: #fff;
-    height: 40px;
 }
 #nav {
     float: left;
@@ -182,6 +179,7 @@ color:#fff
     background: none;
     font-size: 20px;
     margin: 9px 5px;
+	cursor:pointer
 }
 button.submit-search {
     background: none;
@@ -227,8 +225,7 @@ a#Blog1_blog-pager-older-link:hover {
 background:#000	
 }
 .post-label {
-    background: #eee;
-    float: left;
+    background: #f3f3f3;
     padding: 12px 10px;
     text-transform: uppercase;
 }
