@@ -117,7 +117,7 @@ font-family: Roboto, sans-serif;
 margin-right:5px
 }
 a#join {
-    float: left;
+    float: right;
     margin: 8px 0px;
     text-decoration: none;
     border: 1px solid #ddd;
@@ -126,6 +126,9 @@ a#join {
     border-radius: 4px;
     color: #444;
     background: #f3f3f3;
+}
+#join span {
+display:none
 }
 a#join i {
     margin-right: 5px;
