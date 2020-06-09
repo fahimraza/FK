@@ -9,7 +9,7 @@
 }
 	#logo {
     float: left;
-    width: 150px;
+    width: 100px;
     margin: 0px 10px;
 }
 .header-container {
@@ -69,19 +69,9 @@ button#o-search {
 	input#search-in,#nav,.submit-search:focus {
 	outline:none;	
 	}
-.searcher,#navigate {
+.searcher {
     display: none;
 }
-	div#navigate li {
-    list-style: none;
-    border-bottom: 1px solid #eee;
-    padding: 10px 10px;
-    font-size: 15px;
-}
-div#navigate li a {
-	color:#111;
-	text-decoration:none;
-	}
 body {
 font-family: Roboto, sans-serif;
 }
@@ -118,14 +108,10 @@ margin-right:5px
 }
 a#join {
     float: right;
-    margin: 8px 0px;
     text-decoration: none;
-    border: 1px solid #ddd;
     font-size: 14px;
     padding: 5px;
     border-radius: 4px;
-    color: #444;
-    background: #f3f3f3;
 }
 #join span {
 display:none
