@@ -9,7 +9,7 @@
 }
 	#logo {
     float: left;
-    width: 165px;
+    width: 150px;
     margin: 0px 10px;
 }
 .header-container {
@@ -26,15 +26,6 @@
 }
 	.leaderboard {
     display: none;
-}
-a#x-nav {
-    float: right;
-    font-size: 30px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    background: #fff;
-    padding: 5px 20px;
 }
 .searcher {
     float: left;
@@ -124,46 +115,6 @@ font-family: Roboto, sans-serif;
 }
 #nav i {
 margin-right:5px
-}
-.accordion {
-    background-color: #fff;
-    color: #222;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-    border-bottom: 1px solid #eee;
-}
-
-.active, .accordion:hover {
-  background-color: #fff;
-}
-.panel {
-    float: left;
-    padding: 5px;
-    background-color: #fff;
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    list-style: none;
-    font-size: 14px;
-}
-
-.panel a {
-color:#111
-}
-
-button.accordion b {
-    background: #fbc019;
-    padding: 5px 11px;
-    border-radius: 100px;
-    color: #fff;
-    margin-right:8px;
 }
 a#join {
     float: left;
