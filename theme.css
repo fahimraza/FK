@@ -12,6 +12,9 @@
     width: 70px;
     margin: 0px 10px;
 }
+#logo img {
+width:100px;
+}
 .header-container {
     height: 50px;
     position: fixed;
