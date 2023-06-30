@@ -1,10 +1,4 @@
 $(document).ready(function() {
-  // If the 'hide cookie is not set we show the message
-  if (readCookie('pushalert_10826_1_already_subscribed')) {
-document.getElementById('subscribed').click();
-$('.sidebar-box').removeClass( &quot;sidebar-box&quot; );
-$('.read-more').hide();
-}
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $(document).ready(function() {
