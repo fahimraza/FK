@@ -1,4 +1,3 @@
-$(document).ready(function() {
   // Add the event that closes the popup and sets the cookie that tells us to
   // not show it again until one day has passed.
   $(document).ready(function() {
@@ -10,7 +9,6 @@ $(document).ready(function() {
     };
   });
 
-});
 
 // ---
 // And some generic cookie logic
