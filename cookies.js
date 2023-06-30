@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // If the 'hide cookie is not set we show the message
-  if (!readCookie('hide_long')) {
-$('#fund').delay(30000).fadeIn(100);
+  if (readCookie('hello')) {
+$('#me').delay(10000).fadeOut(100);
   }
 
   // Add the event that closes the popup and sets the cookie that tells us to
